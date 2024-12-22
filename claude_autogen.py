@@ -5,6 +5,7 @@ import base64
 import time
 import glob
 import json
+from autogen import register_function
 from config import ANTHROPIC_API_KEY
 from utils import download_and_rename_pdf, process_pdf
 from data.asco_guidelines import guideline_urls as asco_guideline_url
@@ -26,7 +27,7 @@ for key, value in asco_guideline_url.items():
     download_and_rename_pdf(pdf_url, key)
 
 
-llm_config = {"config_list": config_list_claude, "cache_seed": 45}
+llm_config = {"config_list": config_list_claude, "cache_seed": 50}
 
 user_proxy = autogen.UserProxyAgent(
     name="User_proxy",
@@ -36,7 +37,8 @@ user_proxy = autogen.UserProxyAgent(
         "work_dir": "groupchat",
         "use_docker": False,
     },  
-    human_input_mode="TERMINATE",
+    human_input_mode="NEVER",
+    is_termination_msg=lambda x: x.get("content", "") and x.get("content", "").rstrip().endswith("TERMINATE"),
 )
 
 coordinator = autogen.AssistantAgent(
@@ -48,18 +50,50 @@ coordinator = autogen.AssistantAgent(
     Based on the user's prompt, you will determine which ASCO guideline to use, 
     and then return the key as a string (e.g. breast_cancer_8) and the user prompt, and ask pdf_viewer to retrieve information from the pdf.
     If none of the ASCO guidelines are relevant, return "none" and ask User_proxy to terminate.
+
+    - If a relevant guideline is found:
+        suggested tool call augments would be:
+        "key": [insert guideline key here]
+        "prompt": [insert original user query here and add "must also include the exact context of each point."]
+
+    - If no relevant guideline is found:
+        <result>
+        guideline_key: none
+        explanation: [insert your explanation here]
+        action: User_proxy, please terminate the process.
+        </result>
     ''',
     llm_config=llm_config,
 )
 
 pdf_viewer = autogen.AssistantAgent(
     name="pdf_viewer",
-    system_message="You are a pdf viewer who can view the ASCO guidelines and provide feedback.",
+    system_message="You are designed to answer questions based on the content of a specific PDF document",
+    llm_config=llm_config,
+)
+
+# pdf_viewer_checker = autogen.AssistantAgent(
+#     name="pdf_viewer_checker",
+#     system_message="You are designed to check the answer from pdf_viewer and provide a final answer to the user's question.",
+#     llm_config=llm_config,
+# )
+
+reviewer = autogen.ConversableAgent(
+    name="reviewer",
+    system_message=
+    '''
+    You are a reviewer who review the answer from pdf_viewer and provide a final answer to the user's question.
+    Instructions:
+    1. Review the user's question. 
+    2. Carefully read the pdf_viewer output, including the answer and the context of the answer.
+    3. Identify key information relevant to the user's question.
+    4. If the user's question is not answered, ask pdf_viewer to go back and find the correct answer.
+    5. If the user's question is answered, formulate a clear and concise final answer to the user's question, and add TERMINATE at the end of the answer.
+    ''',
     llm_config=llm_config,
 )
 
 # Register the Claude PDF processing tool
-from autogen import register_function
 register_function(
     process_pdf, 
     caller=coordinator,
@@ -67,7 +101,19 @@ register_function(
     name="process_pdf", 
     description="Retrieve information from pdf.")
 
-groupchat = autogen.GroupChat(agents=[user_proxy, coordinator, pdf_viewer], messages=[], max_round=12)
+allowed_transitions = {
+    user_proxy: [coordinator],
+    coordinator: [pdf_viewer],
+    pdf_viewer: [reviewer],
+}
+
+groupchat = autogen.GroupChat(
+    agents=[user_proxy, coordinator, pdf_viewer, reviewer], 
+    allowed_or_disallowed_speaker_transitions=allowed_transitions,
+    speaker_transitions_type="allowed",
+    messages=[],
+    max_round=6,
+)
 manager = autogen.GroupChatManager(groupchat=groupchat, llm_config=llm_config)
 
 user_proxy.initiate_chat(manager, message="How to give adjuvant pembro with radiation therapy for patietns with localized triple-negative breast cancer?")
