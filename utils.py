@@ -6,6 +6,7 @@ import os
 import time
 import base64
 import anthropic
+import glob
 
 # download all the pdfs
 
@@ -56,7 +57,7 @@ def download_and_rename_pdf(pdf_url, new_filename):
         driver.quit()
 
 
-# pdf read function
+# pdf read tool
 def process_pdf(key: str, prompt: str) -> str:
     try:
         pdf_path = os.path.join('pdfs', f'{key}.pdf')
