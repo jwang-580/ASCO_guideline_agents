@@ -5,13 +5,15 @@ from config import ANTHROPIC_API_KEY
 import claude_autogen
 import autogen
 import glob
+import re
 from claude_autogen import ClaudeChat
 
 class AnswerEvaluator:
-    def __init__(self):
+    def __init__(self, cache_seed):
         self.client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
         self.qa_df = pd.read_csv('data/q_a.csv')
-        
+        self.cache_seed = cache_seed
+
     def evaluate_single_answer(self, question, generated_answer, expected_answer):
         """
         Send the comparison task to Claude to evaluate if the answers match in meaning
@@ -42,8 +44,10 @@ class AnswerEvaluator:
         for msg in chat_messages:
             if msg.get("name") == "coordinator":
                 content = msg.get("content", "")
-                if "key" in content and "_cancer_" in content:
-                    return content.split('"key": "')[1].split('"')[0]
+                pattern = r'[a-z]+_cancer_\d+'
+                match = re.search(pattern, content)
+                if match:
+                    return match.group(0)
         return None
 
     def run_evaluation(self, num_questions=5):
@@ -62,8 +66,11 @@ class AnswerEvaluator:
             
             print(f"\nEvaluating question: {question}")
             
-            claude_chat = ClaudeChat()
-            chat_messages = claude_chat.chat(question)
+            claude_chat = ClaudeChat(cache_seed=self.cache_seed)
+            chat_result = claude_chat.chat(question)
+            
+            # Access the messages from the ChatResult object
+            chat_messages = chat_result.chat_history
             
             # Extract the generated answer and guideline
             generated_answer = None
@@ -96,8 +103,8 @@ class AnswerEvaluator:
         return results
 
 def main():
-    evaluator = AnswerEvaluator()
-    results = evaluator.run_evaluation(num_questions=5)
+    evaluator = AnswerEvaluator(cache_seed=42)
+    results = evaluator.run_evaluation(num_questions=1)
     
     # Print results
     for i, result in enumerate(results, 1):

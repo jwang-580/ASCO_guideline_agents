@@ -69,13 +69,13 @@ How should patients with stage IV NSCLC and EGFR mutation progress after osimert
 What is the first line treatment for stage IV NSCLC with ROS1 fusion mutation?,"First-line treatment includes repotrectinib, entrectinib, or crizotinib.",lung_cancer_1
 What is the benefit of amivantamab plus lazertinib over osmiertinib alone in untreated EGFR mutation-positive stage IV NSCLC?,Amivantamab plus lazertinib showed a median PFS of 23.7 months compared to 16.6 months with osimertinib alone.,lung_cancer_1
 Should anti-PD-L1 be used for second-line therapy for EGFR mutation-positive NSCLC without targetable alterations?,Anti-PD-(L)1 agents are not recommended,lung_cancer_1
-How should osimertinib be administered with chemotherapy for advanced EGFR-mutated NSCLC?,Osimertinib plus platinum-based chemotherapy with maintenance pemetrexed is recommended for certain patients.,lung_cancer_2
-What is the treatment recommendation for ROS1-positive NSCLC after progression on crizotinib?,Patients may be offered lorlatinib as a second-line treatment.,lung_cancer_2
-What is the efficacy of atezolizumab plus bevacizumab and chemotherapy in EGFR-mutated NSCLC?,"In the ATTLAS trial, this combination showed a median PFS of 8.48 months compared to 5.62 months with chemotherapy alone.",lung_cancer_2
-What are the recommendations for 1st line therapy in patients with MET exon 14 skipping mutations?,Capmatinib or tepotinib are recommended as first-line therapies.,lung_cancer_2
-What is the treatment for KRAS G12C-mutated NSCLC as 1st line therapy?,Chemotherapy,lung_cancer_3
-What is the recommendation for RET rearrangement-positive NSCLC as 1st line therapy?,Selpercatinib or pralsetinib are recommended as first-line therapies.,lung_cancer_3
-How should clinicians manage EGFR T790M resistance alterations in advanced NSCLC?,Osimertinib is the recommended treatment for EGFR T790M resistance alterations.,lung_cancer_3
+How should osimertinib be administered with chemotherapy for advanced EGFR-mutated NSCLC?,Osimertinib plus platinum-based chemotherapy with maintenance pemetrexed is recommended for certain patients.,lung_cancer_1
+What is the treatment recommendation for ROS1-positive NSCLC after progression on crizotinib?,Patients may be offered lorlatinib as a second-line treatment.,lung_cancer_1
+What is the efficacy of atezolizumab plus bevacizumab and chemotherapy in EGFR-mutated NSCLC?,"In the ATTLAS trial, this combination showed a median PFS of 8.48 months compared to 5.62 months with chemotherapy alone.",lung_cancer_1
+What are the recommendations for 1st line therapy in patients with MET exon 14 skipping mutations?,Capmatinib or tepotinib are recommended as first-line therapies.,lung_cancer_1
+What is the treatment for KRAS G12C-mutated NSCLC as 1st line therapy?,Chemotherapy,lung_cancer_1
+What is the recommendation for RET rearrangement-positive NSCLC as 1st line therapy?,Selpercatinib or pralsetinib are recommended as first-line therapies.,lung_cancer_1
+How should clinicians manage EGFR T790M resistance alterations in advanced NSCLC?,Osimertinib is the recommended treatment for EGFR T790M resistance alterations.,lung_cancer_1
 What is the first-line treatment for patients with stage IV NSCLC and PD-L1 TPS ≥50%?,Single-agent immunotherapy,lung_cancer_4
 Should single agent pembrolizumab be used for stage IV squamous NSCLC and PD-L1 expression 32%?,Pembrolizumab plus carboplatin and paclitaxel (or nab-paclitaxel) is recommended as first-line therapy.,lung_cancer_4
 What is the recommended therapy for stage IV NSCLC with PD-L1 TPS of 0?,Pembrolizumab plus carboplatin and pemetrexed,lung_cancer_4

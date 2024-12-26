@@ -18,7 +18,7 @@ for key, value in asco_guideline_url.items():
 
 
 class ClaudeChat:
-    def __init__(self):
+    def __init__(self, cache_seed):
 
         os.environ["ANTHROPIC_API_KEY"] = ANTHROPIC_API_KEY
 
@@ -30,7 +30,7 @@ class ClaudeChat:
             }
         ]
 
-        llm_config = {"config_list": config_list_claude, "cache_seed": 50}
+        llm_config = {"config_list": config_list_claude, "cache_seed": cache_seed}
 
         self.user_proxy = autogen.UserProxyAgent(
             name="User_proxy",
