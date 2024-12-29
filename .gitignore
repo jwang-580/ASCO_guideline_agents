@@ -4,3 +4,4 @@ __pycache__/
 pdfs/
 .cache/
 results/
+claude_autogen.ipynb
