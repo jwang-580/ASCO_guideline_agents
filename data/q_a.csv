@@ -53,9 +53,9 @@ Should immunotherapy single agent be initiated in metastatic head and neck squam
 What are the guidelines for immunotherapy in platinum-refractory recurrent or metastatic HNSCC?,Pembrolizumab or nivolumab should be offered to patients regardless of PD-L1 CPS status.,head_neck_cancer_2
 What is the recommendation for PD-L1 biomarker testing in recurrent/metastatic HNSCC?,"PD-L1 immunohistochemistry testing is recommended, and a CPS ≥1 is considered positive for PD-1 inhibitor therapy.",head_neck_cancer_2
 Can radiation therapy be integrated with immunotherapy for recurrent HNSCC?,Radiation therapy may be safely administered concurrently with immunotherapy for palliative or local control in oligometastatic settings,head_neck_cancer_2
-What are the PARP inhibitor recommendations for newly diagnosed advanced ovarian cancer responding to platinum-based chemotherapy?,"PARP inhibitors are recommended as maintenance therapy for BRCA-mutated or HRD-positive patients, with varying regimens based on genetic status.",gynecologic_cancer
-What is the effect of PARP inhibitors on patients' overall survival in recurrent ovarian cancer without BRCA-mutation or HRD-positivity?,Evidence suggests potential overall survival detriments in later-line treatments with PARP inhibitors,gynecologic_cancer
-What is the effect of PARP inhibitors on patients' progression-free survival in recurrent ovarian cancer without BRCA-mutation or HRD-positivity?,PARP inhibitors demonstrated progression-free survival benefits,gynecologic_cancer
+What are the PARP inhibitor recommendations for newly diagnosed advanced ovarian cancer responding to platinum-based chemotherapy?,"PARP inhibitors are recommended as maintenance therapy for BRCA-mutated or HRD-positive patients, with varying regimens based on genetic status.",gynecologic_cancer_1
+What is the effect of PARP inhibitors on patients' overall survival in recurrent ovarian cancer without BRCA-mutation or HRD-positivity?,Evidence suggests potential overall survival detriments in later-line treatments with PARP inhibitors,gynecologic_cancer_1
+What is the effect of PARP inhibitors on patients' progression-free survival in recurrent ovarian cancer without BRCA-mutation or HRD-positivity?,PARP inhibitors demonstrated progression-free survival benefits,gynecologic_cancer_1
 What surgical approach is recommended for T3-T4 parotid cancers with high-grade malignancy?,"At least a superficial parotidectomy, with consideration of total or subtotal parotidectomy.",head_neck_cancer_3
 What is the recommended follow-up imaging schedule for high-grade salivary gland cancers post-treatment?,"Baseline imaging at 3 months, every 6-12 months for the first 2 years, and symptom-directed imaging from years 3-5. Yearly chest CT may be considered for high-grade cases.",head_neck_cancer_3
 What chemotherapy regimen is recommended for stage III-IVA nasopharyngeal carcinoma (NPC) during induction?,"Platinum-based regimens such as GP (gemcitabine and cisplatin) or TPF (docetaxel, cisplatin, 5-fluorouracil) every 3 weeks for 2-3 cycles.",head_neck_cancer_4
@@ -89,15 +89,15 @@ What is the management for stage III NSCLC that is medically inoperable?,Concurr
 What is the evidence-based radiation dose for stage III NSCLC treated with chemoradiation?,A dose of 60 Gy in conventional fractionation is recommended for concurrent chemoradiation.,lung_cancer_6
 What is the length of consolidation immunotherapy for patients with stage III NSCLC finished chemoradiation?,Consolidation durvalumab for up to 12 months is recommended,lung_cancer_6
 "For patients with resected stage III NSCLC and EGFR mutation, should adjuvant chemotherapy still be offered?","Yes, platinum-based chemotherapy should be offered before osimertinib",lung_cancer_6
-What is the maximum course of adjuvant pembrolizumab for resected stage IIB or IIC melanoma?,Adjuvant pembrolizumab is given as 200 mg every 3 weeks for a maximum of 15 courses.,melanoma.pdf
-What is the recommended therapy for resectable stage IIIB-IV cutaneous melanoma?,"Neoadjuvant pembrolizumab is recommended, followed by resection and adjuvant pembrolizumab.",melanoma.pdf
-What therapy should be avoided in BRAF-mutant unresectable melanoma after progression on anti-PD-1?,Ipilimumab-containing regimens should be avoided after progression on other therapies.,melanoma.pdf
-What are the therapy options for metastatic uveal melanoma for HLA-A*02:01-positive patients?,Tebentafusp is recommended for HLA-A*02:01-positive patients with metastatic uveal melanoma.,melanoma.pdf
-What radiation dose is suggested for brain metastases less than 2 cm in size?,Single-fraction SRS with 2000-2400 cGy is recommended.,neurooncology_1.pdf
-When is tumor size cutoff that surgery is preferred over SRS for brain metastases?,Surgery is conditionally recommended for brain metastases over 4 cm.,neurooncology_1.pdf
-"For asymptomatic brain metastases from EGFR-mutant NSCLC, should local therapy be offered?",Local therapy delayed until intracranial progression after osimertinib,neurooncology_2.pdf
-What is the number of brain mets that SRS be chosen over WBRT for unresected brain metastases?,SRS alone is recommended for 1-4 unresected brain metastases.,neurooncology_2.pdf
-Should radiation therapy be offered to patients with KPS ≤ 50 and brain metastases?,Radiation therapy is not recommended for patients with KPS ≤ 50.,neurooncology_2.pdf
-"What is the alternative treatment for oligodendroglioma, IDH-mutant, 1p19q codeleted, CNS WHO grade 2, due to toxicity concerns?",Temozolimide ,neurooncology_3.pdf
-"What alternative therapy is available for glioblastoma, IDH-wildtype, with poor prognosis?",Hypofractionated RT with TMZ or supportive care are reasonable options.,neurooncology_3.pdf
-What is the role of bevacizumab in newly diagnosed glioblastoma?,Bevacizumab is not recommended for newly diagnosed glioblastoma.,neurooncology_3.pdf
+What is the maximum course of adjuvant pembrolizumab for resected stage IIB or IIC melanoma?,Adjuvant pembrolizumab is given as 200 mg every 3 weeks for a maximum of 15 courses.,melanoma_cancer_1
+What is the recommended therapy for resectable stage IIIB-IV cutaneous melanoma?,"Neoadjuvant pembrolizumab is recommended, followed by resection and adjuvant pembrolizumab.",melanoma_cancer_1
+What therapy should be avoided in BRAF-mutant unresectable melanoma after progression on anti-PD-1?,Ipilimumab-containing regimens should be avoided after progression on other therapies.,melanoma_cancer_1
+What are the therapy options for metastatic uveal melanoma for HLA-A*02:01-positive patients?,Tebentafusp is recommended for HLA-A*02:01-positive patients with metastatic uveal melanoma.,melanoma_cancer_1
+What radiation dose is suggested for brain metastases less than 2 cm in size?,Single-fraction SRS with 2000-2400 cGy is recommended.,neurooncology_cancer_1.pdf
+When is tumor size cutoff that surgery is preferred over SRS for brain metastases?,Surgery is conditionally recommended for brain metastases over 4 cm.,neurooncology_cancer_1.pdf
+"For asymptomatic brain metastases from EGFR-mutant NSCLC, should local therapy be offered?",Local therapy delayed until intracranial progression after osimertinib,neurooncology_cancer_2.pdf
+What is the number of brain mets that SRS be chosen over WBRT for unresected brain metastases?,SRS alone is recommended for 1-4 unresected brain metastases.,neurooncology_cancer_2.pdf
+Should radiation therapy be offered to patients with KPS ≤ 50 and brain metastases?,Radiation therapy is not recommended for patients with KPS ≤ 50.,neurooncology_cancer_2.pdf
+"What is the alternative treatment for oligodendroglioma, IDH-mutant, 1p19q codeleted, CNS WHO grade 2, due to toxicity concerns?",Temozolimide ,neurooncology_cancer_3.pdf
+"What alternative therapy is available for glioblastoma, IDH-wildtype, with poor prognosis?",Hypofractionated RT with TMZ or supportive care are reasonable options.,neurooncology_cancer_3.pdf
+What is the role of bevacizumab in newly diagnosed glioblastoma?,Bevacizumab is not recommended for newly diagnosed glioblastoma.,neurooncology_cancer_3.pdf
