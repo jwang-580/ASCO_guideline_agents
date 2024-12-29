@@ -6,6 +6,7 @@ import claude_autogen
 import autogen
 import glob
 import re
+from datetime import datetime
 from claude_autogen import ClaudeChat
 
 class AnswerEvaluator:
@@ -35,7 +36,8 @@ class AnswerEvaluator:
             messages=[{"role": "user", "content": prompt}]
         )
         
-        return response.content
+        # Extract just the text from the response
+        return response.content[0].text if isinstance(response.content, list) else response.content
     
     def extract_guideline_from_chat(self, chat_messages):
         """
@@ -50,16 +52,20 @@ class AnswerEvaluator:
                     return match.group(0)
         return None
 
-    def run_evaluation(self, num_questions=5):
+    def run_evaluation(self, start_idx=0, end_idx=5):
         """
-        Run evaluation on a subset of questions
+        Run evaluation on a range of questions from start_idx to end_idx
+        
+        Args:
+            start_idx (int): Starting index of questions (inclusive)
+            end_idx (int): Ending index of questions (exclusive)
         """
         results = []
         
-        # Take a sample of questions
-        sample_qa = self.qa_df.sample(n=num_questions)
+        # Get specific range of questions instead of random sample
+        selected_qa = self.qa_df.iloc[start_idx:end_idx]
         
-        for _, row in sample_qa.iterrows():
+        for _, row in selected_qa.iterrows():
             question = row['Question']
             expected_answer = row['Answer']
             expected_guideline = row['Guideline']
@@ -94,17 +100,22 @@ class AnswerEvaluator:
             # Store results
             results.append({
                 'question': question,
+                'expected_answer': expected_answer,
+                'generated_answer': generated_answer,
                 'expected_guideline': expected_guideline,
                 'generated_guideline': generated_guideline,
                 'guideline_match': expected_guideline == generated_guideline,
-                'answer_evaluation': evaluation
+                'answer_correct': evaluation
             })
             
         return results
 
 def main():
+    # Create results directory if it doesn't exist
+    os.makedirs('results', exist_ok=True)
+    
     evaluator = AnswerEvaluator(cache_seed=42)
-    results = evaluator.run_evaluation(num_questions=1)
+    results = evaluator.run_evaluation(start_idx=5, end_idx=6)
     
     # Print results
     for i, result in enumerate(results, 1):
@@ -113,7 +124,14 @@ def main():
         print(f"Guideline Match: {result['guideline_match']}")
         print(f"Expected Guideline: {result['expected_guideline']}")
         print(f"Generated Guideline: {result['generated_guideline']}")
-        print(f"Answer Evaluation: {result['answer_evaluation']}")
+        print(f"Expected Answer: {result['expected_answer']}")
+        print(f"Generated Answer: {result['generated_answer']}")
+        print(f"Answer Correct: {result['answer_correct']}")
+
+    # save results to csv
+    results_df = pd.DataFrame(results)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    results_df.to_csv(f'results/evaluation_results_{timestamp}.csv', index=False)
 
 if __name__ == "__main__":
     main() 

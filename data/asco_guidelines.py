@@ -32,9 +32,9 @@ guideline_urls = {
     "head_neck_cancer_2": ['2022', 'https://ascopubs.org/doi/pdfdirect/10.1200/JCO.22.02328'],
     "head_neck_cancer_3": ['2021', 'https://ascopubs.org/doi/pdfdirect/10.1200/JCO.21.00449'],
     "head_neck_cancer_4": ['2021', 'https://ascopubs.org/doi/pdfdirect/10.1200/JCO.20.03237'],
-    "neurooncology_1": ['2022', 'https://ascopubs.org/doi/pdfdirect/10.1200/JCO.22.00333'],
-    "neurooncology_2": ['2021', 'https://ascopubs.org/doi/pdfdirect/10.1200/JCO.21.02314'],
-    "neurooncology_3": ['2021', 'https://ascopubs.org/doi/pdfdirect/10.1200/JCO.21.02036'],
+    "neurooncology_cancer_1": ['2022', 'https://ascopubs.org/doi/pdfdirect/10.1200/JCO.22.00333'],
+    "neurooncology_cancer_2": ['2021', 'https://ascopubs.org/doi/pdfdirect/10.1200/JCO.21.02314'],
+    "neurooncology_cancer_3": ['2021', 'https://ascopubs.org/doi/pdfdirect/10.1200/JCO.21.02036'],
     "lung_cancer_1": ['2024', 'https://ascopubs.org/doi/pdfdirect/10.1200/JCO-24-02133'],
     "lung_cancer_4": ['2023', 'https://ascopubs.org/doi/pdfdirect/10.1200/JCO.23.02746'],
     "lung_cancer_5": ['2022', 'https://ascopubs.org/doi/pdfdirect/10.1200/JCO.22.00051'],
@@ -76,7 +76,7 @@ guideline_summaries = {
     "lung_cancer_4": "Focuses on stage IV NSCLC without driver alterations, addressing immunotherapy combinations like nivolumab with ipilimumab for PD-L1-low cases. Recommendations adapt based on evolving evidence regarding treatment sequencing. The guideline is a continuation of earlier updates.",
     "lung_cancer_5": "This rapid recommendation update discusses adjuvant osimertinib for EGFR-positive stage I-IIIA NSCLC following resection. It emphasizes substantial disease-free survival benefits and includes atezolizumab for PD-L1 positive cases. This update is based on pivotal trials like Wu and Felip.",
     "lung_cancer_6": "This guideline covers the management of stage III NSCLC, emphasizing multimodal approaches. Recommendations include surgical evaluation, neoadjuvant/adjuvant therapy, and definitive chemoradiotherapy for unresectable cases. Tailored treatment plans are based on tumor characteristics and multidisciplinary input.",
-    "neurooncology_1": "ASCO endorses ASTRO guidelines on radiation therapy for brain metastases, emphasizing stereotactic radiosurgery (SRS) for up to 10 metastases. Recommendations prioritize hippocampal-sparing WBRT and memantine to minimize cognitive decline. Endorsement adapts to new data on radiation techniques and outcomes.",
-    "neurooncology_2": "This guideline focuses on managing brain metastases from solid tumors, advocating SRS for 1-4 metastases and local therapy for symptomatic cases. It outlines systemic therapy integration and highlights memantine for patients undergoing WBRT. Recommendations stress multidisciplinary care tailored to clinical scenarios.",
-    "neurooncology_3": "Guidelines address therapy for diffuse astrocytic and oligodendroglial tumors, recommending PCV or TMZ-based regimens post-resection. Specific guidance is provided based on IDH mutation and 1p19q codeletion status. The guideline integrates molecular markers into treatment planning."
+    "neurooncology_cancer_1": "ASCO endorses ASTRO guidelines on radiation therapy for brain metastases, emphasizing stereotactic radiosurgery (SRS) for up to 10 metastases. Recommendations prioritize hippocampal-sparing WBRT and memantine to minimize cognitive decline. Endorsement adapts to new data on radiation techniques and outcomes.",
+    "neurooncology_cancer_2": "This guideline focuses on managing brain metastases from solid tumors, advocating SRS for 1-4 metastases and local therapy for symptomatic cases. It outlines systemic therapy integration and highlights memantine for patients undergoing WBRT. Recommendations stress multidisciplinary care tailored to clinical scenarios.",
+    "neurooncology_cancer_3": "Guidelines address therapy for diffuse astrocytic and oligodendroglial tumors, recommending PCV or TMZ-based regimens post-resection. Specific guidance is provided based on IDH mutation and 1p19q codeletion status. The guideline integrates molecular markers into treatment planning."
 }
