@@ -1,4 +1,3 @@
-
 # ASCO Guideline Agents
 
 ## Overview
@@ -74,9 +73,10 @@ This repository provides tools for evaluating and processing ASCO (American Soci
 
 ### Running the Evaluation Script
 ```bash
-python run_evaluation.py --start 0 --end 5 --seed 42
+python3 run_evaluation.py --start 0 --end 5 --seed 42
 ```
 - Replace `--start` and `--end` with the range of questions to evaluate.
+
 
 ### Customizing Configurations
 Modify the `config.py` or use environment variables for different API keys and settings.
@@ -89,4 +89,6 @@ Contributions are welcome! Please submit a pull request or open an issue for any
 
 ## License
 This repository is licensed under the [MIT License](LICENSE).
+
+
 
