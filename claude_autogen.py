@@ -68,7 +68,7 @@ class ClaudeChat:
             ''',
             llm_config=llm_config,
         )
-
+    
         self.pdf_viewer = autogen.AssistantAgent(
             name="pdf_viewer",
             system_message="You are designed to answer questions based on the content of a specific PDF document",

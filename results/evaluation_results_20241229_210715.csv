@@ -1,0 +1,1608 @@
+question,expected_answer,generated_answer,expected_guideline,generated_guideline,guideline_match,answer_correct
+When should genetic testing for cancer predisposition genes beyond BRCA1/2 be considered?,"Testing should be offered if high penetrance genes (e.g., PALB2, TP53) could influence therapy, surgical decisions, or family risk assessment.","I'll provide a clear and comprehensive review of when genetic testing beyond BRCA1/2 should be considered based on the provided information.
+
+Final Answer:
+Genetic testing for cancer predisposition genes beyond BRCA1/2 should be considered in three main scenarios:
+
+1. For High-Penetrance Genes (PALB2, TP53, PTEN, STK11, CDH1):
+- When it could impact medical or surgical treatment decisions
+- To assess risks for second primary cancers
+- To provide more accurate family risk assessment
+
+2. For Moderate-Penetrance Breast Cancer Genes:
+- When already conducting BRCA1/2 testing
+- When results will help determine risks for additional primary cancers
+- When results will aid in family risk assessment
+
+3. When Using Multi-Gene Panels:
+- Testing should be tailored to patient's personal and family history
+- Genetics expert consultation is recommended for:
+  * Panel selection
+  * Result interpretation
+  * Patient counseling
+
+Important considerations:
+- Testing should be done thoughtfully with genetic expertise input
+- Most genes beyond BRCA1/2 don't currently affect treatment decisions
+- The approach should be individualized based on personal and family history
+- High-penetrance genes are typically only found when suggested by family history
+
+TERMINATE",breast_cancer_1,breast_cancer_1,TRUE,YES
+How should patients with variants of uncertain significance (VUS) be managed after genetic testing?,VUS should not alter management; patients should be followed up for reclassification and informed that reclassification is possible.,"Based on the provided information, I can give a clear answer regarding the management of patients with variants of uncertain significance (VUS):
+
+Patients with VUS should be managed according to these key principles:
+
+1. Medical Management:
+- VUS results should NOT alter medical management or treatment decisions
+- Care decisions should be based solely on personal and family history, not the VUS finding
+
+2. Patient Care Protocol:
+- Implement systematic follow-up procedures
+- Annual follow-up is reasonable
+- Keep patients informed about potential future reclassification
+- Maintain periodic contact for updates
+
+3. Patient Communication:
+- Educate patients that VUS are common findings
+- Explain that VUS may be reclassified in the future
+- Emphasize that VUS should not impact their current care decisions
+
+4. Professional Support:
+- Consider consultation with clinical cancer genetics experts for:
+  * VUS interpretation
+  * Follow-up planning
+  * Counseling guidance
+
+5. Important Restrictions:
+- Family studies tracking VUS should only be conducted through research protocols, not in clinical care
+- Avoid making clinical decisions based on VUS findings
+
+TERMINATE",breast_cancer_1,breast_cancer_2,TRUE,YES
+What germline testing strategy is recommended for patients with recurrent breast cancer?,BRCA1/2 testing is recommended regardless of family history for patients who are candidates for PARP inhibitor therapy.,"Based on the provided information, I can provide a clear answer regarding germline testing strategy for patients with recurrent breast cancer:
+
+For patients with recurrent breast cancer, the guideline specifically recommends that:
+
+All patients with recurrent breast cancer (whether local or metastatic) should receive BRCA1/2 testing if they are candidates for PARP inhibitor therapy, regardless of their family history.
+
+This is outlined in Recommendation 2.1 of the guidelines and represents a straightforward testing strategy focused on therapeutic decision-making, particularly for determining PARP inhibitor eligibility.
+
+TERMINATE",breast_cancer_1,breast_cancer_1,TRUE,YES
+What HER2 testing criteria should be used to determine eligibility for trastuzumab deruxtecan?,Patients with IHC 1+ or 2+/ISH not-amplified results are eligible; IHC 0 results are currently excluded.,"Based on the provided information, I'll provide a clear summary of the HER2 testing criteria for trastuzumab deruxtecan eligibility:
+
+To be eligible for trastuzumab deruxtecan, patients must have:
+1. HER2 IHC 1+ OR
+2. HER2 IHC 2+ with ISH non-amplified results
+
+Key points:
+- Patients with IHC 0 are NOT eligible
+- Testing should follow standard ASCO-CAP guidelines for scoring:
+  - IHC 1+: Incomplete membrane staining that is faint/barely perceptible in >10% of tumor cells
+  - IHC 2+: Weak to moderate complete membrane staining in >10% of tumor cells
+
+Important testing considerations:
+- Use 40x magnification for IHC assessment
+- Consider second pathologist review for borderline cases
+- Use appropriate controls
+- Reports must include specific IHC scores rather than just ""HER2-negative"" status to properly identify eligible patients
+
+TERMINATE",breast_cancer_2,breast_cancer_2,TRUE,YES
+What are the best practices for distinguishing HER2 IHC 0 from 1+ results?,"Use standardized ASCO-CAP guidelines, high-power examination, second pathologist review, and careful attention to preanalytic conditions.","After reviewing the provided information, I can provide a clear answer about the best practices for distinguishing HER2 IHC 0 from 1+ results:
+
+Key best practices include:
+
+1. Microscopic Examination:
+- Always use high power (40×) magnification
+- Follow standardized ASCO-CAP guidelines scoring criteria
+
+2. Quality Assurance Measures:
+- Implement second pathologist review for borderline cases, particularly when >10% of cells show faint/barely perceptible incomplete membrane staining
+- Use control samples that include 1+ expression levels to ensure proper detection sensitivity
+
+3. Technical Considerations:
+- Pay strict attention to preanalytic conditions for both primary and metastatic tissue samples
+- Be aware that tissue processing can impact protein detection at low expression levels
+
+4. Comprehensive Assessment:
+- Review HER2 IHC results from prior or concurrent primary samples
+- Consider results from other metastatic sites when available
+- Account for possible heterogeneity in HER2 expression between samples
+
+5. Documentation:
+- Carefully document cases near the 0/1+ threshold
+- Note any challenging interpretive issues
+
+These practices are particularly important now that the 0/1+ threshold has treatment implications for trastuzumab deruxtecan eligibility, even though the clinical significance of this threshold is still being evaluated.
+
+TERMINATE",breast_cancer_2,breast_cancer_2,TRUE,YES
+"What treatment is recommended for patients with hormone receptor-positive, HER2-negative metastatic breast cancer who have progressed on endocrine therapy and have received two prior lines of chemotherapy?","The use of sacituzumab govitecan (SG) is recommended based on evidence from the TROPiCS-02 trial, which demonstrated improved progression-free survival (PFS) and overall survival (OS) compared to treatment of physician's choice.","Based on the provided information, I can give a clear answer to your question:
+
+For patients with hormone receptor-positive, HER2-negative metastatic breast cancer who have progressed on endocrine therapy and received two prior lines of chemotherapy, sacituzumab govitecan (SG) is the recommended treatment option. This recommendation is supported by strong clinical evidence from the TROPiCS-02 Phase III trial, which demonstrated:
+
+1. Improved survival outcomes:
+- 34% reduction in risk of progression or death
+- Better progression-free survival (5.5 vs 4.0 months)
+- Longer overall survival (14.4 vs 11.2 months)
+
+2. This is a strong recommendation with moderate quality evidence according to ASCO guidelines
+
+Patients should be monitored for potential adverse events, particularly:
+- Diarrhea
+- Neutropenic complications (including febrile neutropenia and neutropenic colitis)
+
+This recommendation specifically applies to patients who meet ALL of these criteria:
+- HR-positive, HER2-negative metastatic breast cancer
+- Endocrine therapy refractory
+- At least two prior lines of chemotherapy for metastatic disease
+
+TERMINATE",breast_cancer_4,breast_cancer_4,TRUE,YES
+"For HER2-low metastatic breast cancer (IHC 1+ or 2+, ISH-negative) previously treated with one chemotherapy, what therapy offers improved survival?","Trastuzumab deruxtecan is recommended, offering a median PFS of 9.9 months and median OS of 23.4 months, based on DESTINY-Breast04 trial findings.","Based on the provided information, I can give a clear answer to your question:
+
+Trastuzumab deruxtecan (T-DXd) offers improved survival for HER2-low metastatic breast cancer patients who have received at least one prior chemotherapy. The survival benefits are well-documented:
+
+For hormone receptor-positive patients:
+- Improved median PFS: 10.1 vs 5.4 months
+- Improved median OS: 23.9 vs 17.5 months
+
+For hormone receptor-negative patients:
+- Improved median PFS: 8.5 vs 2.9 months
+- Improved median OS: 18.2 vs 8.3 months
+
+This recommendation is supported by strong evidence from a randomized phase III trial and is considered a strong recommendation by ASCO. However, it's important to note that there is a risk of interstitial lung disease/pneumonitis (occurring in 12.1% of patients), which requires monitoring.
+
+TERMINATE",breast_cancer_5,breast_cancer_5,TRUE,YES
+"In patients with hormone receptor-positive, HER2-negative metastatic breast cancer and ESR1 mutations detected in ctDNA, what is the preferred therapy after prior CDK4/6 inhibitor treatment?",Elacestrant is recommended as it showed improved PFS compared to standard endocrine therapy in the EMERALD trial.,"Based on the provided information, I can give a clear answer to your question:
+
+In patients with hormone receptor-positive, HER2-negative metastatic breast cancer and ESR1 mutations detected in ctDNA after CDK4/6 inhibitor treatment, elacestrant is the preferred therapy option. This recommendation is supported by evidence from the EMERALD trial, which demonstrated superior progression-free survival with elacestrant compared to standard of care (HR 0.55, median PFS 3.8 vs 1.9 months) specifically in patients with ESR1 mutations.
+
+Alternative options include:
+1. Other endocrine therapy (alone or with targeted agents)
+2. For PIK3CA-mutated tumors: endocrine therapy + alpelisib
+3. Endocrine therapy + everolimus
+
+Important note: ESR1 mutation testing should be performed on blood (preferred) or tissue at the time of progression, and retesting may be needed at subsequent progression if initially negative. TERMINATE",breast_cancer_3,breast_cancer_3,TRUE,YES
+What considerations are necessary when prescribing trastuzumab deruxtecan for HER2-low metastatic breast cancer?,"Patients should be monitored for interstitial lung disease, which occurred in 12.1% of patients treated with trastuzumab deruxtecan in the DESTINY-Breast04 trial.","After reviewing the provided information, I'll formulate a comprehensive answer about the key considerations when prescribing trastuzumab deruxtecan for HER2-low metastatic breast cancer:
+
+The key considerations can be organized into four main categories:
+
+1. Patient Eligibility:
+- Patients must have HER2-low status (IHC 1+ or 2+ and ISH-negative)
+- Must have received at least one prior line of chemotherapy for metastatic disease
+- Hormone receptor-positive patients must be refractory to endocrine therapy
+
+2. Clinical Efficacy:
+- Demonstrates significant survival benefits:
+  * Improved progression-free survival (10.1 vs 5.4 months in HR+ patients)
+  * Enhanced overall survival (23.9 vs 17.5 months in HR+ patients)
+  * Similar benefits observed in hormone receptor-negative patients
+
+3. Safety Monitoring:
+- Critical monitoring for interstitial lung disease/pneumonitis is essential
+- Risk of ILD/pneumonitis occurs in approximately 12% of patients
+- Severity ranges from asymptomatic (Grade 1) to potentially fatal (Grade 4/5)
+- Regular monitoring and early intervention are necessary
+
+4. Clinical Implementation:
+- Treatment represents a practice-changing approach for HER2-low breast cancer
+- Decision-making should incorporate individual patient factors and preferences
+- Strong recommendation based on moderate quality evidence
+- Benefits are considered to outweigh potential harms
+
+Healthcare providers should carefully weigh these factors while implementing appropriate safety monitoring protocols and discussing potential benefits and risks with patients. TERMINATE",breast_cancer_5,breast_cancer_5,TRUE,YES
+"What are the therapy options for hormone receptor-positive, HER2-negative metastatic breast cancer with PIK3CA mutations?",Endocrine therapy combined with alpelisib,"Based on the provided information, I can give you a comprehensive answer about therapy options for HR-positive, HER2-negative metastatic breast cancer with PIK3CA mutations:
+
+The treatment follows a sequential approach:
+
+First-line Treatment:
+- Combination therapy with a nonsteroidal aromatase inhibitor (AI) plus a CDK4/6 inhibitor is the preferred initial treatment due to proven benefits in progression-free and overall survival
+
+Second-line and Beyond:
+- Alpelisib combined with fulvestrant is recommended after progression on prior endocrine therapy including an AI
+- This combination can be used regardless of whether the patient has received prior CDK4/6 inhibitor treatment
+
+Important Considerations for Alpelisib Treatment:
+1. Patient Eligibility:
+- Available for postmenopausal women and male patients
+- Requires confirmed PIK3CA mutation status through NGS testing (tumor tissue or cell-free DNA)
+
+2. Monitoring Requirements:
+- Baseline HbA1c and fasting glucose testing
+- Weekly monitoring in first 4 weeks for:
+  * Hyperglycemia
+  * Rash
+- Active management of side effects, particularly diarrhea
+
+Treatment Sequencing:
+- CDK4/6 inhibitor + endocrine therapy should be used before alpelisib or everolimus due to:
+  * Better efficacy data
+  * More favorable tolerability profile
+- There is limited data on alpelisib use after CDK4/6 inhibitors
+- Sequential use of alpelisib and everolimus (in either order) is not supported by current evidence
+
+TERMINATE",breast_cancer_3,breast_cancer_13,FALSE,NO
+"How effective is elacestrant for ESR1 wild-type tumors in hormone receptor-positive, HER2-negative metastatic breast cancer?","Elacestrant is not significantly more effective than standard endocrine therapy for ESR1 wild-type tumors, as demonstrated in the EMERALD trial.","Based on the provided information, I can provide a clear answer about elacestrant's effectiveness in ESR1 wild-type tumors:
+
+Elacestrant does not demonstrate significant efficacy for ESR1 wild-type tumors in hormone receptor-positive, HER2-negative metastatic breast cancer. The EMERALD trial data shows that when compared to standard-of-care endocrine therapy, elacestrant produced a hazard ratio of 0.86 (95% CI, 0.63 to 1.19; P = 0.308) in ESR1 wild-type patients. This result was not statistically significant, indicating that elacestrant does not provide meaningful improvement in progression-free survival over standard endocrine therapy for this specific patient population. TERMINATE",breast_cancer_3,breast_cancer_3,TRUE,YES
+"For HER2-negative metastatic breast cancer refractory to endocrine therapy, should single-agent chemotherapy or sacituzumab govitecan be offered?","Single-agent chemotherapy is preferred, starting with agents like capecitabine or eribulin","Based on the provided evidence, I can formulate a clear answer to your question:
+
+For HER2-negative metastatic breast cancer refractory to endocrine therapy, sacituzumab govitecan is preferred over single-agent chemotherapy, but with specific qualifying criteria. The patient should have received at least two prior lines of chemotherapy for metastatic disease.
+
+This recommendation is supported by strong evidence from the TROPiCS-02 trial, which demonstrated:
+1. Superior progression-free survival (5.5 vs 4.0 months)
+2. Better overall survival (14.4 vs 11.2 months)
+3. Higher 6-month and 12-month PFS rates
+
+When compared to standard single-agent chemotherapy options (eribulin, vinorelbine, capecitabine, or gemcitabine), sacituzumab govitecan showed a 34% reduction in the risk of progression or death, with manageable safety profile.
+
+This is a strong recommendation with moderate quality evidence, where the benefits are deemed to outweigh the potential harms. TERMINATE",breast_cancer_4,breast_cancer_4,TRUE,NO
+"In hormone receptor-positive, HER2-negative metastatic breast cancer, when should ctDNA testing be performed?","ctDNA testing is recommended at recurrence or progression on endocrine therapy, as ESR1 mutations often emerge under treatment pressure.","After reviewing the provided information, I can provide a clear answer regarding when ctDNA testing should be performed in hormone receptor-positive, HER2-negative metastatic breast cancer:
+
+The primary validated indication for ctDNA testing in this setting is for PIK3CA mutation testing when:
+1. Patients are being considered for treatment with alpelisib plus fulvestrant
+2. Either ctDNA in plasma or tissue testing can be used as the initial test
+3. If ctDNA testing is negative, testing should proceed to tumor tissue testing if available
+
+It's important to note that:
+- ctDNA testing is NOT routinely recommended for:
+  * ESR1 mutation testing (insufficient evidence)
+  * Treatment monitoring (insufficient evidence)
+  * Making therapy changes based on ctDNA results alone
+
+Treatment decisions should be based on clinical evaluation and disease progression/response, with ctDNA results interpreted within the broader clinical context.
+
+TERMINATE",breast_cancer_3,breast_cancer_3,TRUE,NO
+"What is the recommendation for premenopausal women with node-positive, ER-positive, HER2-negative breast cancer?",Oncotype DX should not be used to guide chemotherapy decisions for premenopausal women with node-positive disease.,"Based on the pdf_viewer's output, I will provide a clear recommendation for premenopausal women with node-positive, ER-positive, HER2-negative breast cancer.
+
+The recommendations apply to all eligible patients regardless of menopausal status. For your specific case, there are two potential treatment approaches:
+
+1. FDA-approved indication:
+- 2 years of abemaciclib (150 mg twice daily) plus endocrine therapy if:
+- The patient has a high risk of recurrence
+- Ki-67 score is ≥20% (must be determined by an FDA-approved test)
+
+2. Based on broader ITT population analysis:
+- 2 years of abemaciclib plus at least 5 years of endocrine therapy if the patient has either:
+- 4 or more positive axillary lymph nodes, OR
+- 1-3 positive lymph nodes with at least one of these high-risk features:
+  * Grade 3 disease
+  * Tumor size ≥5cm
+  * Ki-67 index ≥20%
+
+Important note: Treatment decisions should be individualized by weighing the benefits (improved invasive disease-free survival) against potential risks (treatment toxicity and financial costs).
+
+TERMINATE",breast_cancer_7,breast_cancer_10,FALSE,NO
+When can the Breast Cancer Index (BCI) test be offered for extended endocrine therapy decisions?,The BCI test may be offered to patients with 0-3 positive nodes who completed 5 years of endocrine therapy without recurrence.,"Based on my review of the pdf_viewer's output, I can provide a clear answer about when the Breast Cancer Index (BCI) test can be offered:
+
+The BCI test can be offered to breast cancer patients who meet ALL of the following criteria:
+1. Have node-negative or 1-3 positive nodes
+2. Have completed 5 years of endocrine therapy
+3. Show no evidence of recurrence
+4. Are being considered for extended endocrine therapy (with tamoxifen, aromatase inhibitor, or a sequence of both)
+
+Important limitations:
+- The test should NOT be used for patients with 4 or more positive lymph nodes
+- It should not be used in patients with HER2-positive or triple-negative breast cancer
+- Evidence is limited for premenopausal women
+- The test should be used alongside other clinical factors and patient preferences
+
+TERMINATE",breast_cancer_7,breast_cancer_7,TRUE,YES
+What are the benefits of adjuvant bisphosphonate therapy in postmenopausal breast cancer patients?,Adjuvant bisphosphonates improve overall survival modestly and reduce risks of bone recurrence and fracture rates.,"After reviewing the provided information, I can provide a clear summary of the benefits of adjuvant bisphosphonate therapy in postmenopausal breast cancer patients:
+
+The benefits can be categorized into three main areas:
+
+1. Survival Advantages:
+- Reduces overall mortality (from 23.5% to 21.1%)
+- Improves breast cancer-specific mortality (from 18.0% to 14.7%)
+
+2. Cancer Control Benefits:
+- Reduces bone recurrence (from 8.8% to 6.6%)
+- Improves disease-free survival
+- Decreases distant recurrence risk
+
+3. Bone Health Benefits:
+- Reduces fracture rates (from 10.3% to 9.1%)
+
+Important considerations:
+- These benefits are specifically observed in postmenopausal women (whether natural or therapy-induced)
+- The magnitude of benefit varies based on individual patient risk factors
+- While the absolute benefits are modest, they are comparable to other standard adjuvant therapies
+- Treatment decisions should be individualized, taking into account:
+  * Personal risk of recurrence
+  * Potential side effects
+  * Economic factors
+  * Patient preferences
+  * Existing health conditions
+  * Overall life expectancy
+
+The NHS PREDICT tool can help estimate individual patient benefit for 5-, 10-, and 15-year overall survival with bisphosphonate therapy. TERMINATE",breast_cancer_8,breast_cancer_8,TRUE,YES
+"Which bisphosphonates are recommended for adjuvant therapy, and what are the doses?","Recommended options include oral clodronate (1,600 mg daily for 2-3 years), oral ibandronate (50 mg daily for 3 years), and zoledronic acid (4 mg every 6 months for 3 years).","I'll review this information and provide a clear final answer.
+
+The guideline recommends three specific bisphosphonates for adjuvant therapy:
+
+1. Zoledronic acid (intravenous):
+- 4 mg every 6 months for 3 years, OR
+- 4 mg every 3 months for 2 years
+
+2. Oral clodronate:
+- 1,600 mg daily for 2-3 years
+
+3. Oral ibandronate:
+- 50 mg daily for 3 years
+
+These recommendations are specifically for postmenopausal breast cancer patients (natural or therapy-induced) who are candidates for adjuvant systemic therapy. Treatment should ideally begin within 3 months of definitive surgery or within 2 months of completing adjuvant chemotherapy. It's worth noting that in the US, oral clodronate is not available, and the zoledronic acid dosing is not FDA-approved for this indication. The choice between agents should consider patient preference and local availability. TERMINATE",breast_cancer_8,breast_cancer_8,TRUE,YES
+Should adjuvant denosumab be used to prevent recurrence in breast cancer?,Denosumab is not recommended as it does not consistently reduce recurrence rates.,"After reviewing the information provided, I can give a clear answer:
+
+No, adjuvant denosumab should not be used to prevent breast cancer recurrence. This recommendation is supported by evidence from major clinical trials and expert panel assessment. The rationale includes:
+
+1. Inconsistent results from two major Phase III trials:
+- ABCSG-18 showed only modest benefit
+- D-CARE showed no improvement in bone metastasis-free survival
+
+2. Safety concerns:
+- Higher-dose denosumab showed unacceptable risk of osteonecrosis of the jaw (5% vs <1% in placebo)
+
+3. The guideline panel made a moderate-strength recommendation against its use, based on intermediate-quality evidence where they determined the benefits do not outweigh the potential harms.
+
+4. Alternative treatments (like bisphosphonates) have better established safety and efficacy profiles.
+
+While denosumab may have a role in maintaining bone health for oncology patients, it is not recommended specifically for preventing breast cancer recurrence.
+
+TERMINATE",breast_cancer_8,breast_cancer_8,TRUE,YES
+What is the recommendation for testing for ESR1 mutations in metastatic breast cancer?,Routine ESR1 mutation testing is not recommended,"Based on the provided information, I'll formulate a clear answer to your question about ESR1 mutation testing recommendations:
+
+For patients with ER-positive, HER2-negative metastatic breast cancer, there is a strong recommendation for routine ESR1 mutation testing under the following conditions:
+
+1. When to Test:
+- At recurrence or progression on endocrine therapy
+- Whether the patient was on endocrine therapy alone or in combination with CDK4/6 inhibitor
+
+2. Testing Method:
+- Should use CLIA-certified assay
+- Blood-based circulating tumor DNA (ctDNA) testing is preferred due to higher sensitivity
+- Can also test tissue obtained at time of progression
+
+3. Additional Considerations:
+- PIK3CA mutation testing should be performed concurrently if not done previously
+- Patients with ESR1 wild-type results may need repeat testing at subsequent progressions
+- Testing should be performed on current samples as ESR1 mutations typically develop during treatment and are usually not present in primary tumors
+
+This is a strong, evidence-based recommendation with high-quality evidence supporting that benefits outweigh harms. TERMINATE",breast_cancer_6,breast_cancer_3,FALSE,NO
+What biomarker testing is advised for metastatic HER2-negative breast cancer with immune checkpoint inhibitor candidates?,Testing for PD-L1 expression in tumor and immune cells is recommended to determine eligibility for pembrolizumab plus chemotherapy.,"Based on the provided information, I can formulate a clear answer:
+
+For metastatic HER2-negative breast cancer patients who are candidates for immune checkpoint inhibitors, PD-L1 testing is the recommended biomarker testing, with two validated testing approaches:
+
+1. Using the Ventana SP142 antibody:
+- Measures tumor-infiltrating immune cells
+- Positivity defined as ≥1% staining of tumor area
+
+2. Using the FDA-approved 22C3 PD-L1 IHC assay:
+- Measures Combined Positive Score (CPS)
+- CPS ≥1 is required for eligibility
+- Maximum benefit observed in patients with CPS ≥10
+
+It's important to note that these different PD-L1 testing methods correspond to different treatment protocols, and the choice of testing method should align with the planned treatment regimen. PD-L1 testing is particularly important for determining eligibility for first-line immune checkpoint inhibitor therapy in triple-negative breast cancer patients. TERMINATE",breast_cancer_6,breast_cancer_12,FALSE,NO
+Should circulating tumor DNA (ctDNA) be routinely used to monitor therapy response in metastatic breast cancer?,Routine use of ctDNA for monitoring therapy response is not recommended due to insufficient data.,"Based on the provided information, I can give a clear answer to your question:
+
+No, ctDNA should not be routinely used to monitor therapy response in metastatic breast cancer. This recommendation is based on current clinical guidelines that cite insufficient data to support its routine use. While ctDNA technology shows promise for identifying tumor-specific mutations and detecting mutations in plasma, there is currently:
+
+1. No evidence that using ctDNA changes as a response marker improves patient outcomes
+2. No prospective evidence showing that mutation identification through ctDNA to direct therapy improves outcomes compared to standard imaging-based detection
+
+The recommendation against routine use is supported by:
+- Low quality evidence
+- Moderate strength recommendation
+- Informal consensus among experts
+
+Treatment decisions should continue to be based on clinical evaluation, assessment of disease progression/response, and patient goals rather than biomarker results alone. Further research is needed before ctDNA monitoring can be recommended for routine clinical practice in metastatic breast cancer.
+
+TERMINATE",breast_cancer_6,breast_cancer_6,TRUE,YES
+Can adjuvant pembrolizumab be administered with radiation therapy?,Adjuvant pembrolizumab can be given concurrently with or after completion of radiation therapy.,"Based on the pdf_viewer's output, I can provide a clear answer to your question:
+
+Yes, adjuvant pembrolizumab can be administered with radiation therapy. Specifically, there are two options for timing:
+1. Concurrent with radiation therapy
+2. After completion of radiation therapy
+
+This flexibility in timing is part of the 2022 updated recommendations for patients with stage II or III, early-stage TNBC. However, it's important to note that careful monitoring is required due to the potential for severe and permanent immune-related adverse events (irAEs) associated with pembrolizumab therapy.
+
+TERMINATE",breast_cancer_9,breast_cancer_9,TRUE,YES
+How many years of abemaciclib should be used in combination with endocrine therapy in high-risk early-stage breast cancer?,"Two years of abemaciclib (150 mg twice daily) with endocrine therapy for ≥5 years may be offered to patients with high-risk hormone receptor-positive, HER2-negative early-stage breast cancer.","Based on the provided information, I can give a clear and complete answer:
+
+The recommended duration of abemaciclib in combination with endocrine therapy for high-risk early-stage breast cancer is 2 years. This duration applies to two specific scenarios:
+1. For FDA-approved use in HR-positive, HER2-negative, node-positive breast cancer with Ki-67 score ≥20%
+2. For the broader population of HR-positive, HER2-negative, node-positive breast cancer meeting high-risk criteria
+
+In both cases, abemaciclib is given at 150 mg twice daily for 2 years, while endocrine therapy continues for at least 5 years. TERMINATE",breast_cancer_10,breast_cancer_10,TRUE,YES
+What are the criteria for high-risk early breast cancer suitable for abemaciclib treatment?,"Criteria include ≥4 positive axillary lymph nodes or 1-3 positive nodes with tumor size ≥5 cm, histologic grade 3, or Ki-67 ≥20%.","After reviewing the provided information, I'll give you a clear and structured answer about the criteria for high-risk early breast cancer suitable for abemaciclib treatment.
+
+To be eligible for abemaciclib treatment, patients must first meet these basic criteria:
+1. Hormone receptor-positive breast cancer
+2. HER2-negative breast cancer
+3. Node-positive disease
+
+Then, patients must qualify through either of these two pathways:
+
+Pathway 1:
+- Ki-67 score ≥ 20% (using FDA-approved test)
+- High risk of recurrence
+
+OR
+
+Pathway 2:
+- Either ≥4 positive axillary lymph nodes
+- Or 1-3 positive axillary lymph nodes with at least one of:
+  * Histologic grade 3 disease
+  * Tumor size ≥ 5 cm
+  * Ki-67 index ≥ 20%
+
+Treatment specifics:
+- Administered as 150 mg twice daily
+- Given for 2 years
+- Must be combined with at least 5 years of endocrine therapy
+
+TERMINATE",breast_cancer_10,breast_cancer_10,TRUE,YES
+Is the use of abemaciclib restricted to patients with a high Ki-67 score?,Abemaciclib is recommended for broader patient populations at high risk of recurrence regardless of Ki-67 status.,"After reviewing the provided information, I can provide a clear answer:
+
+No, the use of abemaciclib is not strictly restricted to patients with high Ki-67 scores, although there are different recommendations based on regulatory and clinical evidence:
+
+1. The FDA-based recommendation is more specific, recommending abemaciclib for patients with Ki-67 scores ≥20%.
+
+2. The broader ITT (Intent-to-Treat) population recommendation allows for use in high-risk patients who meet other criteria, where Ki-67 ≥20% is just one of several possible risk factors. Patients can qualify based on:
+- Having ≥4 positive lymph nodes, OR
+- Having 1-3 positive lymph nodes plus either:
+  * Grade 3 disease
+  * Tumor size ≥5 cm
+  * Ki-67 ≥20%
+
+While the strongest evidence exists for patients with high Ki-67 scores, the treatment can be considered for other high-risk patients who meet the alternative criteria, although it's noted that fewer patients with low Ki-67 scores were included in the monarchE study. TERMINATE",breast_cancer_10,breast_cancer_10,TRUE,YES
+What is the role of olaparib in early-stage HER2-negative breast cancer with germline BRCA mutations?,Olaparib is recommended for one year after (neo)adjuvant chemotherapy and local treatment in high-risk early-stage HER2-negative breast cancer with BRCA mutations.,"Based on the provided information, I can provide a clear answer regarding the role of olaparib in early-stage HER2-negative breast cancer with germline BRCA mutations:
+
+Olaparib now has a well-defined adjuvant treatment role, with the following key points:
+
+1. Timing: One year of adjuvant olaparib is recommended after completing (neo)adjuvant chemotherapy and local treatment.
+
+2. Patient Eligibility:
+For Surgery-First Patients:
+- Triple-negative breast cancer patients with tumors >2cm OR any node involvement
+- Hormone receptor-positive patients with ≥4 involved axillary nodes
+
+For Neoadjuvant Chemotherapy Patients:
+- Triple-negative breast cancer patients with any residual disease
+- Hormone receptor-positive patients with residual disease and CPS+EG score ≥3
+
+3. Clinical Benefits:
+- Improved 3-year invasive disease-free survival (85.9% vs 77.1%)
+- Better distant disease-free survival (87.5% vs 80.4%)
+
+4. Safety Profile:
+- Main side effect is Grade ≥3 anemia (8.7%)
+- Manageable safety profile without significant quality of life impacts
+- May require blood transfusions in some cases (5.8%)
+
+5. Important Limitations:
+- Only proven effective for germline BRCA1/2 mutations
+- Must meet specific high-risk criteria from trial
+- Longer follow-up needed for rare adverse events
+
+This represents a significant advancement from previous guidelines, offering a new standard of care for this specific patient population. TERMINATE",breast_cancer_11,breast_cancer_11,TRUE,YES
+What clinical criteria define high-risk patients eligible for olaparib?,"Eligibility includes triple-negative tumors >2 cm or node involvement, or hormone receptor-positive disease with ≥4 involved lymph nodes or a CPS-EG score ≥3.","I'll provide a clear final answer based on the pdf_viewer output:
+
+High-risk patients eligible for olaparib must have early-stage, HER2-negative breast cancer with germline BRCA1/2 pathogenic variants and meet the following specific criteria:
+
+For Surgery-First Patients:
+1. Triple-negative breast cancer:
+- Tumor >2 cm OR
+- Any positive lymph nodes
+
+2. Hormone receptor-positive:
+- ≥4 positive axillary lymph nodes
+
+For Neoadjuvant Chemotherapy Patients:
+1. Triple-negative breast cancer:
+- Any residual cancer post-therapy
+
+2. Hormone receptor-positive:
+- Residual disease AND
+- CPS+EG score ≥3
+
+Additional Requirements:
+- Must have completed (neo)adjuvant chemotherapy
+- Must have completed local treatment including radiation
+- Treatment duration is 1 year
+
+TERMINATE",breast_cancer_11,breast_cancer_11,TRUE,YES
+What are the main findings from the OlympiA trial regarding olaparib?,The OlympiA trial demonstrated improved invasive and distant disease-free survival with olaparib compared to placebo.,"Based on the provided information, I can provide a comprehensive summary of the main findings from the OlympiA trial regarding olaparib:
+
+1. Significant Survival Benefits:
+- Olaparib showed superior 3-year invasive disease-free survival (85.9% vs 77.1% for placebo)
+- Improved 3-year distant disease-free survival (87.5% vs 80.4% for placebo)
+- Both outcomes demonstrated statistically significant hazard ratios favoring olaparib
+
+2. Target Population:
+- Early-stage, HER2-negative breast cancer patients
+- Patients with germline BRCA1 or BRCA2 mutations
+- High-risk patients who completed standard chemotherapy (minimum 6 cycles)
+- Majority (95%) received anthracycline and taxane-based chemotherapy
+
+3. Safety Profile:
+- Generally manageable side effects
+- Anemia was the most significant adverse event
+   * Grade ≥3 anemia: 8.7% in olaparib group vs 0.3% in placebo
+   * Higher need for blood transfusions in olaparib group (5.8% vs 0.9%)
+- No increased risk of serious conditions like myelodysplastic syndrome or acute leukemia
+
+4. Treatment Implementation:
+- One year of adjuvant olaparib administered after completing:
+   * Standard chemotherapy
+   * Local treatment
+   * Radiation therapy (when applicable)
+
+These positive results led to the inclusion of adjuvant olaparib in ASCO guidelines for this specific patient population, representing a significant advancement in the treatment of BRCA-mutated breast cancer. TERMINATE",breast_cancer_11,breast_cancer_11,TRUE,YES
+"What is the recommendation for first-line treatment of triple-negative, PD-L1-positive metastatic breast cancer?",The addition of immune checkpoint inhibitors (atezolizumab or pembrolizumab) to chemotherapy is recommended.,"Based on the provided information, I can give a clear final answer:
+
+For first-line treatment of triple-negative, PD-L1-positive metastatic breast cancer, the recommended treatment is the addition of immune checkpoint inhibitor to chemotherapy, specifically:
+- Atezolizumab plus nab-paclitaxel, OR
+- Pembrolizumab plus chemotherapy
+
+This recommendation is supported by strong clinical evidence from two major trials:
+1. IMpassion130: showed improved progression-free survival and overall survival with atezolizumab plus nab-paclitaxel
+2. KEYNOTE-355: demonstrated benefit with pembrolizumab plus chemotherapy in patients with CPS ≥10
+
+Important considerations before initiating treatment:
+- Evaluate individual patient risk for immune-related adverse events
+- Screen for autoimmune conditions
+- Note that atezolizumab should specifically be used with nab-paclitaxel, not regular paclitaxel
+- Consider the specific PD-L1 testing method used for patient selection
+
+This is a strong recommendation with moderate quality evidence, where the benefits outweigh the potential harms. TERMINATE",breast_cancer_12,breast_cancer_12,TRUE,YES
+"What is the preferred treatment for triple-negative, PD-L1-negative metastatic breast cancer?",Single-agent chemotherapy is preferred,"After reviewing the provided information, I can provide a clear answer about the preferred treatment for triple-negative, PD-L1-negative metastatic breast cancer:
+
+The preferred first-line treatment is single-agent chemotherapy rather than combination chemotherapy. However, treatment should be individualized based on specific circumstances:
+
+Key points about the treatment approach:
+
+1. Single-agent chemotherapy is the standard approach, but combination chemotherapy may be considered in specific situations:
+- When disease is symptomatic
+- When disease is immediately life-threatening
+- When there may only be one chance for therapy
+
+2. Regarding the choice of chemotherapy:
+- Either platinum-based or nonplatinum-based regimens can be used
+- The selection should be individualized based on:
+  * Patient preferences
+  * Risk assessment
+  * Benefit evaluation
+
+It's important to note that while platinum-based regimens show similar efficacy (comparable 1-year death rates), they are associated with higher rates of grade 3-4 toxicities, particularly nausea/vomiting and anemia.
+
+This recommendation is supported by moderate-quality evidence and carries a strong recommendation strength, with benefits outweighing potential harms. TERMINATE",breast_cancer_12,breast_cancer_12,TRUE,YES
+"What therapies are recommended for HR-positive HER2-negative metastatic breast cancer with BRCA mutations, who have progressed on endocine therapy?",Oral PARP inhibitors (olaparib or talazoparib) are recommended ,"I'll review this information and provide a clear final answer to your question.
+
+The recommended therapies for HR-positive HER2-negative metastatic breast cancer patients with BRCA mutations who have progressed on endocrine therapy are:
+
+Primary Treatment Option:
+- PARP inhibitors (olaparib or talazoparib) are recommended over chemotherapy in the first through third-line setting
+- This recommendation has strong strength based on moderate quality evidence
+
+The recommendation is supported by clinical trials:
+- EMBRACA trial showed improved progression-free survival with talazoparib (HR 0.47)
+- While OlympiAD trial with olaparib showed comparable results to chemotherapy (HR 0.91)
+
+Key advantages of PARP inhibitors:
+1. Lower toxicity profile compared to chemotherapy
+2. Can be used after 1-2 prior lines of endocrine therapy
+
+Important considerations:
+- Genetic testing is required
+- Access to specialty pharmacy services is needed
+- Patient support programs (foundation support, drug vouchers, copay assistance) may be necessary
+- Comparative efficacy against specific chemotherapies (taxanes, platinum agents) remains uncertain
+
+TERMINATE",breast_cancer_12,breast_cancer_12,TRUE,YES
+"For patients with  HR-positive, HER2-negative who develop recurrence within one year of adjuvant AI therapy, what is the recommended in replacment of AI?",Fulvestrant or CDK4/6 inhibitors should be offered,"Based on the provided information, I can provide a clear answer:
+
+For patients with HR-positive, HER2-negative breast cancer who develop recurrence within one year of adjuvant AI therapy, the recommended replacement therapy is the combination of fulvestrant plus a CDK4/6 inhibitor. This recommendation:
+- Has strong supporting evidence and a high strength of recommendation
+- Can be given as first-line therapy
+- Can be administered with or without one line of prior chemotherapy for metastatic disease
+- Is applicable only for patients without prior exposure to CDK4/6 inhibitors in the metastatic setting
+
+This combination therapy has demonstrated:
+- Significant improvements in progression-free survival
+- Better overall survival in chemotherapy-naive patients
+- Maintained or improved quality of life
+- Good tolerability
+
+TERMINATE",breast_cancer_13,breast_cancer_13,TRUE,NO
+"When is sentinel lymph node biopsy not required for patients with early-stage hormone receptor-positive, HER2-negative invasive breast cancer?",Sentinel lymph node biopsy is not required for clinically node-negative women aged ≥70 years who will receive hormonal therapy.,"I'll provide a clear and concise final answer based on the pdf_viewer's output.
+
+Sentinel lymph node biopsy (SLNB) can be omitted in patients who meet ALL of the following criteria:
+1. Age 70 years or older
+2. Clinically node-negative (T1N0) early-stage invasive breast cancer
+3. Hormone receptor-positive tumor
+4. HER2-negative tumor
+5. Will receive hormonal therapy
+
+However, it's important to note that:
+- This is an option to discuss, not a mandate
+- A medical oncology consultation should occur before surgery to discuss hormonal therapy
+- The decision should be individualized through shared decision-making
+- The patient should be clinically node-negative based on physical examination
+- The benefits and limitations of omitting SLNB should be discussed with the patient
+
+TERMINATE",breast_cancer_14,breast_cancer_14,TRUE,NO
+How should axillary treatment be approached for patients undergoing mastectomy with 1-2 positive sentinel nodes?,"Postmastectomy radiation to the axilla is recommended, and axillary lymph node dissection can be safely omitted.","I'll review this response and provide a clear final answer.
+
+The response from the PDF viewer provides a comprehensive and clear recommendation for axillary treatment in patients undergoing mastectomy with 1-2 positive sentinel nodes. The answer is complete and evidence-based.
+
+Here's the final answer:
+
+For patients undergoing mastectomy with 1-2 positive sentinel nodes, the recommended approach is:
+
+Primary Recommendation:
+- Postmastectomy radiation therapy (PMRT) to the axilla with omission of axillary lymph node dissection (ALND)
+
+Alternative Options (for patients declining PMRT):
+- Radiation to the axilla alone (without chest wall treatment) OR
+- Completion ALND
+
+Important considerations:
+1. These are weak recommendations based on low-quality evidence and informal consensus
+2. Treatment decisions should be individualized through shared decision-making
+3. Patient preferences and circumstances should be carefully considered
+4. Clinical factors should be evaluated on a case-by-case basis
+
+TERMINATE",breast_cancer_14,breast_cancer_14,TRUE,YES
+What are the recommendations for radiotherapy after neoadjuvant chemotherapy in node-positive early-stage breast cancer?,Locoregional nodal irradiation is recommended,"Based on the provided information, I can formulate a clear answer to your question about radiotherapy recommendations after neoadjuvant chemotherapy in node-positive early-stage breast cancer:
+
+The key recommendations are:
+
+1. For Postmastectomy Patients:
+- Postmastectomy radiation therapy (PMRT) should be offered after completion of axillary lymph node dissection (ALND)
+- Locoregional nodal irradiation (LRNI) is recommended for this group
+
+2. For Breast Conservation Surgery Patients:
+- LRNI is recommended after ALND for those who were initially node-positive and remain pathologically node-positive after NAC
+
+Important considerations:
+- These recommendations are considered evidence-based but have low-quality evidence and weak strength of recommendation
+- Treatment decisions should involve shared decision-making with patients
+- The current clinical standard for node-positive patients who don't respond to NAC involves maximal therapy to the axilla (ALND followed by LRNI)
+- These recommendations may be modified when results from ongoing trials (MAC19 and NSABP B51) become available
+
+TERMINATE",breast_cancer_14,breast_cancer_14,TRUE,YES
+"What is the recommended neoadjuvant therapy for HER2-positive, node-positive breast cancer?",Patients should receive neoadjuvant therapy with an anthracycline and taxane-based regimen in combination with trastuzumab and pertuzumab.,"Based on the provided information, I can provide a clear answer regarding the recommended neoadjuvant therapy for HER2-positive, node-positive breast cancer:
+
+The recommended neoadjuvant therapy consists of two main options:
+
+1. ACTH: Anthracycline and taxane regimen plus trastuzumab
+OR
+2. TCH: Non-anthracycline based regimen plus trastuzumab
+
+Important additional points:
+- Pertuzumab can be added to either regimen (becoming ACTH+P or TCH+P)
+- This is a strong recommendation with high-quality evidence
+- The addition of pertuzumab has shown improved pathologic complete response (pCR) rates, though the benefit in terms of disease-free survival is modest (4.5% improvement in node-positive patients)
+- Dual HER2-targeted therapy (trastuzumab + pertuzumab) shows greater pCR rates than single-agent therapy
+- The greatest benefit is seen in patients with node-positive disease and hormone receptor-negative disease
+
+The choice between these regimens can be individualized based on patient factors and risk considerations. TERMINATE",breast_cancer_15,breast_cancer_15,TRUE,YES
+"How should neoadjuvant endocrine therapy be used in HR-positive, HER2-negative early-stage breast cancer?","For postmenopausal patients, neoadjuvant endocrine therapy with an aromatase inhibitor may be offered to increase surgical options.","Based on the provided information, I can formulate a clear answer about the use of neoadjuvant endocrine therapy in HR-positive, HER2-negative early-stage breast cancer:
+
+Neoadjuvant endocrine therapy recommendations differ based on menopausal status:
+
+For postmenopausal women:
+- Can be offered aromatase inhibitors to increase locoregional treatment options
+- Shows clinical responses comparable to chemotherapy
+- May be used for disease control if surgery is not planned
+
+For premenopausal women:
+- Not recommended for routine use outside of clinical trials
+- Shows inferior response rates compared to chemotherapy
+
+Key implementation points:
+1. Duration typically ranges from 3-6 months, though optimal duration isn't definitively established
+2. Requires regular monitoring through clinical examinations and imaging as needed
+3. Best candidates are postmenopausal patients seeking breast conservation
+4. Treatment decisions should be made in a multidisciplinary setting
+5. Can be considered for patients who are poor candidates for chemotherapy
+
+The treatment should be individualized based on clinical status and response, with regular monitoring to assess effectiveness. TERMINATE",breast_cancer_15,breast_cancer_15,TRUE,YES
+What is the recommendation for first-line therapy for esophageal SCC with PD-L1 TPS≥1%?,Administer nivolumab plus fluoropyrimidine- and platinum-based chemotherapy.,"Based on the provided information, I can formulate a clear answer to your question about first-line therapy recommendations for esophageal SCC with PD-L1 TPS≥1%.
+
+For patients with esophageal SCC and PD-L1 TPS≥1%, there are two recommended first-line therapy options:
+
+1. Nivolumab plus fluoropyrimidine- and platinum-based chemotherapy (preferred)
+2. Nivolumab plus ipilimumab (alternative option)
+
+Both recommendations are supported by data from the CheckMate 648 trial and carry a strong recommendation with moderate quality evidence. It's worth noting that if TPS testing is not available, CPS≥1 may be used as an alternative threshold for treatment decision-making.
+
+TERMINATE",gi_cancer_2,gi_cancer_2,TRUE,YES
+When is ramucirumab plus paclitaxel recommended?,For advanced gastroesophageal cancer patients progressing after first-line therapy.,"Based on the provided information, I can give a clear answer:
+
+Ramucirumab plus paclitaxel is recommended as a second-line treatment for patients with advanced gastroesophageal or gastroesophageal junction (GEJ) adenocarcinoma whose disease has progressed after first-line therapy. This recommendation is supported by strong clinical evidence from the RAINBOW phase III RCT, which demonstrated significant improvements in both overall survival and progression-free survival, despite an increase in grade 3-5 adverse events. TERMINATE",gi_cancer_2,gi_cancer_2,TRUE,YES
+What is recommended for HER2-positive gastric cancer patients after progression on first-line therapy?,Trastuzumab deruxtecan is recommended.,"Based on the provided information, I can provide a clear answer to your question:
+
+For HER2-positive gastric cancer patients who have progressed after first-line therapy, trastuzumab deruxtecan is strongly recommended. This recommendation is based on solid clinical evidence, particularly from the DESTINY-Gastric01 phase II trial, which demonstrated:
+- Significant improvement in overall survival
+- Better progression-free survival
+- Though there were higher grade 3-4 adverse events compared to chemotherapy
+
+Key points to note:
+1. While the primary evidence comes from third-line setting studies, this treatment is FDA-approved for both second-line and later therapy.
+2. The recommendation applies to patients with HER2-positive tumors (both IHC 3+ and IHC 2+ with positive ISH).
+3. Treatment decisions should involve shared decision-making, considering:
+   - Individual patient experience
+   - Treatment tolerance
+   - Performance status
+
+The recommendation carries a strong strength rating with moderate quality evidence, and the benefits are determined to outweigh the harms. TERMINATE",gi_cancer_2,gi_cancer_2,TRUE,YES
+Should adjuvant chemotherapy be recommended for stage II colon cancer patients with dMMR/MSI tumors?,Adjuvant fluoropyrimidine-only chemotherapy is not recommended.,"After reviewing the provided information, I can provide a clear answer:
+
+No, adjuvant chemotherapy should NOT be routinely recommended for stage II colon cancer patients with dMMR/MSI tumors. This recommendation is supported by strong evidence and several key points:
+
+1. The evidence shows that fluoropyrimidine-only chemotherapy provides no significant benefit in this population:
+- No difference in Disease-Free Survival (HR 0.89)
+- No difference in Overall Survival (HR 1.03)
+
+2. The recommendation against routine chemotherapy is particularly strong because:
+- dMMR/MSI tumors have about half the recurrence risk compared to pMMR/MSS tumors
+- These tumors generally have higher survival rates
+- The harms of chemotherapy outweigh the benefits
+
+However, there is one important exception:
+Patients with dMMR/MSI tumors who have T4 tumors and/or other high-risk features (excluding poor differentiation) may be considered for oxaliplatin-containing chemotherapy, but this should be discussed through shared decision-making.
+
+TERMINATE",gi_cancer_4,gi_cancer_4,TRUE,YES
+Should adjuvant chemotherapy be offered for low-risk stage II colon cancer patients?,ACT is not routinely recommended.,"Based on the provided information, I can give a clear answer to your question:
+
+No, adjuvant chemotherapy should not be routinely offered to low-risk stage II colon cancer patients. This recommendation is supported by the ASCO guidelines and is based on several key factors:
+
+1. There is no significant survival benefit demonstrated in low-risk patients
+2. The potential risks and adverse events outweigh the minimal potential benefits
+3. This applies to patients with:
+   - Stage IIA (T3) tumors with ≥12 sampled lymph nodes
+   - No perineural or lymphovascular invasion
+   - No poor/undifferentiated tumor grade
+   - No clinical intestinal obstruction
+   - No tumor perforation
+   - Less than grade BD3 tumor budding
+
+It's important to note that this recommendation:
+- Applies regardless of age (even in younger patients)
+- Still allows for individual case consideration through shared decision-making
+- Is based on low-quality evidence but reflects a conservative approach to avoid unnecessary treatment
+
+TERMINATE",gi_cancer_4,gi_cancer_4,TRUE,YES
+What is the duration of oxaliplatin-based chemotherapy for high-risk stage II colon cancer?,"3 or 6 months, decided based on patient preference and potential for adverse events.","Based on the provided information, I can give a clear answer about the duration of oxaliplatin-based chemotherapy for high-risk stage II colon cancer:
+
+The duration can be either 3 or 6 months, but the specific recommendation depends on the chemotherapy regimen used:
+
+For CAPOX (capecitabine and oxaliplatin):
+- 3 months is considered reasonable as it shows similar efficacy to 6 months (5-year DFS rates: 81.7% vs 82.0%)
+- 3 months has the advantage of reduced toxicity
+
+For FOLFOX (fluorouracil, leucovorin, and oxaliplatin):
+- 6 months is preferred as it shows better outcomes (5-year DFS rates: 86.5% vs 79.2%)
+
+The final decision on duration should be made through shared decision-making, taking into account:
+- The specific chemotherapy regimen being used
+- Risk of peripheral neuropathy (13% with 3 months vs 36% with 6 months)
+- Patient preferences and tolerability
+
+TERMINATE",gi_cancer_4,gi_cancer_4,TRUE,YES
+What chemotherapy is recommended as radiosensitizer for stage I-III anal SCC?,Mitomycin-C with fluorouracil (FU) or capecitabine.,"Based on the comprehensive information provided, I will formulate a clear answer about recommended radiosensitizing chemotherapy for stage I-III anal SCC:
+
+The recommended radiosensitizing chemotherapy regimens are:
+
+First-line option:
+- Mitomycin-C (MMC) combined with a fluoropyrimidine (either fluorouracil [FU] or capecitabine)
+
+Alternative option:
+- Cisplatin combined with fluorouracil (FU)
+
+Important considerations:
+1. For immunosuppressed patients, cisplatin with FU is preferred due to lower risk of myelosuppression
+2. Cisplatin is contraindicated in patients with:
+   - Renal dysfunction
+   - Significant neuropathy
+   - Hearing loss
+3. Capecitabine can be used as an oral alternative to FU
+4. Carboplatin substitution for cisplatin is not supported by evidence
+
+TERMINATE",gi_cancer_1,gi_cancer_1,TRUE,YES
+How should patients with BRAF V600E-mutant mCRC receive after prior chemotherapy?,Encorafenib plus cetuximab is recommended.,"Based on the comprehensive information provided, I can formulate a clear answer to the question:
+
+Patients with BRAF V600E-mutant metastatic colorectal cancer who have received prior chemotherapy should be treated with encorafenib plus cetuximab. This is a strong, evidence-based recommendation supported by the BEACON phase III trial, which demonstrated:
+
+1. Significant survival benefits:
+- Improved overall survival
+- Improved progression-free survival
+- Higher objective response rate
+
+2. Better safety profile with fewer grade 3 or greater adverse events compared to control treatment
+
+This combination therapy should be offered to patients whose disease has progressed after at least one previous line of therapy. The recommendation applies to the approximately 8% of mCRC patients who have BRAF V600E mutations, a group that typically has a poorer prognosis.
+
+Note: Panitumumab can be used as an alternative to cetuximab in combination with encorafenib. TERMINATE",gi_cancer_3,gi_cancer_3,TRUE,YES
+Should anti-EGFR be added as the first-line therapy for RAS mutatnt left-sided mCRC?,"No,  anti-EGFR is added for RAS wild type left-sided mCRC","Based on the provided information from the guidelines, I can provide a clear answer:
+
+No, anti-EGFR therapy should NOT be added as first-line therapy for RAS mutant left-sided mCRC. This is definitively stated in the guidelines, which explicitly contraindicate anti-EGFR therapy for any RAS-mutant mCRC, regardless of tumor location.
+
+For patients with RAS-mutant mCRC, the recommended first-line treatment options instead are:
+1. Doublet chemotherapy (FOLFOX or FOLFIRI) with bevacizumab
+2. Triplet chemotherapy (FOLFOXIRI) with bevacizumab in select patients
+
+This recommendation is based on established evidence that RAS mutations predict resistance to anti-EGFR therapy, making these agents ineffective in this patient population.
+
+TERMINATE",gi_cancer_3,gi_cancer_3,TRUE,YES
+When is stereotactic body radiation therapy recommended for liver oligometastases in mCRC?,It may be recommended after systemic therapy if resection is not feasible.,"Based on the review of the provided information and the responses from the pdf_viewer, I can provide a final answer:
+
+The ASCO guidelines available in our reference material do not specifically address when stereotactic body radiation therapy (SBRT) is recommended for liver oligometastases in metastatic colorectal cancer (mCRC). While there are guidelines covering metastatic colorectal cancer treatment (GI_cancer_3), they focus primarily on systemic therapy options and general treatment approaches rather than radiation therapy for oligometastatic disease. For specific recommendations regarding SBRT in this clinical scenario, healthcare providers should consult other professional society guidelines, particularly those from ASTRO (American Society for Radiation Oncology), or seek guidance from radiation oncology specialists. TERMINATE",gi_cancer_3,gi_cancer_3,TRUE,NO
+How long is the healing period from dental procedure before radiation therapy for head and neck cancer patients to prevent osteoradionecrosis (ORN)?,Ensure at least a 2-week healing period when possible.,"After reviewing the response, I can provide a clear answer to your question about healing period between dental procedures and radiation therapy for head and neck cancer patients:
+
+The recommended healing period is 2 weeks between dental extraction and the start of radiation therapy. However, this recommendation comes with important caveats:
+
+1. This 2-week period should only be observed when it will NOT compromise cancer treatment outcomes.
+2. If there is a rapidly progressing tumor, radiation therapy should not be delayed for dental procedures.
+3. In cases where 1-2 weeks healing time is not available, but teeth within the planned radiation field need removal, extraction should still proceed.
+
+It's crucial to understand that oncologic control takes priority over the ideal healing period. The recommendation is based on moderate-strength evidence, and clinical decisions should be individualized based on the specific situation of each patient. TERMINATE",headneck_cancer_1,headneck_cancer_1,TRUE,YES
+What are the surgical recommendations for advanced-stage ORN in head and neck cancer patients?,"For advanced ORN, surgical debridement or resection with vascularized bone reconstruction is recommended to restore function and manage complications.","Based on the provided information, I can formulate a clear final answer regarding surgical recommendations for advanced-stage ORN in head and neck cancer patients:
+
+The primary surgical recommendations for advanced-stage ORN are:
+
+1. Primary Treatment Approach:
+- Segmental maxillectomy or mandibulectomy with free flap reconstruction
+- This approach has demonstrated high success rates of approximately 90%
+
+2. Reconstruction Options:
+- Osteomyocutaneous free flaps are preferred for mandibular continuity defects
+- For maxillectomy defects:
+  * Either myocutaneous or osteomyocutaneous flaps
+  * Osteomyocutaneous flaps are preferred if dental implantation is planned
+  * Prosthetic obturation for patients unsuitable for microvascular surgery
+
+3. Surgical Planning Considerations:
+- Preoperative radiographic assessment is essential
+- Resection borders should be guided by intraoperative bleeding bone endpoint
+- Flexible planning is needed to accommodate intraoperative findings
+
+4. Alternative Approaches for Medically Compromised Patients:
+- Focus on symptom management
+- Limited interventions such as removal of superficial bony sequestra
+- Combined approach with systemic therapy to reduce disease burden
+
+5. Important Considerations:
+- Free flaps are preferred over pedicle flaps due to better versatility and outcomes
+- Complication rates range from 20-47%, including wound infection and fistulation
+- Treatment plans must be individualized based on patient factors and medical status
+
+TERMINATE",headneck_cancer_1,headneck_cancer_1,TRUE,YES
+Should immunotherapy single agent be initiated in metastatic head and neck squamous cell carcinoma (HNSCC) with PD-L1 < 1?,"No, combination therapy is preferred for CPS <1.","Based on the provided information from the guidelines, I can provide a clear answer:
+
+No, single agent immunotherapy should not be initiated as first-line treatment in metastatic HNSCC with PD-L1 CPS < 1%. Instead:
+
+For first-line treatment:
+- The recommended approach is combination therapy with pembrolizumab + platinum + 5-FU
+- Alternatively, cetuximab + chemotherapy can be considered
+
+However, it's important to note that single agent immunotherapy (pembrolizumab or nivolumab) does have a role in the second-line setting after platinum failure, regardless of PD-L1 status.
+
+TERMINATE",headneck_cancer_2,headneck_cancer_2,TRUE,YES
+What are the guidelines for immunotherapy in platinum-refractory recurrent or metastatic HNSCC?,Pembrolizumab or nivolumab should be offered to patients regardless of PD-L1 CPS status.,"Based on the provided information, I can give a clear summary of the guidelines for immunotherapy in platinum-refractory recurrent or metastatic HNSCC:
+
+The guidelines strongly recommend offering either pembrolizumab or nivolumab to patients with platinum-refractory recurrent or metastatic HNSCC, regardless of their CPS (Combined Positive Score) status. This is a strong, evidence-based recommendation with high-quality evidence supporting it.
+
+Key points:
+1. This applies to patients who have disease progression within 6 months after platinum-based chemotherapy
+2. Both medications are FDA-approved for this indication regardless of PD-L1 expression status
+3. Clinical trials showed significant survival benefits:
+   - Pembrolizumab: 8.4 months overall survival
+   - Nivolumab: 7.5 months overall survival
+4. Both treatments showed lower rates of grade 3 and 4 adverse events compared to standard care
+5. The survival benefit is independent of HPV status or PD-L1 expression
+
+Important note: While combination therapies have been studied, no combination therapy has yet become standard of care in platinum-refractory disease. Single-agent immunotherapy remains the recommended approach.
+
+TERMINATE",headneck_cancer_2,headneck_cancer_2,TRUE,YES
+What is the recommendation for PD-L1 biomarker testing in recurrent/metastatic HNSCC?,"PD-L1 immunohistochemistry testing is recommended, and a CPS ≥1 is considered positive for PD-1 inhibitor therapy.","Based on the provided information, I can formulate a clear answer regarding PD-L1 biomarker testing recommendations in recurrent/metastatic HNSCC:
+
+PD-L1 immunohistochemistry testing is strongly recommended for patients with recurrent or metastatic HNSCC (high quality evidence). The specific recommendations are:
+
+1. Testing should be performed using Combined Positive Score (CPS) as the preferred scoring method
+2. A CPS ≥ 1 should be interpreted as positive
+3. Testing should be completed before initiating first-line therapy to guide treatment selection between:
+   - Pembrolizumab monotherapy
+   - Pembrolizumab + chemotherapy
+   - Chemotherapy alone
+
+The CPS method calculates the number of PD-L1 positive tumor cells, lymphocytes, and macrophages divided by total tumor cells x 100. This lower threshold (CPS ≥ 1) is preferred over higher cutoffs to maximize sensitivity and is strongly correlated with clinical benefit to PD-1 inhibitors.
+
+TERMINATE",headneck_cancer_2,headneck_cancer_2,TRUE,YES
+Can radiation therapy be integrated with immunotherapy for recurrent HNSCC?,Radiation therapy may be safely administered concurrently with immunotherapy for palliative or local control in oligometastatic settings,"Based on the comprehensive information provided, I can provide a clear answer about the integration of radiation therapy with immunotherapy for recurrent HNSCC:
+
+Yes, radiation therapy can be integrated with immunotherapy for recurrent HNSCC, but with specific limitations and considerations:
+
+1. Safety: Concurrent radiation therapy and immunotherapy is considered safe for patients with oligometastatic HNSCC.
+
+2. Approved Uses:
+- Can be used for palliation
+- Can be used for local control
+
+3. Important Restrictions:
+- Should NOT be used to enhance response to immunotherapy outside of clinical trials
+- This recommendation is supported by moderate quality evidence
+
+4. Supporting Evidence:
+- Based on randomized phase II trial results showing:
+  * No significant difference in overall response rates
+  * No improvement in progression-free survival
+  * No enhancement in overall survival
+  * No significant increase in adverse events
+
+5. Current Status:
+- Multiple ongoing clinical trials (at least 8) are still evaluating this combination
+- Current evidence shows safety but no enhancement of immunotherapy effects
+
+The key takeaway is that while the combination is safe, it should only be used for palliative or local control purposes, not with the expectation of enhancing immunotherapy responses unless part of a clinical trial. TERMINATE",headneck_cancer_2,headneck_cancer_2,TRUE,YES
+What are the PARP inhibitor recommendations for newly diagnosed advanced ovarian cancer responding to platinum-based chemotherapy?,"PARP inhibitors are recommended as maintenance therapy for BRCA-mutated or HRD-positive patients, with varying regimens based on genetic status.","I'll provide a clear final answer based on the guidelines:
+
+PARP inhibitor recommendations for newly diagnosed advanced (stage III-IV) ovarian cancer patients who have responded to first-line platinum-based chemotherapy are stratified by biomarker status:
+
+1. For BRCA1/2 mutation carriers (germline or somatic):
+- Olaparib: 300 mg twice daily for 2 years
+- Niraparib: 200-300 mg daily for 3 years
+- Rucaparib: 600 mg twice daily for 2 years
+
+2. For HRD positive patients (using FDA-approved testing):
+- Rucaparib or niraparib are recommended
+
+3. For BRCA wild-type/HRD negative patients:
+- Niraparib or rucaparib may be offered
+
+Extended treatment duration beyond these timeframes may be considered for select patients after discussing risks and benefits.
+
+These recommendations are supported by high-quality evidence and carry a strong strength of recommendation, specifically for high-grade serous or endometrioid ovarian cancer patients. TERMINATE",gynecologic_cancer_1,gynecologic_cancer_1,TRUE,YES
+What is the effect of PARP inhibitors on patients' overall survival in recurrent ovarian cancer without BRCA-mutation or HRD-positivity?,Evidence suggests potential overall survival detriments in later-line treatments with PARP inhibitors,"Based on the provided information, I can formulate a clear answer about the effect of PARP inhibitors (specifically niraparib) on overall survival in recurrent ovarian cancer patients without BRCA mutations:
+
+The evidence suggests a potentially negative effect on overall survival in these patients:
+
+1. In non-BRCA mutant patients:
+- Median OS was actually shorter with niraparib (31.1 months) compared to placebo (36.5 months)
+- Hazard ratio of 1.10 (95% CI, 0.83 to 1.46) indicates a trend toward worse survival
+
+2. In non-BRCA mutant/HRD-positive subgroup:
+- Similar negative trend with median OS of 37.3 months for niraparib vs 41.4 months for placebo
+- Hazard ratio of 1.32 (95% CI, 0.84 to 2.06) suggests a possible survival detriment
+
+These findings have led to clinical recommendations that healthcare providers should carefully weigh the progression-free survival benefits against the potential overall survival detriment when considering niraparib maintenance therapy in these patient populations. However, it's important to note that these results should be interpreted with caution due to study limitations including:
+- The study not being powered for OS analysis
+- High rates of crossover
+- Missing data
+- Statistical design considerations (one-sided α-level of 0.025)
+
+TERMINATE",gynecologic_cancer_1,gynecologic_cancer_1,TRUE,YES
+What is the effect of PARP inhibitors on patients' progression-free survival in recurrent ovarian cancer without BRCA-mutation or HRD-positivity?,PARP inhibitors demonstrated progression-free survival benefits,"Based on the provided information, I can formulate a clear answer about the effect of PARP inhibitors on PFS in non-BRCA mutated/non-HRD positive recurrent ovarian cancer:
+
+PARP inhibitors do show a modest improvement in progression-free survival for these patients. Specifically, the ATHENA-MONO trial demonstrated that rucaparib maintenance therapy extended median PFS to 12.1 months compared to 9.1 months with placebo in HRD-negative patients (HR: 0.65, 95% CI: 0.45-0.95). However, this PFS benefit must be carefully weighed against important safety concerns:
+
+1. There are emerging safety signals showing potential overall survival detriments in some studies
+2. The evidence quality for using PARP inhibitors in this population is considered ""low""
+3. These agents should only be considered for maintenance therapy (not treatment) in patients who:
+   - Have not previously received a PARP inhibitor
+   - Have responded to platinum-based therapy
+
+The current recommendation emphasizes that treatment decisions should be individualized, with careful consideration of the risk-benefit ratio for each patient. TERMINATE",gynecologic_cancer_1,gynecologic_cancer_1,TRUE,YES
+What surgical approach is recommended for T3-T4 parotid cancers with high-grade malignancy?,"At least a superficial parotidectomy, with consideration of total or subtotal parotidectomy.","Based on the pdf viewer's response, I can provide a clear answer to your question about the surgical approach for T3-T4 parotid cancers with high-grade malignancy:
+
+The recommended surgical approach consists of multiple key components:
+
+1. Primary Surgery:
+- Minimum of superficial parotidectomy
+- Total or subtotal parotidectomy should be considered
+
+2. Mandatory Neck Management:
+- Ipsilateral selective neck dissection (levels II-IV)
+- This is required even for clinically negative neck (cN0) due to high risk of occult nodal disease
+
+3. Facial Nerve Management:
+- Preserve if nerve function is intact and a dissection plane exists
+- Resect involved nerve branches if:
+   * Preoperative facial weakness is present
+   * Nerve is encased/grossly involved by tumor
+
+4. Surgical Margins:
+- Complete surgical resection with negative margins is the goal
+- Close margins may be accepted when anatomically constrained
+
+The approach should be individualized and discussed in a multidisciplinary tumor board, with consideration for subsequent adjuvant therapy. The surgical planning must balance maximum oncologic control with functional preservation where safely possible. TERMINATE",headneck_cancer_3,headneck_cancer_3,TRUE,YES
+What is the recommended follow-up imaging schedule for high-grade salivary gland cancers post-treatment?,"Baseline imaging at 3 months, every 6-12 months for the first 2 years, and symptom-directed imaging from years 3-5. Yearly chest CT may be considered for high-grade cases.","Based on my review of the pdf_viewer's output, I can provide a clear and comprehensive answer about the follow-up imaging schedule for high-grade salivary gland cancers post-treatment:
+
+The recommended imaging schedule follows a systematic, risk-adapted approach:
+
+1. At 3 months post-treatment:
+- Baseline imaging with contrast CT or MRI of the primary site and/or PET/CT
+
+2. First 2 years:
+- Every 6-12 months: Contrast CT or MRI of primary site and chest CT
+
+3. Years 3-5:
+- Imaging guided by symptoms and physical examination
+- Optional yearly imaging for high-grade cases
+- Chest CT and primary site imaging as clinically indicated
+
+4. After 5 years:
+- Annual follow-up examinations
+- Optional yearly chest CT, particularly for high-grade cases
+
+Important considerations:
+- More frequent surveillance is recommended in the initial period
+- High-grade histology cases warrant more intensive long-term monitoring
+- Both primary site and chest should be monitored due to metastasis risk
+- Choice between CT and MRI depends on individual patient factors and accessibility
+
+TERMINATE",headneck_cancer_3,headneck_cancer_3,TRUE,YES
+What chemotherapy regimen is recommended for stage III-IVA nasopharyngeal carcinoma (NPC) during induction?,"Platinum-based regimens such as GP (gemcitabine and cisplatin) or TPF (docetaxel, cisplatin, 5-fluorouracil) every 3 weeks for 2-3 cycles.","Based on the provided information from the guidelines, I can provide a comprehensive answer about recommended chemotherapy regimens for stage III-IVA NPC during induction.
+
+The guidelines strongly recommend two primary platinum-based induction regimens:
+
+1. GP (Gemcitabine + Cisplatin):
+- Gemcitabine 1,000 mg/m² (days 1 and 8)
+- Cisplatin 80 mg/m² (day 1)
+
+2. TPF (Taxane + Cisplatin + 5-FU):
+- Docetaxel 60-75 mg/m² (day 1)
+- Cisplatin 60-75 mg/m² (day 1)
+- 5-fluorouracil 600-750 mg/m² per day (continuous IV infusion, days 1-5)
+
+Additionally, three alternative acceptable regimens are:
+- PF (Cisplatin + 5-FU)
+- PX (Cisplatin + Capecitabine)
+- TP (Taxane + Cisplatin)
+
+Treatment administration should be:
+- Every 3 weeks
+- Total of 3 cycles (minimum 2 cycles)
+- Followed by chemoradiotherapy within 21-28 days from the start of the last induction cycle
+
+TERMINATE",headneck_cancer_4,headneck_cancer_4,TRUE,YES
+What radiotherapy technique is preferred for stage II-IVA nasopharyngeal carcinoma?,Intensity-modulated radiotherapy (IMRT) with daily image guidance is strongly recommended.,"Based on the comprehensive information provided, I can give a clear answer about the preferred radiotherapy technique for stage II-IVA nasopharyngeal carcinoma:
+
+IMRT (Intensity-Modulated Radiotherapy) with daily image guidance is the preferred radiotherapy technique for stage II-IVA nasopharyngeal carcinoma. This recommendation is based on high-quality evidence showing that IMRT:
+- Reduces toxicity (including neurotoxicity, xerostomia, trismus, and dysphagia)
+- Enhances disease control and survival compared to 2D/3D radiotherapy
+- Should be delivered with a prescribed dose of 70 Gy in 33-35 fractions over 7 weeks
+
+The importance of IMRT is so significant that if it's not available at a facility, patients should be transferred to institutions where IMRT can be implemented. TERMINATE",headneck_cancer_4,headneck_cancer_4,TRUE,YES
+What is the role of adjuvant chemotherapy for T3N0 nasopharyngeal carcinoma patients?,"Adjuvant chemotherapy may be offered, typically using a PF regimen.","Based on the provided information, I can formulate a clear answer about the role of adjuvant chemotherapy in T3N0 nasopharyngeal carcinoma:
+
+Adjuvant chemotherapy plays an optional rather than mandatory role in T3N0 nasopharyngeal carcinoma patients. The key points are:
+
+1. The primary treatment should be concurrent chemoradiotherapy.
+
+2. Adjuvant chemotherapy may be offered but is not mandatory because:
+- T3N0 patients have a relatively lower risk of treatment failure compared to other locally advanced cases
+- This specific subgroup was excluded from several key randomized controlled trials
+- There is limited dedicated trial data for this patient population
+
+3. If adjuvant chemotherapy is chosen, the recommended regimens are:
+- PF regimen: cisplatin plus 5-fluorouracil every 4 weeks for 3 cycles
+- For cisplatin-unsuitable patients: carboplatin (AUC 5) with 5-fluorouracil
+- Non-platinum regimens should be avoided outside clinical trials
+
+4. The decision to use adjuvant chemotherapy should be individualized based on patient-specific factors and requires a thorough discussion of potential benefits and risks with the patient.
+
+TERMINATE",headneck_cancer_4,headneck_cancer_4,TRUE,YES
+What is the schedule of radiation recommended for radiotherapy in nasopharyngeal carcinoma?,A dose of 70 Gy in 33-35 fractions (2.0-2.12 Gy per fraction) over 7 weeks is recommended.,"Based on the provided information, I can give you a clear answer regarding the recommended radiation schedule for nasopharyngeal carcinoma:
+
+The standard radiation therapy schedule consists of:
+- Total dose: 70 Gy
+- Fractionation: 2.0-2.12 Gy per fraction
+- Frequency: Once daily, 5 fractions per week
+- Duration: 7 weeks total (33-35 fractions)
+
+Special considerations include:
+1. Boost options:
+   - Additional 2-4 Gy in 1-2 fractions for residual tumors detected by MRI
+   - Reduced dose of 66-68 Gy may be considered for small primary tumors with good response
+
+2. Technical requirements:
+   - IMRT with daily image guidance is mandatory
+   - MRI fusion with CT is required for target delineation
+   - Both sequential boost and simultaneous integrated boost techniques are acceptable
+
+The schedule should be maintained as specified, avoiding larger fraction sizes, particularly when combined with chemotherapy, to prevent late toxicity. TERMINATE",headneck_cancer_4,headneck_cancer_4,TRUE,YES
+What are the treatment options for MET exon 14 skipping mutation-positive NSCLC?,Capmatinib or tepotinib are recommended.,"Based on the review of the pdf_viewer output, I can provide a clear summary of the treatment options for MET exon 14 skipping mutation-positive NSCLC:
+
+Treatment options are divided into first-line and second-line therapy:
+
+First-Line Treatment:
+1. Primary option: Capmatinib or tepotinib are the preferred treatments
+2. Alternative option: If these MET-targeted therapies are not available, standard first-line therapy following nondriver alteration guidelines may be used
+
+Second-Line Treatment:
+1. For patients who haven't received MET-targeted therapy: Capmatinib or tepotinib may be offered
+2. For patients previously treated with MET-targeted therapy: Standard therapy following the nondriver alteration guideline should be offered
+
+It's important to note that:
+- All these recommendations are supported by low-quality evidence but carry strong recommendations where specified
+- Treatment decisions should be individualized based on patient factors
+- These recommendations come from the current ASCO Living Guideline for Stage IV NSCLC With Driver Alterations
+
+TERMINATE",lung_cancer_3,lung_cancer_1,FALSE,NO
+What is the guideline for first-line treatment in EGFR exon 20 insertion NSCLC?,Chemotherapy combined with amivantamab,"Based on the pdf viewer's output, I can provide a clear answer regarding the first-line treatment guidelines for EGFR exon 20 insertion NSCLC:
+
+The first-line treatment guidelines recommend two sequential options:
+
+Primary Option:
+- Chemotherapy plus amivantamab (Strong recommendation, Moderate evidence quality)
+
+If amivantamab is not available:
+- Standard treatment following the nondriver alteration guideline (Strong recommendation, Moderate evidence quality)
+
+Important note: Single-agent immune checkpoint inhibitors should NOT be offered as first-line therapy for any EGFR alterations, including exon 20 insertions.
+
+TERMINATE",lung_cancer_3,lung_cancer_1,FALSE,YES
+What is the recommended first-line treatment for stage IV NSCLC with EGFR exon 19 deletion mutation?,Osimertinib is recommended as the first-line treatment,"Based on the detailed information provided, I can formulate a clear answer:
+
+For stage IV NSCLC with EGFR exon 19 deletion mutation, the primary first-line treatment recommendation is osimertinib as a monotherapy (strong recommendation, moderate quality evidence). 
+
+Alternative options that may be considered include:
+- Osimertinib combined with platinum doublet chemotherapy, or
+- Amivantamab plus lazertinib
+
+The choice between these options should be individualized, taking into account:
+1. Patient preferences
+2. Individual clinical factors
+3. Different toxicity profiles of each regimen
+4. The fact that the impact on overall survival and sequential therapies is still unknown
+
+It's worth noting that while amivantamab plus lazertinib showed longer progression-free survival compared to osimertinib (23.7 vs 16.6 months), it also demonstrated significantly higher toxicity (75% vs 43% grade ≥3 adverse events). TERMINATE",lung_cancer_1,lung_cancer_1,TRUE,YES
+How should patients with stage IV NSCLC and EGFR mutation progress after osimertinib treatment?,"Platinum-based chemotherapy, with or without amivantamab","Based on the pdf_viewer's output, I can provide a clear answer regarding progression after osimertinib treatment in stage IV NSCLC patients with EGFR mutation:
+
+The recommended treatment approach is:
+
+1. Primary Recommendation:
+- Platinum-based chemotherapy with or without amivantamab is the main treatment option (Strong recommendation, moderate evidence quality)
+- For adenocarcinoma patients, chemotherapy plus bevacizumab can be considered if bevacizumab is deemed safe
+
+2. Important Restrictions:
+- Anti-PD-(L)1 agents (immunotherapy), with or without platinum chemotherapy, are specifically NOT recommended (Strong recommendation, high evidence quality)
+
+3. Supporting Evidence from MARIPOSA-2 study shows:
+- Addition of amivantamab to chemotherapy improved progression-free survival (6.3 vs 4.2 months)
+- Higher overall response rate with amivantamab combinations (64% vs 36%)
+
+4. Treatment Considerations:
+- Decision to add amivantamab should be individualized
+- Careful evaluation of potential benefits versus additional adverse effects is necessary
+- Patient-specific factors should guide therapy selection
+
+TERMINATE",lung_cancer_1,lung_cancer_1,TRUE,YES
+What is the first line treatment for stage IV NSCLC with ROS1 fusion mutation?,"First-line treatment includes repotrectinib, entrectinib, or crizotinib.","Based on the provided information, I can provide a clear answer regarding first-line treatment for stage IV NSCLC with ROS1 fusion mutation:
+
+The first-line treatment options for stage IV NSCLC with ROS1 fusion mutation are:
+- Crizotinib
+- Entrectinib
+- Repotrectinib
+
+This is a strong recommendation based on moderate quality evidence. If these first-line options are not available or cannot be tolerated, ceritinib or lorlatinib may be considered as alternative options. TERMINATE",lung_cancer_1,lung_cancer_1,TRUE,YES
+What is the benefit of amivantamab plus lazertinib over osmiertinib alone in untreated EGFR mutation-positive stage IV NSCLC?,Amivantamab plus lazertinib showed a median PFS of 23.7 months compared to 16.6 months with osimertinib alone.,"Based on the provided information, I can provide a clear answer about the benefit of amivantamab plus lazertinib over osimertinib alone:
+
+The primary benefit of amivantamab plus lazertinib over osimertinib alone is an improved progression-free survival (PFS) of 23.7 months compared to 16.6 months with osimertinib (hazard ratio: 0.70, P < .001). However, this benefit comes with important considerations:
+
+1. Higher Toxicity: The combination therapy has significantly more side effects, with Grade ≥3 treatment-related adverse events occurring in 75% of patients compared to 43% with osimertinib alone.
+
+2. Unknown Overall Survival: The overall survival benefit remains uncertain as the data is still premature.
+
+3. Patient-Specific Benefits: The combination therapy may be particularly beneficial for specific patient subgroups, including those with:
+- Higher disease burden
+- CNS metastases
+- Higher risk disease (such as comutations or liver metastases)
+
+Due to these factors, while the PFS benefit is clear, the choice between these treatments should be individualized based on patient factors, preferences, and tolerance for increased toxicity. TERMINATE",lung_cancer_1,lung_cancer_1,TRUE,YES
+Should anti-PD-L1 be used for second-line therapy for EGFR mutation-positive NSCLC without targetable alterations?,Anti-PD-(L)1 agents are not recommended,"Based on the provided evidence, I can give a clear answer:
+
+No, anti-PD-L1 therapy should not be used for second-line therapy in EGFR mutation-positive NSCLC without targetable alterations. This recommendation is supported by high-quality evidence and has a strong strength of recommendation.
+
+This conclusion is based on two major clinical trials (CheckMate 722 and KEYNOTE-789) that showed no significant benefits in either progression-free survival or overall survival when using immunotherapy in this setting.
+
+Instead, the recommended second-line treatment options are:
+1. Platinum-based chemotherapy with or without amivantamab
+2. For adenocarcinoma patients, chemotherapy plus bevacizumab (if amivantamab plus chemotherapy is not pursued)
+
+TERMINATE",lung_cancer_1,lung_cancer_1,TRUE,YES
+How should osimertinib be administered with chemotherapy for advanced EGFR-mutated NSCLC?,Osimertinib plus platinum-based chemotherapy with maintenance pemetrexed is recommended for certain patients.,"Based on the review of the pdf_viewer's response, I can provide a clear answer about osimertinib administration with chemotherapy:
+
+Osimertinib with platinum doublet chemotherapy is one possible first-line treatment option for patients with EGFR-mutated NSCLC (specifically those with exon 19 deletion or exon 21 L858R substitution mutations). However, this decision should be individualized based on several key factors:
+
+1. Patient-specific considerations:
+- Disease burden
+- Presence of CNS metastases
+- Higher risk features (comutations or liver metastases)
+- Ability to tolerate intensified therapy
+- Quality of life concerns
+
+Important limitations to consider:
+- The combination has higher toxicity compared to single-agent treatment
+- Overall survival benefit is currently unknown
+- No specific data available for patients with prior adjuvant TKI therapy
+
+The guidelines do not provide specific dosing or timing protocols for the combination therapy. Healthcare providers should refer to clinical trial protocols and prescribing information for detailed administration guidance.
+
+It's worth noting that this is a weak recommendation with moderate quality evidence, emphasizing the importance of careful patient selection and shared decision-making when choosing this treatment approach. TERMINATE",lung_cancer_1,lung_cancer_1,TRUE,YES
+What is the treatment recommendation for ROS1-positive NSCLC after progression on crizotinib?,Patients may be offered lorlatinib as a second-line treatment.,"Based on the provided information, I can give you a clear answer about the treatment recommendations for ROS1-positive NSCLC after progression on crizotinib:
+
+The treatment recommendations follow a two-step approach:
+
+1. First Option: Repotrectinib
+- This is recommended for patients who have progressed after treatment with crizotinib (or other ROS1 inhibitors like entrectinib, lorlatinib, or ceritinib)
+- This is a strong recommendation supported by moderate quality evidence
+
+2. Second Option: Platinum-based chemotherapy
+- This is recommended for patients who have received and progressed on multiple ROS1 inhibitors
+- Treatment should follow the nondriver alteration guideline
+- This is a strong recommendation, though based on low quality evidence
+
+TERMINATE",lung_cancer_1,lung_cancer_1,TRUE,NO
+What is the efficacy of atezolizumab plus bevacizumab and chemotherapy in EGFR-mutated NSCLC?,"In the ATTLAS trial, this combination showed a median PFS of 8.48 months compared to 5.62 months with chemotherapy alone.","Based on the pdf_viewer's response, I can provide a clear answer:
+
+The ASCO guideline does not provide specific data on the efficacy of atezolizumab plus bevacizumab and chemotherapy in EGFR-mutated NSCLC. In fact, the guideline explicitly recommends against using anti-PD-(L)1 agents (such as atezolizumab) with or without platinum chemotherapy in EGFR TKI-resistant disease. While bevacizumab with chemotherapy is mentioned as a potential option for patients with adenocarcinoma who don't pursue amivantamab plus chemotherapy, the specific combination with atezolizumab is not addressed in these guidelines. To understand the efficacy of this specific combination, other clinical trials or research sources would need to be consulted. TERMINATE",lung_cancer_1,lung_cancer_1,TRUE,NO
+What are the recommendations for 1st line therapy in patients with MET exon 14 skipping mutations?,Capmatinib or tepotinib are recommended as first-line therapies.,"Based on the pdf_viewer output, I can provide a clear answer regarding first-line therapy recommendations for patients with MET exon 14 skipping mutations:
+
+The guidelines make two key recommendations:
+
+1. Primary Recommendation:
+- Capmatinib or tepotinib is recommended as the preferred first-line therapy
+- This carries a strong recommendation despite low quality evidence
+
+2. Alternative Recommendation:
+- If capmatinib or tepotinib are not available, standard first-line therapy following nondriver alteration guidelines may be offered
+- This also carries a strong recommendation with low quality evidence
+
+These recommendations prioritize targeted therapy with either capmatinib or tepotinib as the optimal first-line approach, with standard therapy serving as a backup option when these targeted agents are not accessible.
+
+TERMINATE",lung_cancer_1,lung_cancer_1,TRUE,YES
+What is the treatment for KRAS G12C-mutated NSCLC as 1st line therapy?,Chemotherapy,"Based on the pdf_viewer output, I can provide a clear answer regarding first-line treatment for KRAS G12C-mutated NSCLC:
+
+For patients with KRAS G12C-mutated NSCLC, KRAS G12C inhibitors (sotorasib and adagrasib) are not recommended as first-line therapy. Instead, these patients should receive standard first-line therapy following the nondriver alteration guideline. The KRAS G12C inhibitors sotorasib and adagrasib are only approved and recommended for use in the second-line setting, after patients have received prior chemotherapy and/or anti-PD-(L)1 therapy.
+
+TERMINATE",lung_cancer_1,lung_cancer_1,TRUE,YES
+What is the recommendation for RET rearrangement-positive NSCLC as 1st line therapy?,Selpercatinib or pralsetinib are recommended as first-line therapies.,"Based on the provided information, I can provide a clear answer regarding first-line therapy recommendations for RET rearrangement-positive NSCLC:
+
+The primary recommendation follows a tiered approach:
+
+1. First choice: Selpercatinib is the preferred first-line therapy, supported by high-quality evidence and a strong recommendation.
+
+2. Second choice: If selpercatinib is not available, pralsetinib is recommended, backed by moderate-quality evidence and a strong recommendation.
+
+3. Last resort: If neither selpercatinib nor pralsetinib are available, standard therapy following the nondriver alteration guideline may be used (low-quality evidence, weak recommendation).
+
+TERMINATE",lung_cancer_1,lung_cancer_1,TRUE,YES
+How should clinicians manage EGFR T790M resistance alterations in advanced NSCLC?,Osimertinib is the recommended treatment for EGFR T790M resistance alterations.,"Based on the pdf_viewer output, I can provide a clear guidance on managing EGFR T790M resistance alterations in advanced NSCLC:
+
+The management approach should follow these key steps:
+
+1. Primary Treatment:
+- Osimertinib should be offered to patients who develop EGFR T790M resistance mutations after treatment with first- or second-generation EGFR TKIs (Strong recommendation with high-quality evidence)
+
+2. Monitoring Requirements:
+- Regular molecular testing using tissue and/or blood NGS testing is essential to detect new mutations and resistance mechanisms
+
+3. Post-Progression Management:
+For patients who progress after osimertinib or other EGFR TKIs without T790M:
+- Consider platinum-based chemotherapy with or without amivantamab
+- Avoid anti-PD-(L)1 agents with or without platinum chemotherapy, as these are not recommended
+
+4. Decision Making:
+- Ensure all biomarker results are available before making treatment decisions
+- Individualize treatment choices based on both efficacy and toxicity profiles
+- If targeted options are exhausted, follow the nondriver alteration guideline for standard therapy
+
+TERMINATE",lung_cancer_1,lung_cancer_1,TRUE,YES
+What is the first-line treatment for patients with stage IV NSCLC and PD-L1 TPS ≥50%?,Single-agent immunotherapy,"Based on the comprehensive information provided, I can formulate a clear answer:
+
+The first-line treatment for patients with stage IV NSCLC and PD-L1 TPS ≥50% is single-agent immunotherapy with either pembrolizumab, cemiplimab, or atezolizumab as monotherapy. This is a strong recommendation backed by high-quality evidence from three phase III randomized trials (KEYNOTE-024, EMPOWER-Lung 1, IMpower110) that demonstrated significant improvements in both progression-free survival and overall survival compared to chemotherapy.
+
+While there are other treatment options involving combinations of immunotherapy with chemotherapy or dual immunotherapy, these carry weaker recommendations and are generally considered secondary options due to their increased risk of side effects. The guidelines emphasize that single-agent immunotherapy is the preferred first-line approach for these patients given its favorable efficacy/toxicity profile, unless there are specific clinical circumstances that warrant considering combination therapy. TERMINATE",lung_cancer_4,lung_cancer_4,TRUE,YES
+Should single agent pembrolizumab be used for stage IV squamous NSCLC and PD-L1 expression 32%?,Pembrolizumab plus carboplatin and paclitaxel (or nab-paclitaxel) is recommended as first-line therapy.,"After reviewing the pdf_viewer output, I can provide a clear answer to your question:
+
+No, single agent pembrolizumab should not be the first choice for stage IV squamous NSCLC with PD-L1 expression of 32%. 
+
+The preferred treatment approach for PD-L1 expression 1-49% (which includes 32%) is:
+
+Strong recommendation:
+- Pembrolizumab + carboplatin + paclitaxel (or nab-paclitaxel) OR
+- Cemiplimab + carboplatin + paclitaxel
+
+Single-agent pembrolizumab is only recommended for patients who are ineligible for combination therapy, and it is considered a weak recommendation in this setting.
+
+This recommendation is based on strong evidence from the KEYNOTE-407 trial, which demonstrated superior overall survival with the combination approach compared to single-agent therapy.
+
+TERMINATE",lung_cancer_4,lung_cancer_4,TRUE,YES
+What is the recommended therapy for stage IV NSCLC with PD-L1 TPS of 0?,Pembrolizumab plus carboplatin and pemetrexed,"Based on the provided information, I can formulate a clear answer for therapy recommendations for stage IV NSCLC with PD-L1 TPS of 0:
+
+The recommended therapy depends on the histologic subtype:
+
+For Nonsquamous NSCLC:
+First-line options include:
+- Pembrolizumab or cemiplimab + carboplatin + pemetrexed (preferred)
+- Atezolizumab + carboplatin + (nab)-paclitaxel ± bevacizumab
+- Nivolumab + ipilimumab (with or without platinum chemotherapy)
+- Durvalumab + tremelimumab + platinum-based chemotherapy
+
+For Squamous NSCLC:
+First-line options include:
+- Pembrolizumab or cemiplimab + carboplatin + paclitaxel/nab-paclitaxel (preferred)
+- Nivolumab + ipilimumab (with or without platinum chemotherapy)
+- Durvalumab + tremelimumab + platinum-based chemotherapy
+
+Treatment selection should be individualized based on:
+1. Patient symptoms and need for rapid response
+2. Toxicity profiles and patient comorbidities
+3. Patient preferences after discussion of risks/benefits
+
+All patients should be monitored closely for immune-related adverse events and should receive early integration of palliative care. TERMINATE",lung_cancer_4,lung_cancer_4,TRUE,YES
+What are the options for patients with stage IV NSCLC with squamous histology and PD-L1 TPS ≥50%?,"Single-agent pembrolizumab, cemiplimab, or atezolizumab, or combination with chemotherapy, may be offered.","I have reviewed the output and can confirm that it comprehensively answers the question regarding treatment options for stage IV squamous NSCLC patients with PD-L1 TPS ≥50%. Let me provide a clear, organized final answer:
+
+For stage IV squamous NSCLC patients with PD-L1 TPS ≥50%, there are two tiers of treatment options:
+
+Strongly Recommended Options:
+- Single-agent immunotherapy with either:
+  • Pembrolizumab
+  • Cemiplimab
+  • Atezolizumab
+
+Weakly Recommended Options:
+1. Pembrolizumab + carboplatin + paclitaxel (or nab-paclitaxel)
+2. Nivolumab + ipilimumab
+3. Nivolumab + ipilimumab + two cycles of platinum-based chemotherapy
+4. Durvalumab + tremelimumab + platinum-based chemotherapy
+
+The choice between these options should be individualized based on:
+- Need for rapid response in symptomatic patients
+- Patient's tolerance for potential toxicities
+- Smoking status
+- Individual patient characteristics
+
+The strongest evidence supports the use of single-agent immunotherapy, while combination approaches have moderate supporting evidence.
+
+TERMINATE",lung_cancer_4,lung_cancer_4,TRUE,YES
+What is the recommended adjuvant therapy for completely resected stage I-IIIA NSCLC with EGFR mutations?,Adjuvant osimertinib is recommended,"After reviewing the output, I can provide a clear answer to your question:
+
+For completely resected stage I-IIIA NSCLC with EGFR mutations, the recommended adjuvant therapy varies by stage:
+
+For Stage IB (3 < T ≤ 4 cm, N0M0):
+- Adjuvant osimertinib alone is recommended for patients with sensitizing EGFR mutations (Ex19del or L858R)
+
+For Stages IIA, IIB, and IIIA:
+- A two-part approach is recommended:
+1. Adjuvant cisplatin-based chemotherapy first
+2. Followed by adjuvant osimertinib for patients with sensitizing EGFR mutations (regardless of PD-L1 status)
+
+This recommendation is supported by strong evidence from clinical trials, particularly the Wu et al. trial, which showed significant improvement in disease-free survival with osimertinib (89% vs 52% at 24 months for stage IB-IIIA patients).
+
+Important note: These recommendations are based on the 7th edition staging system, and treatment decisions should be individualized based on patient factors in consultation with a medical oncologist. TERMINATE",lung_cancer_5,lung_cancer_5,TRUE,YES
+How should stage II-IIIA NSCLC patients with PD-L1 expression ≥1% be managed after surgery?,Adjuvant atezolizumab is recommended after cisplatin-based chemotherapy for patients with PD-L1 ≥1%.,"Based on the provided information, I can formulate a clear answer for the management of stage II-IIIA NSCLC patients with PD-L1 expression ≥1% after surgery:
+
+The management should follow this sequence:
+
+1. First, all patients should receive adjuvant cisplatin-based chemotherapy.
+
+2. After completing chemotherapy, the treatment path diverges based on EGFR mutation status:
+   - For patients with sensitizing EGFR mutations: Adjuvant osimertinib should be given (regardless of PD-L1 status)
+   - For patients without sensitizing EGFR mutations: Adjuvant atezolizumab should be given (when PD-L1 ≥1%)
+
+This recommendation carries high evidence quality and strong strength of recommendation, based on both evidence and panel consensus. It's worth noting that these recommendations are based on the 7th edition staging system used in the supporting studies.
+
+TERMINATE",lung_cancer_5,lung_cancer_5,TRUE,YES
+What is the adjuvant therapy for resected stage IIB-IIIA NSCLC without EGFR mutations or high PD-L1?,Cisplatin-based chemotherapy is recommended as the adjuvant therapy.,"After reviewing the pdf_viewer's output, I can provide a clear final answer:
+
+For patients with resected stage IIB-IIIA NSCLC who do not have EGFR mutations or high PD-L1 expression, the recommended adjuvant therapy is cisplatin-based chemotherapy alone. This is a strong recommendation based on high-quality evidence and panel consensus.
+
+TERMINATE",lung_cancer_5,lung_cancer_5,TRUE,YES
+Should osimertinib be recommended for stage IB NSCLC with tumors ≥4 cm with EGFR mutation?,Adjuvant osimertinib may be considered,"After reviewing the information, I can provide a clear answer:
+
+Yes, osimertinib should be recommended for stage IB NSCLC with tumors ≥4 cm with EGFR mutations (Ex19del or L858R). This is supported by a strong recommendation with high-quality evidence in the guidelines (Recommendation 1.2).
+
+Key points to consider:
+1. The recommendation specifically applies to patients with sensitizing EGFR mutations
+2. A postoperative multimodality evaluation, including consultation with a medical oncologist, is required to assess individual benefits and risks
+3. The benefits are particularly notable for patients with larger tumors
+4. Clinical trial data showed significant improvement in disease-free survival at 24 months (89% vs 52%) for patients receiving osimertinib compared to placebo
+
+Important note: Adjuvant cisplatin-based chemotherapy and/or atezolizumab are not recommended for routine use in this patient group.
+
+TERMINATE",lung_cancer_5,lung_cancer_5,TRUE,YES
+What is the recommended neoadjuvant therapy for resectable stage III NSCLC with N2 disease?,Neoadjuvant chemotherapy or concurrent chemoradiation,"Based on the provided information, I can formulate a clear answer to your question:
+
+For resectable stage III NSCLC with N2 disease, there is a strong recommendation (with high-quality evidence) for patients to receive either:
+1. Neoadjuvant chemotherapy alone, OR
+2. Neoadjuvant concurrent chemoradiation
+
+However, neoadjuvant chemotherapy alone is generally preferred because:
+- There is no demonstrated significant survival benefit of adding radiation therapy
+- Studies show high compliance rates (90%) with neoadjuvant chemotherapy
+- It provides key benefits including:
+  - Tumor size reduction
+  - Increased operability
+  - Early treatment of micrometastases
+  - Ability to assess treatment efficacy
+
+This recommendation is supported by meta-analyses showing a 13% reduction in death risk with preoperative chemotherapy compared to surgery alone, and evidence of improved mediastinal downstaging and R0 resection rates. TERMINATE",lung_cancer_6,lung_cancer_6,TRUE,YES
+What is the management for stage III NSCLC that is medically inoperable?,Concurrent chemoradiation is recommended as the definitive therapy,"After reviewing the pdf_viewer output, I can provide a clear answer regarding the management of medically inoperable stage III NSCLC:
+
+The standard management consists of the following key components:
+
+1. Primary Treatment:
+- First choice: Concurrent chemoradiation therapy with:
+  * Radiation dose of 60 Gy (up to 70 Gy in select cases)
+  * Platinum-based doublet chemotherapy using one of these regimens:
+    - Cisplatin plus etoposide
+    - Carboplatin plus paclitaxel
+    - Cisplatin plus pemetrexed (for non-squamous)
+    - Cisplatin plus vinorelbine
+
+2. Alternative Approach:
+- For patients who cannot tolerate concurrent therapy: Sequential chemotherapy followed by radiation therapy is recommended over radiation alone
+
+3. Consolidation Therapy:
+- After completing concurrent chemoradiation without disease progression, patients should receive durvalumab for up to 12 months
+
+The treatment selection should be individualized based on:
+- Patient's performance status
+- Ability to tolerate concurrent therapy
+- Radiation dose constraints to critical organs
+- Multidisciplinary team assessment
+
+TERMINATE",lung_cancer_6,lung_cancer_6,TRUE,YES
+What is the evidence-based radiation dose for stage III NSCLC treated with chemoradiation?,A dose of 60 Gy in conventional fractionation is recommended for concurrent chemoradiation.,"After reviewing the provided information, I can provide a clear evidence-based answer regarding radiation dose for stage III NSCLC treated with chemoradiation:
+
+The standard evidence-based radiation dose is 60 Gy given with concurrent chemotherapy. This is supported by Level 1 evidence and carries a strong recommendation. This dose was established by RTOG 7301 and definitively validated in RTOG 0617, which demonstrated:
+- Superior median survival with 60 Gy (28.7 months) compared to 74 Gy (20.3 months)
+- Better 5-year overall survival rates (32.1% vs 23%) favoring 60 Gy
+
+While 60 Gy is the standard, doses between 60-70 Gy may be considered for selected patients with careful attention to normal tissue constraints (heart, lungs, and esophagus). However, doses above 70 Gy are not recommended outside of clinical trials due to evidence of increased toxicity without survival benefit.
+
+Important note: If concurrent chemotherapy cannot be given, alternative fractionation schemes using 2.15-4 Gy per fraction may be considered. TERMINATE",lung_cancer_6,lung_cancer_6,TRUE,YES
+What is the length of consolidation immunotherapy for patients with stage III NSCLC finished chemoradiation?,Consolidation durvalumab for up to 12 months is recommended,"Based on the comprehensive information provided, I can provide a clear answer to your question:
+
+For patients with stage III NSCLC who have completed concurrent chemoradiation, the recommended length of consolidation immunotherapy is up to 12 months (1 year) with durvalumab. This recommendation is well-supported by the PACIFIC trial, which demonstrated significant survival benefits including improved progression-free survival and overall survival with this duration of treatment. TERMINATE",lung_cancer_6,lung_cancer_6,TRUE,YES
+"For patients with resected stage III NSCLC and EGFR mutation, should adjuvant chemotherapy still be offered?","Yes, platinum-based chemotherapy should be offered before osimertinib","Based on the pdf viewer's output, I can provide a clear answer to your question:
+
+Yes, adjuvant chemotherapy should still be offered to patients with resected stage III NSCLC and EGFR mutation. Specifically:
+
+1. Cisplatin-based chemotherapy is recommended as the FIRST treatment for these patients.
+
+2. After completing chemotherapy, these patients should then receive adjuvant osimertinib if they have sensitizing EGFR mutations (Ex19del or L858R).
+
+3. These patients should NOT receive adjuvant atezolizumab, even if they have PD-L1 ≥ 1%.
+
+This recommendation is supported by high-quality evidence and has a strong strength of recommendation from the ASCO guideline panel. The sequential approach of chemotherapy followed by osimertinib has shown significant disease-free survival benefit (HR 0.17, p<0.001) in clinical trials, although overall survival data is still immature.
+
+TERMINATE",lung_cancer_6,lung_cancer_5,FALSE,YES
+What is the maximum course of adjuvant pembrolizumab for resected stage IIB or IIC melanoma?,Adjuvant pembrolizumab is given as 200 mg every 3 weeks for a maximum of 15 courses.,"Based on the provided information, I can provide a clear answer:
+
+The maximum course of adjuvant pembrolizumab for resected stage IIB or IIC melanoma is 52 weeks (approximately 1 year). This consists of pembrolizumab 200 mg administered intravenously once every 3 weeks for a total duration of 52 weeks. TERMINATE",melanoma_cancer_1,melanoma_cancer_1,TRUE,YES
+What is the recommended therapy for resectable stage IIIB-IV cutaneous melanoma?,"Neoadjuvant pembrolizumab is recommended, followed by resection and adjuvant pembrolizumab.","Based on the provided information, I'll formulate a clear answer to your question about recommended therapy for resectable stage IIIB-IV cutaneous melanoma:
+
+The recommended therapy consists of both neoadjuvant and adjuvant approaches:
+
+Neoadjuvant Therapy:
+- First-line recommendation is pembrolizumab: 3 courses of 200 mg every 3 weeks before resection
+- Where possible, patients should be offered enrollment in clinical trials
+
+After Resection (Adjuvant Therapy):
+1. For patients who received neoadjuvant pembrolizumab:
+- Continue with adjuvant pembrolizumab for up to 15 courses (200 mg every 3 weeks)
+
+2. For stage IV disease, several options are available:
+- Nivolumab monotherapy
+- Nivolumab plus ipilimumab followed by nivolumab
+- Pembrolizumab monotherapy
+- Dabrafenib plus trametinib (specifically for BRAF V600E/K mutations)
+
+The specific choice of adjuvant therapy should be individualized based on:
+- Patient preferences
+- Toxicity profiles
+- Tolerance to combination vs. single-agent therapy
+- Presence of brain metastases
+- BRAF mutation status
+
+TERMINATE",melanoma_cancer_1,melanoma_cancer_1,TRUE,YES
+What therapy should be avoided in BRAF-mutant unresectable melanoma after progression on anti-PD-1?,Ipilimumab-containing regimens should be avoided after progression on other therapies.,"Based on the provided information, I can give a clear answer:
+
+In BRAF-mutant unresectable melanoma that has progressed on anti-PD-1 therapy, ipilimumab and ipilimumab-containing regimens should be avoided. Instead, these patients should be switched to BRAF/MEK inhibitor therapy. This recommendation is based on recent evidence from trials like DREAMseq and SECOMBIT that support the superiority of using BRAF/MEK inhibitors in this sequence rather than ipilimumab-based treatments. TERMINATE",melanoma_cancer_1,melanoma_cancer_1,TRUE,YES
+What are the therapy options for metastatic uveal melanoma for HLA-A*02:01-positive patients?,Tebentafusp is recommended for HLA-A*02:01-positive patients with metastatic uveal melanoma.,"Based on the provided information, I can provide a clear answer regarding therapy options for HLA-A*02:01-positive patients with metastatic uveal melanoma:
+
+The primary recommended treatment is tebentafusp, which should be administered according to the following specific dosing schedule:
+- Day 1: 20 μg (single dose)
+- Day 8: 30 μg (single dose)
+- Thereafter: 68 μg once weekly until disease progression
+
+This recommendation is strongly supported by clinical evidence from the Nathan 2021 trial, which demonstrated:
+1. Significant improvement in overall survival (HR 0.51)
+2. Better progression-free survival (HR 0.73)
+3. Higher disease control rate compared to alternative treatments
+
+While the treatment initially has substantial grade 3-4 adverse events, these become more manageable over time, and the benefits outweigh the risks. Importantly, this treatment can be used in both previously treated and untreated patients.
+
+Alternative treatments that were used in the control group of the trial included:
+- Pembrolizumab
+- Ipilimumab
+- Dacarbazine
+
+However, tebentafusp showed superior outcomes compared to these alternatives. TERMINATE",melanoma_cancer_1,melanoma_cancer_1,TRUE,YES
+What radiation dose is suggested for brain metastases less than 2 cm in size?,Single-fraction SRS with 2000-2400 cGy is recommended.,"Based on the provided information, I can give a clear answer about the recommended radiation dose for brain metastases less than 2 cm:
+
+The recommended radiation dose is:
+- Single-fraction SRS of 20-24 Gy (2,000-2,400 cGy)
+
+If multifraction SRS is required (such as when V12Gy > 10 cm3), alternative options include:
+- 27 Gy (2,700 cGy) in three fractions, or
+- 30 Gy (3,000 cGy) in five fractions
+
+This recommendation is supported by moderate quality evidence and carries a strong strength of recommendation. TERMINATE",neurooncology_cancer_1,neurooncology_cancer_1,TRUE,YES
+When is tumor size cutoff that surgery is preferred over SRS for brain metastases?,Surgery is conditionally recommended for brain metastases over 4 cm.,"Based on the provided information, I can give a clear answer:
+
+Generally, the size cutoff where surgery is preferred over SRS for brain metastases is around 3-4 cm in diameter. Specifically, SRS is typically recommended for tumors less than 3-4 cm, while surgery is usually preferred for larger tumors, especially those causing mass effect. However, it's important to note that this is not a strict rule, as the decision between surgery and SRS should be individualized and takes into account multiple factors including:
+- Need for tissue diagnosis
+- Presence of multiple vs single metastases
+- Overall systemic disease status
+- Patient's performance status
+- Ability to tolerate surgery
+
+The decision should ultimately be made on a case-by-case basis through discussion between the patient and the multidisciplinary medical team. TERMINATE",neurooncology_cancer_2,neurooncology_cancer_2,TRUE,YES
+"For asymptomatic brain metastases from EGFR-mutant NSCLC, should local therapy be offered?",Local therapy delayed until intracranial progression after osimertinib,"Based on the provided information, I can give a clear answer to your question:
+
+For asymptomatic brain metastases from EGFR-mutant NSCLC, local therapy can be delayed (not offered immediately) under specific conditions:
+
+1. If the patient is being treated with osimertinib or icotinib
+2. The patient must be carefully monitored for intracranial progression
+3. Local therapy should be initiated if there is evidence of disease progression
+
+This recommendation is based on:
+- The demonstrated CNS activity of these targeted agents (particularly osimertinib showing 66% intracranial response rate)
+- A weak recommendation with low-quality evidence
+- Requires careful patient selection and multidisciplinary discussion
+
+Important notes:
+- This is one of the few scenarios where deferring local therapy is specifically recommended
+- The decision requires careful monitoring and shared decision-making
+- Local therapy remains an important option if progression occurs
+
+TERMINATE",neurooncology_cancer_2,neurooncology_cancer_2,TRUE,YES
+What is the number of brain mets that SRS be chosen over WBRT for unresected brain metastases?,SRS alone is recommended for 1-4 unresected brain metastases.,"Based on the pdf_viewer output, I can provide a clear answer regarding the number of brain metastases for which SRS should be chosen over WBRT:
+
+For unresected brain metastases, SRS is:
+- Strongly recommended for 1-4 brain metastases in patients with ECOG performance status 0-2 (high-quality evidence)
+- Conditionally recommended for 5-10 brain metastases in patients with ECOG performance status 0-2 (low-quality evidence)
+
+The guidance shows a clear preference for SRS over WBRT particularly in the 1-4 metastases range, where the evidence quality and strength of recommendation are both high. While SRS can still be considered for 5-10 metastases, the recommendation is weaker and based on lower quality evidence. TERMINATE",neurooncology_cancer_1,neurooncology_cancer_1,TRUE,YES
+Should radiation therapy be offered to patients with KPS ≤ 50 and brain metastases?,Radiation therapy is not recommended for patients with KPS ≤ 50.,"Based on the provided information from the guidelines, I can formulate a clear answer:
+
+For patients with KPS ≤ 50 and brain metastases, the guidelines do not explicitly recommend radiation therapy. Instead, they emphasize:
+
+1. Early introduction of palliative care for symptom management and caregiver support
+2. Supportive care only (without WBRT) should be considered as a primary option
+3. If WBRT is used in poor prognosis patients, brief schedules (such as five fractions) are preferred
+
+The guidelines suggest a more conservative approach focusing on supportive and palliative care rather than aggressive radiation treatment for patients with poor performance status. This aligns with the goal of maintaining quality of life and providing appropriate symptom management for these vulnerable patients.
+
+TERMINATE",neurooncology_cancer_1,neurooncology_cancer_1,TRUE,YES
+"What is the alternative treatment for oligodendroglioma, IDH-mutant, 1p19q codeleted, CNS WHO grade 2, due to toxicity concerns?",Temozolimide ,"I'll provide a clear final answer based on the provided information:
+
+When toxicity is a concern for patients with oligodendroglioma, IDH-mutant, 1p19q codeleted, WHO grade 2, there are three main alternative treatment options:
+
+1. Temozolomide (TMZ) chemotherapy: This is a reasonable alternative to standard PCV chemotherapy, though this recommendation is considered ""weak"" with ""low"" quality evidence.
+
+2. Treatment deferral: In select patients with favorable prognostic factors (complete tumor resection and younger age), initial therapy may be delayed until there is evidence of progression.
+
+3. Radiation therapy (54 Gy in 30 fractions over 6 weeks) with adjuvant chemotherapy.
+
+The choice between these alternatives should be individualized based on:
+- Patient-specific risk factors
+- Individual toxicity concerns
+- Patient preferences
+- The typically long natural history of these tumors
+
+TERMINATE",neurooncology_cancer_3,neurooncology_cancer_3,TRUE,YES

@@ -36,8 +36,8 @@ def main():
         total = len(all_results)
         correct_guidelines = sum(1 for r in all_results if r.get('guideline_match', False))
         correct_answers = sum(1 for r in all_results 
-                            if r.get('answer_evaluation') 
-                            and r['answer_evaluation'].startswith('YES'))
+                            if r.get('answer_correct') 
+                            and r['answer_correct'].startswith('YES'))
         
         print("\nCurrent Progress:")
         print("-" * 50)
