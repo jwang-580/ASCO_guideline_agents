@@ -1,16 +1,20 @@
 # ASCO Guideline Agents
 
+<img src="data/autogen_claude_ASCO.png" alt="ASCO Autogen Claude Architecture" width="800"/>
+
 ## Overview
 
-This repository provides tools for evaluating and processing ASCO (American Society of Clinical Oncology) guidelines using a multi-agent framework (Autogen) with Claude as the underlying model. It supports automated retrieval, review, and evaluation of clinical questions against ASCO guidelines. 
+This repository provides tools for evaluating and processing ASCO (American Society of Clinical Oncology) guidelines using a multi-agent framework with Claude as the underlying model. It supports automated retrieval, review, and evaluation of clinical questions against ASCO guidelines. This repository also provides a brand new QA dataset of 100 questions and answers from ASCO guidelines.
+
+The multi-agent framework is implemented using Autogen. The workflow begins when a user submits a query to the User Proxy agent. This query is then forwarded to the Tumor Board Coordinator, which analyzes the question and determines the most relevant ASCO guideline by accessing its database of guideline summaries. Once the appropriate guideline is identified, the PDF Viewer agent retrieves and processes the specific guideline document from the PDF, utilizing Claude's PDF support function. Finally, the Reviewer agent examines the extracted information, formulates a clear and concise answer to the original query, and ensures the response accurately reflects the ASCO guidelines. 
 
 ## Features
 
 1. **Automated PDF Retrieval**:
-   - Downloads and renames ASCO guideline PDFs for streamlined access.
+   - Automatically downloads ASCO guideline published from 2020 to 2024 for streamlined access.
 
 2. **Claude Integration**:
-   - Uses the Claude AI model to respond to clinical queries.
+   - Uses the Anthropic's Claude model to respond to clinical queries.
    - Includes multiple agents to coordinate guideline retrieval, review, and user interaction.
 
 3. **Answer Evaluation**:
@@ -52,10 +56,10 @@ This repository provides tools for evaluating and processing ASCO (American Soci
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/jwang-580/ASCO_guideline_agents.git
+   cd ASCO_guideline_agents
    ```
-2. Create and activate a virtual environment (recommended):
+2. Create and activate a virtual environment (recommended)
 
 3. Install dependencies:
    ```bash
