@@ -57,7 +57,7 @@ Patients with VUS should be managed according to these key principles:
 - Family studies tracking VUS should only be conducted through research protocols, not in clinical care
 - Avoid making clinical decisions based on VUS findings
 
-TERMINATE",breast_cancer_1,breast_cancer_2,TRUE,YES
+TERMINATE",breast_cancer_1,breast_cancer_1,TRUE,YES
 What germline testing strategy is recommended for patients with recurrent breast cancer?,BRCA1/2 testing is recommended regardless of family history for patients who are candidates for PARP inhibitor therapy.,"Based on the provided information, I can provide a clear answer regarding germline testing strategy for patients with recurrent breast cancer:
 
 For patients with recurrent breast cancer, the guideline specifically recommends that:
