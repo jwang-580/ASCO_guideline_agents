@@ -59,8 +59,8 @@ The multi-agent framework is implemented using Autogen. The workflow begins when
   - Generate answers from both models for comparison
   - Evaluate answer matches against expected answers
 - Command-line arguments:
-  - `--start`: Starting index of questions (default: 0)
-  - `--end`: Ending index of questions (optional)
+  - `--start`: Starting index of questions.
+  - `--end`: Ending index of questions.
 
 ## Installation
 
@@ -81,6 +81,7 @@ The multi-agent framework is implemented using Autogen. The workflow begins when
    - Add your Anthropic API key:
      ```env
      ANTHROPIC_API_KEY=<your-api-key>
+     OPENAI_API_KEY=<your-api-key>
      ```
 
 ## Usage
@@ -91,6 +92,11 @@ python3 run_evaluation.py --start 0 --end 5 --seed 42
 ```
 - Replace `--start` and `--end` with the range of questions to evaluate.
 
+### Running the Non-Agent Evaluation Script
+```bash
+python3 non_agent_eval.py --start 0 --end 5
+```
+- Replace `--start` and `--end` with the range of questions to evaluate.
 
 ### Customizing Configurations
 Modify the `config.py` or use environment variables for different API keys and settings.
