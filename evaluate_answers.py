@@ -62,7 +62,7 @@ class AnswerEvaluator:
         """
         results = []
         
-        # Get specific range of questions instead of random sample
+        # Get specific range of questions
         selected_qa = self.qa_df.iloc[start_idx:end_idx]
         
         for _, row in selected_qa.iterrows():
