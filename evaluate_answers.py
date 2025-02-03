@@ -1,23 +1,20 @@
 import pandas as pd
-import anthropic
+from openai import OpenAI
 import os
-from config import ANTHROPIC_API_KEY
-import claude_autogen
-import autogen
-import glob
+from config import OPENAI_API_KEY
 import re
 from datetime import datetime
 from claude_autogen import ClaudeChat
 
 class AnswerEvaluator:
     def __init__(self, cache_seed):
-        self.client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+        self.client = OpenAI(api_key=OPENAI_API_KEY)
         self.qa_df = pd.read_csv('data/q_a.csv')
         self.cache_seed = cache_seed
 
     def evaluate_single_answer(self, question, generated_answer, expected_answer):
         """
-        Send the comparison task to Claude to evaluate if the answers match in meaning
+        Send the comparison task to GPT-4o to evaluate if the answers match in meaning
         """
         prompt = f"""
         Compare these two answers to the question: "{question}"
@@ -29,15 +26,14 @@ class AnswerEvaluator:
         Respond with only 'YES' or 'NO'.
         """
         
-        response = self.client.messages.create(
-            model="claude-3-sonnet-20240229",
-            max_tokens=300,
-            temperature=0,
-            messages=[{"role": "user", "content": prompt}]
+        response = self.client.chat.completions.create(
+            model="gpt-4o-2024-11-20",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.0
         )
         
         # Extract just the text from the response
-        return response.content[0].text if isinstance(response.content, list) else response.content
+        return response.choices[0].message.content
     
     def extract_guideline_from_chat(self, chat_messages):
         """

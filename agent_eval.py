@@ -13,7 +13,7 @@ def main():
     parser = argparse.ArgumentParser(description='Run evaluation on a range of questions')
     parser.add_argument('--start', type=int, default=0, help='Starting index of questions (inclusive)')
     parser.add_argument('--end', type=int, default=5, help='Ending index of questions (exclusive)')
-    parser.add_argument('--seed', type=int, default=42, help='Cache seed for Claude chat')
+    parser.add_argument('--seed', type=int, default=42, help='Cache seed for openai chat')
     parser.add_argument('--interval', type=int, default=90, help='Time between evaluations in seconds (default: 90)')
     args = parser.parse_args()
 

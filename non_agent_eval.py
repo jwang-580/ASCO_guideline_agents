@@ -60,15 +60,14 @@ class NonAgentEval:
         Respond with only 'YES' or 'NO'.
         """
         
-        response = claude_client.messages.create(
-            model="claude-3-sonnet-20240229",
-            max_tokens = 300,
-            temperature=0,
-            messages=[{"role": "user", "content": prompt}]
+        response = oai_client.chat.completions.create(
+            model="gpt-4o-2024-11-20",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.0
         )
         
         # Extract just the text from the response
-        return response.content[0].text if isinstance(response.content, list) else response.content
+        return response.choices[0].message.content
     
     def evaluate_batch(self, start_idx, end_idx):
         """
