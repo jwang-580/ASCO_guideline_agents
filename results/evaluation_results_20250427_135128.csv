@@ -1,72 +1,70 @@
 question,expected_answer,generated_answer,expected_guideline,generated_guideline,guideline_match,answer_correct
-When should genetic testing for cancer predisposition genes beyond BRCA1/2 be considered?,"Testing should be offered if high penetrance genes (e.g., PALB2, TP53) could influence therapy, surgical decisions, or family risk assessment.","I'll provide a clear and comprehensive review of when genetic testing beyond BRCA1/2 should be considered based on the provided information.
+When should genetic testing for cancer predisposition genes beyond BRCA1/2 be considered?,"Testing should be offered if high penetrance genes (e.g., PALB2, TP53) could influence therapy, surgical decisions, or family risk assessment.","After reviewing the information provided, I can provide a clear answer to your question about when genetic testing for cancer predisposition genes beyond BRCA1/2 should be considered:
 
-Final Answer:
-Genetic testing for cancer predisposition genes beyond BRCA1/2 should be considered in three main scenarios:
+Genetic testing for cancer predisposition genes beyond BRCA1/2 should be considered in the following situations:
 
-1. For High-Penetrance Genes (PALB2, TP53, PTEN, STK11, CDH1):
-- When it could impact medical or surgical treatment decisions
-- To assess risks for second primary cancers
-- To provide more accurate family risk assessment
+For high-penetrance genes (PALB2, TP53, PTEN, STK11, CDH1):
+- When results could inform medical therapy decisions
+- When results may influence surgical decision-making
+- When results help refine estimates of second primary cancer risk
+- When results inform family risk assessment
+- When the patient has personal or family history suggesting these specific syndromes
 
-2. For Moderate-Penetrance Breast Cancer Genes:
-- When already conducting BRCA1/2 testing
-- When results will help determine risks for additional primary cancers
-- When results will aid in family risk assessment
+For moderate-penetrance genes:
+- When the patient is already undergoing BRCA1/2 testing
+- When results may inform risks of second primary cancers
+- When results may inform family risk assessment
 
-3. When Using Multi-Gene Panels:
-- Testing should be tailored to patient's personal and family history
-- Genetics expert consultation is recommended for:
-  * Panel selection
-  * Result interpretation
-  * Patient counseling
+The decision to test for genes beyond BRCA1/2 should be made thoughtfully, considering:
+- The patient's personal and family history
+- Consultation with providers experienced in clinical cancer genetics
+- The ability to properly interpret results
 
-Important considerations:
-- Testing should be done thoughtfully with genetic expertise input
-- Most genes beyond BRCA1/2 don't currently affect treatment decisions
-- The approach should be individualized based on personal and family history
-- High-penetrance genes are typically only found when suggested by family history
+It's worth noting that testing for high-penetrance genes beyond BRCA1/2 is unusual unless specifically suggested by personal or family history, and that variants in moderate-penetrance genes currently lack direct treatment implications for the index breast cancer case.
 
 TERMINATE",breast_cancer_1,breast_cancer_1,TRUE,YES
-How should patients with variants of uncertain significance (VUS) be managed after genetic testing?,VUS should not alter management; patients should be followed up for reclassification and informed that reclassification is possible.,"Based on the provided information, I can give a clear answer regarding the management of patients with variants of uncertain significance (VUS):
+How should patients with variants of uncertain significance (VUS) be managed after genetic testing?,VUS should not alter management; patients should be followed up for reclassification and informed that reclassification is possible.,"I've reviewed the information about managing patients with variants of uncertain significance (VUS) after genetic testing. Here's a comprehensive answer:
 
-Patients with VUS should be managed according to these key principles:
+# Management of Patients with VUS Results
 
-1. Medical Management:
-- VUS results should NOT alter medical management or treatment decisions
-- Care decisions should be based solely on personal and family history, not the VUS finding
+When patients receive a variant of uncertain significance (VUS) result from genetic testing, the following approach should be taken:
 
-2. Patient Care Protocol:
-- Implement systematic follow-up procedures
-- Annual follow-up is reasonable
-- Keep patients informed about potential future reclassification
-- Maintain periodic contact for updates
+## Primary Management Principles
+1. **No Changes to Medical Management**: 
+   - VUS results should NOT alter medical management decisions
+   - Screening and risk reduction recommendations should be based solely on personal and family history, not the VUS
 
-3. Patient Communication:
-- Educate patients that VUS are common findings
-- Explain that VUS may be reclassified in the future
-- Emphasize that VUS should not impact their current care decisions
+2. **Patient Education**:
+   - Explain that VUS findings are common, especially with multi-gene panel testing
+   - Inform patients that VUS may be reclassified in the future as either benign or pathogenic
+   - Ensure patients understand the uncertainty associated with these results
 
-4. Professional Support:
-- Consider consultation with clinical cancer genetics experts for:
-  * VUS interpretation
-  * Follow-up planning
-  * Counseling guidance
+3. **Follow-up Process**:
+   - Establish a system for periodic follow-up to check for reclassification
+   - Annual follow-up is suggested as reasonable in most cases
+   - Clearly document the uncertain nature of the finding in medical records
 
-5. Important Restrictions:
-- Family studies tracking VUS should only be conducted through research protocols, not in clinical care
-- Avoid making clinical decisions based on VUS findings
+## Additional Considerations
+- **Genetic Expert Consultation**: Make consultation with clinical cancer genetics specialists available
+- **Family Testing**: Testing family members specifically for a VUS is not recommended for clinical purposes (with rare exceptions)
+- **Research Participation**: Consider referring patients to research studies focused on variant classification
+- **Racial/Ethnic Awareness**: Acknowledge that VUS are more common in racial and ethnic minorities compared to non-Hispanic Whites
 
-TERMINATE",breast_cancer_1,breast_cancer_1,TRUE,YES
-What germline testing strategy is recommended for patients with recurrent breast cancer?,BRCA1/2 testing is recommended regardless of family history for patients who are candidates for PARP inhibitor therapy.,"Based on the provided information, I can provide a clear answer regarding germline testing strategy for patients with recurrent breast cancer:
-
-For patients with recurrent breast cancer, the guideline specifically recommends that:
-
-All patients with recurrent breast cancer (whether local or metastatic) should receive BRCA1/2 testing if they are candidates for PARP inhibitor therapy, regardless of their family history.
-
-This is outlined in Recommendation 2.1 of the guidelines and represents a straightforward testing strategy focused on therapeutic decision-making, particularly for determining PARP inhibitor eligibility.
+The cornerstone of VUS management is to base clinical decisions on traditional risk factors until more definitive classification becomes available.
 
 TERMINATE",breast_cancer_1,breast_cancer_1,TRUE,YES
+What germline testing strategy is recommended for patients with recurrent breast cancer?,BRCA1/2 testing is recommended regardless of family history for patients who are candidates for PARP inhibitor therapy.,"Based on my review of the information provided, the germline testing strategy recommended for patients with recurrent breast cancer is:
+
+1. All patients with recurrent breast cancer (whether local or metastatic) who are candidates for PARP inhibitor therapy should be offered BRCA1/2 testing, regardless of their family history. This recommendation has a very high agreement rate of 97.50% among experts.
+
+2. BRCA1/2 testing should be offered to patients who develop a second primary breast cancer, whether in the opposite (contralateral) or same (ipsilateral) breast. This recommendation has an agreement rate of 89.74%.
+
+These recommendations are supported by clinical evidence showing that:
+- PARP inhibitors improve progression-free survival in metastatic HER2-negative breast cancer patients with germline BRCA1/2 mutations
+- Patients are more likely to have detectable BRCA1/2 pathogenic variants in the recurrent/secondary setting compared to primary diagnosis
+- For patients with second breast cancers, testing for a broader panel of actionable genes is appropriate to account for potential differences in mutations across racial/ethnic groups
+
+The primary purpose of this testing is to guide treatment decisions, particularly regarding the use of PARP inhibitor therapy in appropriate candidates. TERMINATE",breast_cancer_1,breast_cancer_1,TRUE,YES
 What HER2 testing criteria should be used to determine eligibility for trastuzumab deruxtecan?,Patients with IHC 1+ or 2+/ISH not-amplified results are eligible; IHC 0 results are currently excluded.,"Based on the provided information, I'll provide a clear summary of the HER2 testing criteria for trastuzumab deruxtecan eligibility:
 
 To be eligible for trastuzumab deruxtecan, patients must have:
@@ -86,190 +84,174 @@ Important testing considerations:
 - Reports must include specific IHC scores rather than just ""HER2-negative"" status to properly identify eligible patients
 
 TERMINATE",breast_cancer_2,breast_cancer_2,TRUE,YES
-What are the best practices for distinguishing HER2 IHC 0 from 1+ results?,"Use standardized ASCO-CAP guidelines, high-power examination, second pathologist review, and careful attention to preanalytic conditions.","After reviewing the provided information, I can provide a clear answer about the best practices for distinguishing HER2 IHC 0 from 1+ results:
+What are the best practices for distinguishing HER2 IHC 0 from 1+ results?,"Use standardized ASCO-CAP guidelines, high-power examination, second pathologist review, and careful attention to preanalytic conditions.","I apologize for the technical error. Let me try to answer your question about distinguishing HER2 IHC 0 from 1+ results based on my knowledge of pathology guidelines.
 
-Key best practices include:
+Best practices for distinguishing HER2 IHC 0 from 1+ results include:
 
-1. Microscopic Examination:
-- Always use high power (40×) magnification
-- Follow standardized ASCO-CAP guidelines scoring criteria
+1. Scoring criteria:
+   - HER2 IHC 0: No staining or membrane staining that is incomplete and is faint/barely perceptible in ≤10% of tumor cells
+   - HER2 IHC 1+: Incomplete membrane staining that is faint/barely perceptible in >10% of tumor cells
 
-2. Quality Assurance Measures:
-- Implement second pathologist review for borderline cases, particularly when >10% of cells show faint/barely perceptible incomplete membrane staining
-- Use control samples that include 1+ expression levels to ensure proper detection sensitivity
+2. Evaluation techniques:
+   - Use high-quality controls for each staining run
+   - Evaluate only the invasive component of the tumor
+   - Assess membrane staining only (not cytoplasmic)
+   - Use high-magnification assessment to confirm faint staining
+   - Evaluate the entire slide for heterogeneity
 
-3. Technical Considerations:
-- Pay strict attention to preanalytic conditions for both primary and metastatic tissue samples
-- Be aware that tissue processing can impact protein detection at low expression levels
+3. Quality assurance:
+   - Regular calibration of the IHC testing system
+   - Participation in proficiency testing programs
+   - Dual review of borderline cases
+   - Consider digital imaging to assist in standardization
 
-4. Comprehensive Assessment:
-- Review HER2 IHC results from prior or concurrent primary samples
-- Consider results from other metastatic sites when available
-- Account for possible heterogeneity in HER2 expression between samples
+4. Challenging situations:
+   - Edge artifacts should not be considered
+   - Crush artifacts may give false results and should be avoided
+   - Cytoplasmic granular staining should be ignored
+   - In heterogeneous cases, quantify the percentage of cells with each staining pattern
 
-5. Documentation:
-- Carefully document cases near the 0/1+ threshold
-- Note any challenging interpretive issues
-
-These practices are particularly important now that the 0/1+ threshold has treatment implications for trastuzumab deruxtecan eligibility, even though the clinical significance of this threshold is still being evaluated.
+For cases difficult to distinguish between 0 and 1+, some laboratories implement a second review by another pathologist, or consider in situ hybridization testing if the clinical situation warrants further investigation.
 
 TERMINATE",breast_cancer_2,breast_cancer_2,TRUE,YES
-"What treatment is recommended for patients with hormone receptor-positive, HER2-negative metastatic breast cancer who have progressed on endocrine therapy and have received two prior lines of chemotherapy?","The use of sacituzumab govitecan (SG) is recommended based on evidence from the TROPiCS-02 trial, which demonstrated improved progression-free survival (PFS) and overall survival (OS) compared to treatment of physician's choice.","Based on the provided information, I can give a clear answer to your question:
+"What treatment is recommended for patients with hormone receptor-positive, HER2-negative metastatic breast cancer who have progressed on endocrine therapy and have received two prior lines of chemotherapy?","The use of sacituzumab govitecan (SG) is recommended based on evidence from the TROPiCS-02 trial, which demonstrated improved progression-free survival (PFS) and overall survival (OS) compared to treatment of physician's choice.","Based on the ASCO Guideline Rapid Recommendation Update, for patients with hormone receptor-positive, HER2-negative metastatic breast cancer who have progressed on endocrine therapy and have received at least two prior lines of chemotherapy, the recommended treatment is sacituzumab govitecan (SG).
 
-For patients with hormone receptor-positive, HER2-negative metastatic breast cancer who have progressed on endocrine therapy and received two prior lines of chemotherapy, sacituzumab govitecan (SG) is the recommended treatment option. This recommendation is supported by strong clinical evidence from the TROPiCS-02 Phase III trial, which demonstrated:
+This recommendation is supported by evidence from the TROPiCS-02 trial, which demonstrated:
+- A 34% reduction in risk of progression or death with SG compared to physician's choice chemotherapy
+- Improved median progression-free survival (5.5 months vs 4.0 months)
+- Statistically significant improvement in overall survival (14.4 months vs 11.2 months)
 
-1. Improved survival outcomes:
-- 34% reduction in risk of progression or death
-- Better progression-free survival (5.5 vs 4.0 months)
-- Longer overall survival (14.4 vs 11.2 months)
-
-2. This is a strong recommendation with moderate quality evidence according to ASCO guidelines
-
-Patients should be monitored for potential adverse events, particularly:
-- Diarrhea
-- Neutropenic complications (including febrile neutropenia and neutropenic colitis)
-
-This recommendation specifically applies to patients who meet ALL of these criteria:
-- HR-positive, HER2-negative metastatic breast cancer
-- Endocrine therapy refractory
-- At least two prior lines of chemotherapy for metastatic disease
+The guideline classifies this as a strong, evidence-based recommendation with moderate quality evidence, where the benefits outweigh the harms. Key adverse events to monitor include diarrhea, febrile neutropenia, and neutropenic colitis.
 
 TERMINATE",breast_cancer_4,breast_cancer_4,TRUE,YES
-"For HER2-low metastatic breast cancer (IHC 1+ or 2+, ISH-negative) previously treated with one chemotherapy, what therapy offers improved survival?","Trastuzumab deruxtecan is recommended, offering a median PFS of 9.9 months and median OS of 23.4 months, based on DESTINY-Breast04 trial findings.","Based on the provided information, I can give a clear answer to your question:
+"For HER2-low metastatic breast cancer (IHC 1+ or 2+, ISH-negative) previously treated with one chemotherapy, what therapy offers improved survival?","Trastuzumab deruxtecan is recommended, offering a median PFS of 9.9 months and median OS of 23.4 months, based on DESTINY-Breast04 trial findings.","Based on the ASCO guideline rapid recommendation update, for patients with HER2-low metastatic breast cancer (IHC 1+ or 2+, ISH-negative) who have received at least one prior chemotherapy, trastuzumab deruxtecan offers improved survival compared to physician's choice of therapy.
 
-Trastuzumab deruxtecan (T-DXd) offers improved survival for HER2-low metastatic breast cancer patients who have received at least one prior chemotherapy. The survival benefits are well-documented:
+The DESTINY-Breast04 phase III trial demonstrated significant survival benefits:
+- Overall survival improved from 16.8 months with physician's choice therapy to 23.4 months with trastuzumab deruxtecan (HR 0.64; P=.0010)
+- Progression-free survival improved from 5.1 months to 9.9 months (HR 0.50; P<.0001)
 
-For hormone receptor-positive patients:
-- Improved median PFS: 10.1 vs 5.4 months
-- Improved median OS: 23.9 vs 17.5 months
+This benefit was consistent across both hormone receptor-positive and hormone receptor-negative subgroups, though hormone receptor-positive patients must also be refractory to endocrine therapy to qualify for this recommendation.
 
-For hormone receptor-negative patients:
-- Improved median PFS: 8.5 vs 2.9 months
-- Improved median OS: 18.2 vs 8.3 months
+The recommendation for trastuzumab deruxtecan is rated as strong with moderate-quality evidence, with benefits clearly outweighing potential harms, including a 12.1% incidence of drug-related interstitial lung disease. TERMINATE",breast_cancer_5,breast_cancer_5,TRUE,YES
+"In patients with hormone receptor-positive, HER2-negative metastatic breast cancer and ESR1 mutations detected in ctDNA, what is the preferred therapy after prior CDK4/6 inhibitor treatment?",Elacestrant is recommended as it showed improved PFS compared to standard endocrine therapy in the EMERALD trial.,"Based on the information provided, I can answer your specific question about preferred therapy for patients with hormone receptor-positive, HER2-negative metastatic breast cancer and ESR1 mutations detected in ctDNA after prior CDK4/6 inhibitor treatment.
 
-This recommendation is supported by strong evidence from a randomized phase III trial and is considered a strong recommendation by ASCO. However, it's important to note that there is a risk of interstitial lung disease/pneumonitis (occurring in 12.1% of patients), which requires monitoring.
+The ASCO guideline update clearly recommends elacestrant as a preferred therapy option for these patients. Elacestrant demonstrated improved progression-free survival compared to standard-of-care endocrine therapy in patients with ESR1 mutations, showing a median PFS of 3.8 months versus 1.9 months for standard therapy, and 6-month PFS rates of 41% versus 19%.
 
-TERMINATE",breast_cancer_5,breast_cancer_5,TRUE,YES
-"In patients with hormone receptor-positive, HER2-negative metastatic breast cancer and ESR1 mutations detected in ctDNA, what is the preferred therapy after prior CDK4/6 inhibitor treatment?",Elacestrant is recommended as it showed improved PFS compared to standard endocrine therapy in the EMERALD trial.,"Based on the provided information, I can give a clear answer to your question:
+Other acceptable treatment options include:
+- Other endocrine therapy (ET) alone
+- ET in combination with targeted agents such as:
+  * Alpelisib (specifically for patients who also have PIK3CA mutations)
+  * Everolimus
 
-In patients with hormone receptor-positive, HER2-negative metastatic breast cancer and ESR1 mutations detected in ctDNA after CDK4/6 inhibitor treatment, elacestrant is the preferred therapy option. This recommendation is supported by evidence from the EMERALD trial, which demonstrated superior progression-free survival with elacestrant compared to standard of care (HR 0.55, median PFS 3.8 vs 1.9 months) specifically in patients with ESR1 mutations.
+These recommendations are particularly based on the EMERALD trial results and received a strong recommendation from the expert panel. It's also worth noting that ESR1 mutation testing should be performed at the time of progression, preferably using blood-based ctDNA testing due to its greater sensitivity.
 
-Alternative options include:
-1. Other endocrine therapy (alone or with targeted agents)
-2. For PIK3CA-mutated tumors: endocrine therapy + alpelisib
-3. Endocrine therapy + everolimus
-
-Important note: ESR1 mutation testing should be performed on blood (preferred) or tissue at the time of progression, and retesting may be needed at subsequent progression if initially negative. TERMINATE",breast_cancer_3,breast_cancer_3,TRUE,YES
-What considerations are necessary when prescribing trastuzumab deruxtecan for HER2-low metastatic breast cancer?,"Patients should be monitored for interstitial lung disease, which occurred in 12.1% of patients treated with trastuzumab deruxtecan in the DESTINY-Breast04 trial.","After reviewing the provided information, I'll formulate a comprehensive answer about the key considerations when prescribing trastuzumab deruxtecan for HER2-low metastatic breast cancer:
-
-The key considerations can be organized into four main categories:
+TERMINATE",breast_cancer_3,breast_cancer_3,TRUE,YES
+What considerations are necessary when prescribing trastuzumab deruxtecan for HER2-low metastatic breast cancer?,"Patients should be monitored for interstitial lung disease, which occurred in 12.1% of patients treated with trastuzumab deruxtecan in the DESTINY-Breast04 trial.","Based on the ASCO guideline update, here are the key considerations when prescribing trastuzumab deruxtecan for HER2-low metastatic breast cancer:
 
 1. Patient Eligibility:
-- Patients must have HER2-low status (IHC 1+ or 2+ and ISH-negative)
-- Must have received at least one prior line of chemotherapy for metastatic disease
-- Hormone receptor-positive patients must be refractory to endocrine therapy
+   - HER2-low status must be confirmed (IHC 1+ or IHC 2+ with negative ISH)
+   - Patients with HER2 IHC 0 are not eligible
+   - Patient must have received at least one prior line of chemotherapy for metastatic disease
+   - For hormone receptor-positive disease, patients must be endocrine-refractory
+   - Can be used for both hormone receptor-positive and negative disease
 
-2. Clinical Efficacy:
-- Demonstrates significant survival benefits:
-  * Improved progression-free survival (10.1 vs 5.4 months in HR+ patients)
-  * Enhanced overall survival (23.9 vs 17.5 months in HR+ patients)
-  * Similar benefits observed in hormone receptor-negative patients
+2. Efficacy Considerations:
+   - Offers significant improvement in progression-free survival and overall survival compared to conventional chemotherapy
+   - Hormone receptor-positive patients: 10.1 vs 5.4 months median PFS; 23.9 vs 17.5 months median OS
+   - Hormone receptor-negative patients: 8.5 vs 2.9 months median PFS; 18.2 vs 8.3 months median OS
 
 3. Safety Monitoring:
-- Critical monitoring for interstitial lung disease/pneumonitis is essential
-- Risk of ILD/pneumonitis occurs in approximately 12% of patients
-- Severity ranges from asymptomatic (Grade 1) to potentially fatal (Grade 4/5)
-- Regular monitoring and early intervention are necessary
+   - Regular and vigilant monitoring for interstitial lung disease/pneumonitis, which occurred in 12.1% of patients
+   - Awareness of potential severity grades of ILD/pneumonitis, including fatal cases (0.8%)
+   - Follow standard guidelines for monitoring other chemotherapy-related toxicities
 
-4. Clinical Implementation:
-- Treatment represents a practice-changing approach for HER2-low breast cancer
-- Decision-making should incorporate individual patient factors and preferences
-- Strong recommendation based on moderate quality evidence
-- Benefits are considered to outweigh potential harms
+4. Treatment Context:
+   - Strong recommendation based on moderate quality evidence
+   - Represents the first HER2-directed therapy showing benefit in HER2-low breast cancer
+   - Positioned as an option after standard chemotherapy in the metastatic setting
+   - Alternative to traditional chemotherapy options
 
-Healthcare providers should carefully weigh these factors while implementing appropriate safety monitoring protocols and discussing potential benefits and risks with patients. TERMINATE",breast_cancer_5,breast_cancer_5,TRUE,YES
-"What are the therapy options for hormone receptor-positive, HER2-negative metastatic breast cancer with PIK3CA mutations?",Endocrine therapy combined with alpelisib,"Based on the provided information, I can give you a comprehensive answer about therapy options for HR-positive, HER2-negative metastatic breast cancer with PIK3CA mutations:
+5. Clinical Decision-Making:
+   - Benefits outweigh risks according to ASCO panel assessment
+   - Median treatment duration was 8.2 months in the clinical trial
+   - Careful consideration of the risk-benefit profile for each individual patient
 
-The treatment follows a sequential approach:
+These considerations help ensure appropriate patient selection, effective monitoring (particularly for lung toxicity), and optimal clinical outcomes when prescribing trastuzumab deruxtecan for HER2-low metastatic breast cancer.
 
-First-line Treatment:
-- Combination therapy with a nonsteroidal aromatase inhibitor (AI) plus a CDK4/6 inhibitor is the preferred initial treatment due to proven benefits in progression-free and overall survival
+TERMINATE",breast_cancer_5,breast_cancer_5,TRUE,YES
+"What are the therapy options for hormone receptor-positive, HER2-negative metastatic breast cancer with PIK3CA mutations?",Endocrine therapy combined with alpelisib,"I'll review this information and provide a clear answer to your question.
 
-Second-line and Beyond:
-- Alpelisib combined with fulvestrant is recommended after progression on prior endocrine therapy including an AI
-- This combination can be used regardless of whether the patient has received prior CDK4/6 inhibitor treatment
+Based on the guidelines for hormone receptor-positive, HER2-negative metastatic breast cancer with PIK3CA mutations, the primary recommended therapy is:
 
-Important Considerations for Alpelisib Treatment:
-1. Patient Eligibility:
-- Available for postmenopausal women and male patients
-- Requires confirmed PIK3CA mutation status through NGS testing (tumor tissue or cell-free DNA)
+Alpelisib in combination with fulvestrant for:
+- Postmenopausal women and male patients
+- Who have received prior endocrine therapy including an aromatase inhibitor
+- With or without prior CDK4/6 inhibitor treatment
 
-2. Monitoring Requirements:
-- Baseline HbA1c and fasting glucose testing
-- Weekly monitoring in first 4 weeks for:
-  * Hyperglycemia
-  * Rash
-- Active management of side effects, particularly diarrhea
+The treatment sequence generally recommends that patients receive CDK4/6 inhibitors with endocrine therapy before starting alpelisib or everolimus.
 
-Treatment Sequencing:
-- CDK4/6 inhibitor + endocrine therapy should be used before alpelisib or everolimus due to:
-  * Better efficacy data
-  * More favorable tolerability profile
-- There is limited data on alpelisib use after CDK4/6 inhibitors
-- Sequential use of alpelisib and everolimus (in either order) is not supported by current evidence
+For implementation of this therapy:
+1. PIK3CA mutation testing should be performed using next-generation sequencing in tumor tissue or cell-free DNA from plasma
+2. Baseline metabolic testing (HbA1c and fasting glucose) is required
+3. Close monitoring is needed during the first 4 weeks (weekly lab work)
+4. Preventive measures for common side effects like rash should be considered
+5. Patients with uncontrolled diabetes should not receive alpelisib
 
-TERMINATE",breast_cancer_3,breast_cancer_13,FALSE,NO
-"How effective is elacestrant for ESR1 wild-type tumors in hormone receptor-positive, HER2-negative metastatic breast cancer?","Elacestrant is not significantly more effective than standard endocrine therapy for ESR1 wild-type tumors, as demonstrated in the EMERALD trial.","Based on the provided information, I can provide a clear answer about elacestrant's effectiveness in ESR1 wild-type tumors:
+This recommendation is evidence-based with high-quality evidence (primarily from the SOLAR-1 trial) showing improved progression-free survival with this combination.
 
-Elacestrant does not demonstrate significant efficacy for ESR1 wild-type tumors in hormone receptor-positive, HER2-negative metastatic breast cancer. The EMERALD trial data shows that when compared to standard-of-care endocrine therapy, elacestrant produced a hazard ratio of 0.86 (95% CI, 0.63 to 1.19; P = 0.308) in ESR1 wild-type patients. This result was not statistically significant, indicating that elacestrant does not provide meaningful improvement in progression-free survival over standard endocrine therapy for this specific patient population. TERMINATE",breast_cancer_3,breast_cancer_3,TRUE,YES
-"For HER2-negative metastatic breast cancer refractory to endocrine therapy, should single-agent chemotherapy or sacituzumab govitecan be offered?","Single-agent chemotherapy is preferred, starting with agents like capecitabine or eribulin","Based on the provided evidence, I can formulate a clear answer to your question:
+TERMINATE",breast_cancer_3,breast_cancer_13,FALSE,YES
+"How effective is elacestrant for ESR1 wild-type tumors in hormone receptor-positive, HER2-negative metastatic breast cancer?","Elacestrant is not significantly more effective than standard endocrine therapy for ESR1 wild-type tumors, as demonstrated in the EMERALD trial.","Based on the information provided, elacestrant did not demonstrate significant effectiveness for ESR1 wild-type tumors in hormone receptor-positive, HER2-negative metastatic breast cancer. Specifically:
 
-For HER2-negative metastatic breast cancer refractory to endocrine therapy, sacituzumab govitecan is preferred over single-agent chemotherapy, but with specific qualifying criteria. The patient should have received at least two prior lines of chemotherapy for metastatic disease.
+- For patients without detectable ESR1 mutations, elacestrant did not provide a statistically significant improvement in progression-free survival compared to standard-of-care endocrine therapy (Hazard Ratio 0.86; 95% CI, 0.63 to 1.19; P = .308)
 
-This recommendation is supported by strong evidence from the TROPiCS-02 trial, which demonstrated:
-1. Superior progression-free survival (5.5 vs 4.0 months)
-2. Better overall survival (14.4 vs 11.2 months)
-3. Higher 6-month and 12-month PFS rates
+- This finding was observed in patients who had previously received treatment with CDK4/6 inhibitors in combination with endocrine therapy and had experienced disease progression after first- or second-line endocrine therapy
 
-When compared to standard single-agent chemotherapy options (eribulin, vinorelbine, capecitabine, or gemcitabine), sacituzumab govitecan showed a 34% reduction in the risk of progression or death, with manageable safety profile.
+For patients with ESR1 wild-type tumors, the recommended treatment options continue to include standard approaches such as fulvestrant, aromatase inhibitors, tamoxifen monotherapy, or endocrine therapy combined with targeted agents like alpelisib (for PIK3CA-mutated tumors) or everolimus.
 
-This is a strong recommendation with moderate quality evidence, where the benefits are deemed to outweigh the potential harms. TERMINATE",breast_cancer_4,breast_cancer_4,TRUE,NO
-"In hormone receptor-positive, HER2-negative metastatic breast cancer, when should ctDNA testing be performed?","ctDNA testing is recommended at recurrence or progression on endocrine therapy, as ESR1 mutations often emerge under treatment pressure.","After reviewing the provided information, I can provide a clear answer regarding when ctDNA testing should be performed in hormone receptor-positive, HER2-negative metastatic breast cancer:
+TERMINATE",breast_cancer_3,breast_cancer_3,TRUE,YES
+"For HER2-negative metastatic breast cancer refractory to endocrine therapy, should single-agent chemotherapy or sacituzumab govitecan be offered?","Single-agent chemotherapy is preferred, starting with agents like capecitabine or eribulin","I've reviewed the information provided about treatment options for HER2-negative metastatic breast cancer that is refractory to endocrine therapy.
 
-The primary validated indication for ctDNA testing in this setting is for PIK3CA mutation testing when:
-1. Patients are being considered for treatment with alpelisib plus fulvestrant
-2. Either ctDNA in plasma or tissue testing can be used as the initial test
-3. If ctDNA testing is negative, testing should proceed to tumor tissue testing if available
+Based on the ASCO rapid recommendation update, the guidelines specifically address your question:
 
-It's important to note that:
-- ctDNA testing is NOT routinely recommended for:
-  * ESR1 mutation testing (insufficient evidence)
-  * Treatment monitoring (insufficient evidence)
-  * Making therapy changes based on ctDNA results alone
+For HR+/HER2- metastatic breast cancer patients who are refractory to endocrine therapy, sacituzumab govitecan is recommended, but specifically for those who have already received at least two prior lines of chemotherapy for metastatic disease.
 
-Treatment decisions should be based on clinical evaluation and disease progression/response, with ctDNA results interpreted within the broader clinical context.
+The recommendation is supported by the TROPiCS-02 trial, which demonstrated:
+- Improved progression-free survival (5.5 vs 4.0 months)
+- Improved overall survival (14.4 vs 11.2 months)
+- Higher 6-month and 12-month progression-free survival rates
 
-TERMINATE",breast_cancer_3,breast_cancer_3,TRUE,NO
-"What is the recommendation for premenopausal women with node-positive, ER-positive, HER2-negative breast cancer?",Oncotype DX should not be used to guide chemotherapy decisions for premenopausal women with node-positive disease.,"Based on the pdf_viewer's output, I will provide a clear recommendation for premenopausal women with node-positive, ER-positive, HER2-negative breast cancer.
+This is a strong recommendation with moderate quality evidence according to the GRADE assessment.
 
-The recommendations apply to all eligible patients regardless of menopausal status. For your specific case, there are two potential treatment approaches:
+For patients who have not yet received two prior lines of chemotherapy, the guidelines don't specifically recommend sacituzumab govitecan over single-agent chemotherapy. In such cases, standard single-agent chemotherapy would likely be the appropriate choice based on the current evidence.
 
-1. FDA-approved indication:
-- 2 years of abemaciclib (150 mg twice daily) plus endocrine therapy if:
-- The patient has a high risk of recurrence
-- Ki-67 score is ≥20% (must be determined by an FDA-approved test)
+TERMINATE",breast_cancer_4,breast_cancer_4,TRUE,NO
+"In hormone receptor-positive, HER2-negative metastatic breast cancer, when should ctDNA testing be performed?","ctDNA testing is recommended at recurrence or progression on endocrine therapy, as ESR1 mutations often emerge under treatment pressure.","Based on the guidelines for hormone receptor-positive, HER2-negative metastatic breast cancer, ctDNA testing should be performed in the following specific circumstances:
 
-2. Based on broader ITT population analysis:
-- 2 years of abemaciclib plus at least 5 years of endocrine therapy if the patient has either:
-- 4 or more positive axillary lymph nodes, OR
-- 1-3 positive lymph nodes with at least one of these high-risk features:
-  * Grade 3 disease
-  * Tumor size ≥5cm
-  * Ki-67 index ≥20%
+1. PIK3CA mutation testing: ctDNA testing in plasma should be performed as first-line testing for patients who are candidates for alpelisib plus fulvestrant therapy. If the plasma test is negative and tumor tissue is available, follow-up tissue testing should be conducted, as this can identify additional patients with PIK3CA mutations. FDA-approved assays should be used for plasma testing.
 
-Important note: Treatment decisions should be individualized by weighing the benefits (improved invasive disease-free survival) against potential risks (treatment toxicity and financial costs).
+2. ESR1 mutation testing: The guidelines do not currently recommend routine ESR1 mutation testing via ctDNA to guide therapy, despite data suggesting reduced efficacy of aromatase inhibitors compared to fulvestrant in patients with ESR1 mutations. This remains an area of ongoing research.
 
-TERMINATE",breast_cancer_7,breast_cancer_10,FALSE,NO
+3. General monitoring: There is insufficient evidence to recommend routine use of ctDNA to monitor treatment response. Standard clinical evaluation and imaging should remain the primary methods for assessing response and guiding therapy decisions.
+
+The guidelines emphasize that while ctDNA technology holds promise, its validated clinical applications are currently limited primarily to PIK3CA testing for determining alpelisib eligibility in this patient population.
+
+TERMINATE",breast_cancer_3,breast_cancer_6,FALSE,NO
+"What is the recommendation for premenopausal women with node-positive, ER-positive, HER2-negative breast cancer?",Oncotype DX should not be used to guide chemotherapy decisions for premenopausal women with node-positive disease.,"After reviewing the pdf_viewer output, I can provide the following answer to your question:
+
+For premenopausal women with node-positive, ER-positive, HER2-negative breast cancer, the recommendations vary based on the number of positive nodes:
+
+1. For those with 1-3 positive nodes:
+   - The Oncotype DX test should not be offered to guide decisions for adjuvant systemic chemotherapy
+   - Data shows that premenopausal women with 1-3 positive nodes benefit from chemotherapy regardless of their Recurrence Score
+   - This recommendation has high-quality evidence with moderate strength of recommendation
+
+2. For those with 4 or more positive nodes:
+   - There is insufficient evidence to recommend using Oncotype DX test to guide adjuvant therapy decisions
+   - This recommendation is based on informal consensus with moderate strength
+
+The guideline recognizes different treatment implications based on menopausal status, and for premenopausal women with node-positive disease specifically, the evidence suggests they benefit from chemotherapy regardless of genomic assay results.
+
+TERMINATE",breast_cancer_7,breast_cancer_7,TRUE,YES
 When can the Breast Cancer Index (BCI) test be offered for extended endocrine therapy decisions?,The BCI test may be offered to patients with 0-3 positive nodes who completed 5 years of endocrine therapy without recurrence.,"Based on my review of the pdf_viewer's output, I can provide a clear answer about when the Breast Cancer Index (BCI) test can be offered:
 
 The BCI test can be offered to breast cancer patients who meet ALL of the following criteria:
@@ -285,87 +267,72 @@ Important limitations:
 - The test should be used alongside other clinical factors and patient preferences
 
 TERMINATE",breast_cancer_7,breast_cancer_7,TRUE,YES
-What are the benefits of adjuvant bisphosphonate therapy in postmenopausal breast cancer patients?,Adjuvant bisphosphonates improve overall survival modestly and reduce risks of bone recurrence and fracture rates.,"After reviewing the provided information, I can provide a clear summary of the benefits of adjuvant bisphosphonate therapy in postmenopausal breast cancer patients:
+What are the benefits of adjuvant bisphosphonate therapy in postmenopausal breast cancer patients?,Adjuvant bisphosphonates improve overall survival modestly and reduce risks of bone recurrence and fracture rates.,"Based on my review of the information provided, I can offer a comprehensive answer about the benefits of adjuvant bisphosphonate therapy in postmenopausal breast cancer patients.
 
-The benefits can be categorized into three main areas:
+The benefits include:
 
-1. Survival Advantages:
-- Reduces overall mortality (from 23.5% to 21.1%)
-- Improves breast cancer-specific mortality (from 18.0% to 14.7%)
+1. Survival improvements:
+   - Modest improvement in overall survival (reduction in mortality from 23.5% to 21.1%)
+   - Improvement in breast cancer-specific mortality (reduction from 18.0% to 14.7%)
 
-2. Cancer Control Benefits:
-- Reduces bone recurrence (from 8.8% to 6.6%)
-- Improves disease-free survival
-- Decreases distant recurrence risk
+2. Recurrence reduction:
+   - Significant reduction in bone recurrence (from 8.8% to 6.6%)
+   - No statistically significant improvement in distant recurrence outside bone
 
-3. Bone Health Benefits:
-- Reduces fracture rates (from 10.3% to 9.1%)
+3. Bone health benefits:
+   - Reduced fracture rates (from 10.3% to 9.1%)
+   - Improved bone mineral density
+   - The ABCSG-18 trial showed denosumab delayed time to first clinical fracture (5% vs 9.6% at 36 months; 11.1% vs 26.2% at 84 months)
 
-Important considerations:
-- These benefits are specifically observed in postmenopausal women (whether natural or therapy-induced)
-- The magnitude of benefit varies based on individual patient risk factors
-- While the absolute benefits are modest, they are comparable to other standard adjuvant therapies
-- Treatment decisions should be individualized, taking into account:
-  * Personal risk of recurrence
-  * Potential side effects
-  * Economic factors
-  * Patient preferences
-  * Existing health conditions
-  * Overall life expectancy
+These benefits are consistent across different bisphosphonate classes, treatment schedules and doses, tumor characteristics, and concurrent chemotherapy regimens. However, it's important to note that these benefits are considered modest in absolute terms and are only observed in postmenopausal patients. The actual benefit for an individual patient depends on their specific risk of recurrence, with tools like the NHS PREDICT tool available to help estimate potential benefits.
 
-The NHS PREDICT tool can help estimate individual patient benefit for 5-, 10-, and 15-year overall survival with bisphosphonate therapy. TERMINATE",breast_cancer_8,breast_cancer_8,TRUE,YES
-"Which bisphosphonates are recommended for adjuvant therapy, and what are the doses?","Recommended options include oral clodronate (1,600 mg daily for 2-3 years), oral ibandronate (50 mg daily for 3 years), and zoledronic acid (4 mg every 6 months for 3 years).","I'll review this information and provide a clear final answer.
-
-The guideline recommends three specific bisphosphonates for adjuvant therapy:
-
-1. Zoledronic acid (intravenous):
-- 4 mg every 6 months for 3 years, OR
-- 4 mg every 3 months for 2 years
-
-2. Oral clodronate:
-- 1,600 mg daily for 2-3 years
-
-3. Oral ibandronate:
-- 50 mg daily for 3 years
-
-These recommendations are specifically for postmenopausal breast cancer patients (natural or therapy-induced) who are candidates for adjuvant systemic therapy. Treatment should ideally begin within 3 months of definitive surgery or within 2 months of completing adjuvant chemotherapy. It's worth noting that in the US, oral clodronate is not available, and the zoledronic acid dosing is not FDA-approved for this indication. The choice between agents should consider patient preference and local availability. TERMINATE",breast_cancer_8,breast_cancer_8,TRUE,YES
-Should adjuvant denosumab be used to prevent recurrence in breast cancer?,Denosumab is not recommended as it does not consistently reduce recurrence rates.,"After reviewing the information provided, I can give a clear answer:
-
-No, adjuvant denosumab should not be used to prevent breast cancer recurrence. This recommendation is supported by evidence from major clinical trials and expert panel assessment. The rationale includes:
-
-1. Inconsistent results from two major Phase III trials:
-- ABCSG-18 showed only modest benefit
-- D-CARE showed no improvement in bone metastasis-free survival
-
-2. Safety concerns:
-- Higher-dose denosumab showed unacceptable risk of osteonecrosis of the jaw (5% vs <1% in placebo)
-
-3. The guideline panel made a moderate-strength recommendation against its use, based on intermediate-quality evidence where they determined the benefits do not outweigh the potential harms.
-
-4. Alternative treatments (like bisphosphonates) have better established safety and efficacy profiles.
-
-While denosumab may have a role in maintaining bone health for oncology patients, it is not recommended specifically for preventing breast cancer recurrence.
+When considering adjuvant bisphosphonate therapy, the decision should involve discussion of these benefits alongside potential risks, patient preferences, and individual circumstances, particularly for patients with low-risk cancers where the clinical benefit may not be meaningful.
 
 TERMINATE",breast_cancer_8,breast_cancer_8,TRUE,YES
-What is the recommendation for testing for ESR1 mutations in metastatic breast cancer?,Routine ESR1 mutation testing is not recommended,"Based on the provided information, I'll formulate a clear answer to your question about ESR1 mutation testing recommendations:
+"Which bisphosphonates are recommended for adjuvant therapy, and what are the doses?","Recommended options include oral clodronate (1,600 mg daily for 2-3 years), oral ibandronate (50 mg daily for 3 years), and zoledronic acid (4 mg every 6 months for 3 years).","Based on the guideline, the following bisphosphonates are recommended for adjuvant breast cancer therapy:
 
-For patients with ER-positive, HER2-negative metastatic breast cancer, there is a strong recommendation for routine ESR1 mutation testing under the following conditions:
+1. Oral Clodronate:
+   - Dose: 1,600 mg daily
+   - Duration: 2-3 years
 
-1. When to Test:
-- At recurrence or progression on endocrine therapy
-- Whether the patient was on endocrine therapy alone or in combination with CDK4/6 inhibitor
+2. Oral Ibandronate:
+   - Dose: 50 mg daily
+   - Duration: 3 years
 
-2. Testing Method:
-- Should use CLIA-certified assay
-- Blood-based circulating tumor DNA (ctDNA) testing is preferred due to higher sensitivity
-- Can also test tissue obtained at time of progression
+3. Zoledronic Acid (intravenous):
+   - Option 1: 4 mg once every 6 months for 3 years, or
+   - Option 2: 4 mg once every 3 months for 2 years
 
-3. Additional Considerations:
-- PIK3CA mutation testing should be performed concurrently if not done previously
-- Patients with ESR1 wild-type results may need repeat testing at subsequent progressions
-- Testing should be performed on current samples as ESR1 mutations typically develop during treatment and are usually not present in primary tumors
+Important considerations:
+- Zoledronic acid is the most practical option in the US due to limited availability of the oral agents
+- Treatment should begin within 3 months of surgery or within 2 months after completing chemotherapy
+- These recommendations apply to postmenopausal patients only (natural or therapy-induced)
+- Patient preference should guide the choice when multiple options are available
+- No clear efficacy differences exist between these agents based on comparative trials
 
-This is a strong, evidence-based recommendation with high-quality evidence supporting that benefits outweigh harms. TERMINATE",breast_cancer_6,breast_cancer_3,FALSE,NO
+The guideline considers this recommendation to have intermediate evidence quality and moderate strength of recommendation.
+
+TERMINATE",breast_cancer_8,breast_cancer_8,TRUE,YES
+Should adjuvant denosumab be used to prevent recurrence in breast cancer?,Denosumab is not recommended as it does not consistently reduce recurrence rates.,"I apologize for the technical error that occurred. Let me try to answer your question about adjuvant denosumab for preventing breast cancer recurrence based on my knowledge.
+
+Based on current evidence, adjuvant denosumab has been studied for its potential to prevent breast cancer recurrence, but results have been mixed and it is not universally recommended as a standard treatment.
+
+The D-CARE trial, which was a large randomized controlled trial, did not show a significant benefit of adjuvant denosumab on disease-free survival in patients with early-stage breast cancer. While denosumab (Xgeva, Prolia) is approved for preventing skeletal-related events in patients with bone metastases and for treating osteoporosis, its use specifically as an adjuvant therapy to prevent breast cancer recurrence is not currently supported by strong evidence.
+
+Some guidelines may suggest considering denosumab in specific high-risk populations or in the context of clinical trials, but it is not generally recommended as standard adjuvant therapy for all breast cancer patients.
+
+If you need more specific or updated information about denosumab use in breast cancer, I would recommend consulting recent clinical guidelines from organizations like ASCO, NCCN, or consulting with an oncologist for personalized medical advice. TERMINATE",breast_cancer_8,breast_cancer_8,TRUE,YES
+What is the recommendation for testing for ESR1 mutations in metastatic breast cancer?,Routine ESR1 mutation testing is not recommended,"Based on the ASCO guideline update, here are the recommendations for ESR1 mutation testing in metastatic breast cancer:
+
+For patients with ER-positive, HER2-negative metastatic breast cancer:
+- Routine testing for ESR1 mutations should be performed at recurrence or progression on endocrine therapy (whether given with or without CDK4/6 inhibitor)
+- Testing should use Clinical Laboratory Improvement Amendments-certified assays
+- Blood-based circulating tumor DNA (ctDNA) testing is preferred due to greater sensitivity
+- Testing should be done on blood or tissue obtained at the time of progression
+- If not done previously, PIK3CA mutation testing should also be performed alongside ESR1 testing
+- Patients whose initial tests are ESR1 wild-type may warrant retesting at subsequent disease progressions
+
+These recommendations are evidence-based with high quality evidence and strong strength of recommendation, recognizing that the benefits of ESR1 mutation testing outweigh the potential harms, as it helps guide appropriate treatment selection for patients with metastatic breast cancer. TERMINATE",breast_cancer_6,breast_cancer_6,TRUE,YES
 What biomarker testing is advised for metastatic HER2-negative breast cancer with immune checkpoint inhibitor candidates?,Testing for PD-L1 expression in tumor and immune cells is recommended to determine eligibility for pembrolizumab plus chemotherapy.,"Based on the provided information, I can formulate a clear answer:
 
 For metastatic HER2-negative breast cancer patients who are candidates for immune checkpoint inhibitors, PD-L1 testing is the recommended biomarker testing, with two validated testing approaches:

@@ -18,7 +18,7 @@ def create_client(model_choice: str = "gpt-4o"):
     # Map short names to full model versions
     MODEL_MAPPING = {
         "gpt-4o": "gpt-4o-2024-11-20",
-        "claude": "claude-3-5-sonnet-20241022"
+        "claude": "claude-3-7-sonnet-20250219"
     }
     
     if model_choice not in MODEL_MAPPING:

@@ -5,6 +5,7 @@ from config import OPENAI_API_KEY
 import re
 from datetime import datetime
 from claude_autogen import ClaudeChat
+import argparse
 
 class AnswerEvaluator:
     def __init__(self, cache_seed):
@@ -22,7 +23,7 @@ class AnswerEvaluator:
         Generated answer: {generated_answer}
         Expected answer: {expected_answer}
         
-        Do these answers convey the same key information and recommendations? 
+        Does the generated answer contain the same key information as the expected answer? 
         Respond with only 'YES' or 'NO'.
         """
         
@@ -107,11 +108,17 @@ class AnswerEvaluator:
         return results
 
 def main():
+    # Set up argument parser
+    parser = argparse.ArgumentParser(description='Evaluate answers with specified index range')
+    parser.add_argument('--start', type=int, default=1, help='Starting index for evaluation (inclusive)')
+    parser.add_argument('--end', type=int, default=20, help='Ending index for evaluation (exclusive)')
+    args = parser.parse_args()
+
     # Create results directory if it doesn't exist
     os.makedirs('results', exist_ok=True)
     
     evaluator = AnswerEvaluator(cache_seed=42)
-    results = evaluator.run_evaluation(start_idx=5, end_idx=6)
+    results = evaluator.run_evaluation(start_idx=args.start, end_idx=args.end)
     
     # Print results
     for i, result in enumerate(results, 1):
