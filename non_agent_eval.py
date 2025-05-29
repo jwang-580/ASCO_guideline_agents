@@ -111,8 +111,20 @@ class NonAgentEval:
         """
         Evaluate a batch of questions and save results
         """
-        model_answers = self.generate_answer(start_idx, end_idx, model_name)
-        selected_qa = self.qa_df.iloc[start_idx:end_idx]
+        if model_name == "asco_assistant":
+            # Load pre-generated answers from CSV file
+            df = pd.read_csv('results/asco_assistant_20250528.csv')
+            selected_df = df.iloc[start_idx:end_idx]
+            model_answers = selected_df['generated_answer'].tolist()
+            
+            # Create a mock qa dataframe with the questions and expected answers from the CSV
+            selected_qa = pd.DataFrame({
+                'Question': selected_df['question'].tolist(),
+                'Answer': selected_df['expected_answer'].tolist()
+            })
+        else:
+            model_answers = self.generate_answer(start_idx, end_idx, model_name)
+            selected_qa = self.qa_df.iloc[start_idx:end_idx]
         
         results = []
         for i, (_, row) in enumerate(selected_qa.iterrows()):
@@ -140,17 +152,21 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Evaluate AI model answers')
     parser.add_argument('--start', type=int, default=0, help='Starting index for evaluation')
     parser.add_argument('--end', type=int, help='Ending index for evaluation (defaults to all questions)')
-    parser.add_argument('--model', type=str, default="gpt-4o", help='Model to evaluate (gpt-4o, claude-3-7, gemini-2.5-flash, or DeepSeek-R1)')
+    parser.add_argument('--model', type=str, default="gpt-4o", help='Model to evaluate (gpt-4o, claude-3-7, gemini-2.5-flash, DeepSeek-R1, or asco_assistant)')
     args = parser.parse_args()
     
-    # Load the QA dataset
-    qa_df = pd.read_csv('data/q_a.csv')
-    
-    # Initialize the evaluator
-    evaluator = NonAgentEval(qa_df)
-    
-    # Set end index to length of dataset if not specified
-    end_idx = args.end if args.end is not None else len(qa_df)
+    if args.model == "asco_assistant":
+        # For asco_assistant, we don't need to load qa_df, we'll use the CSV file
+        evaluator = NonAgentEval(None)
+        
+        # Load the CSV to get the length for end_idx
+        df = pd.read_csv('results/asco_assistant_20250528.csv')
+        end_idx = args.end if args.end is not None else len(df)
+    else:
+        # Load the QA dataset for other models
+        qa_df = pd.read_csv('data/q_a.csv')
+        evaluator = NonAgentEval(qa_df)
+        end_idx = args.end if args.end is not None else len(qa_df)
     
     try:
         # Process questions within specified range
