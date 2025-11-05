@@ -95,7 +95,7 @@ def process_pdf(key: str, prompt: str) -> str:
         client = anthropic.Anthropic()
 
         message = client.messages.create(
-            model="claude-3-5-sonnet-20241022",
+            model="claude-3-7-sonnet-20250219",
             max_tokens=1024,
             messages=messages
         )
@@ -104,7 +104,7 @@ def process_pdf(key: str, prompt: str) -> str:
         # count the tokens
         response = client.beta.messages.count_tokens(
             betas=["pdfs-2024-09-25"],
-            model="claude-3-5-sonnet-20241022",
+            model="claude-3-7-sonnet-20250219",
             messages=messages
         )
 

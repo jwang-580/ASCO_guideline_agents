@@ -99,3 +99,23 @@ When is tumor size cutoff that surgery is preferred over SRS for brain metastase
 What is the number of brain mets that SRS be chosen over WBRT for unresected brain metastases?,SRS alone is recommended for 1-4 unresected brain metastases.,neurooncology_cancer_2
 Should radiation therapy be offered to patients with KPS ≤ 50 and brain metastases?,Radiation therapy is not recommended for patients with KPS ≤ 50.,neurooncology_cancer_2
 "What is the alternative treatment for oligodendroglioma, IDH-mutant, 1p19q codeleted, CNS WHO grade 2, due to toxicity concerns?",Temozolimide ,neurooncology_cancer_3
+"What is treatment for a patient with metastatic non-small cell lung cancer and ERBB2 mutation, who has progressed from frontline carboplatium/pembrolizumab/pemetrexate treatment?",trastuzumab deruxtecan,NCCN_NSCLC
+"In a patient with metasatic non-small cell lung cancer and HER2 mutation, should carbo/pem/pem or T-DXd used as the first line?","carboplatium, pemetrexate, pemrbolizumab should still be used as the first line",NCCN_NSCLC
+"For patients with metasatic non-small cell lung cancer and HER2 mutation, who has progressed on an ADC (T-DXd), should another ADC (T-DM1) still be used as a subsequent therapy?","yes, for patients who progressed on T-DXd, T-DM1 is still an option",NCCN_NSCLC
+Sunvozertinib can be used as a 2nd line therapy for NSCLC for patients with what gene mutations?,EGFR exon 20 insertion,NCCN_NSCLC
+Datopotamab derutecan can be used as a 2nd line therapy for NSCLC for patients with what gene mutations?,EGFR mutation,NCCN_NSCLC
+"What is treatment for a patient with metastatic non-small cell lung cancer and ERBB2 mutation, who has progressed from frontline carboplatium/pembrolizumab/pemetrexate treatment and trastuzumab deruxtecan?",zongertinib,NCCN_NSCLC
+"A patient with extensive stage small cell lung cancer who relapsed in 6 months after finishing carboplatin/etoposide/atezolizumab, what is the recommended secondary line therapy?",tarlatamab,NCCN_SCLC
+"A patient with limited stage small cell lung cancer now relapsed in 2 months after finishing chemotherapy and radiation, should the patient receive irinotecan as the preferred second line treatment?","no, tarlatamab should be used",NCCN_SCLC
+"A patient with metastatic melanoma, who had received ipi/nivo, nivo/rela, and pembrolizumab, and does not have BRAF mutation, what is the preferred treatment?",lifileucel,NCCN_melanoma
+"A patient with metastatic melanoma and BRAF mutation, who had received BRAF/MEK inhibitors and an anti-PD-1 based therapy, now with melanoma progression, what is the preferred treatment?",lifileucel,NCCN_melanoma
+When should aspirin be incoperated in the treatment of localized dMMR colon cancer?,if presence of PIK3CA mutation,NCCN_gi
+"What medication should be added as the frontline therapy in locally advaced esophageal adenocarcinoma, who has overexpression of CLDN18.2?",zolbetuximab,NCCN_gi
+Should CLDN18.2 testing be performend on pathology sample obtained from patients with locally advanced GE junction adenocarcinoma?,"yes, postive CLDN18.2 can guide frontline therapy",NCCN_gi
+Should patients with HR+ metastatic breast cancer and HER-2 negative with IHC 0+ still receive HER-2 targeted therapy?,"yes, T-DXd should be considered even if HER2 IHC is faintly positive (0+)",NCCN_breast
+"In the TROPION-BREAST01 trial, for those who have received a prior endocrine-based therapy and chemotherapy for unresectable or metastatic disease, did datopotamab deruxtecan meet prior outcome of improved overall survival?",no,NCCN_breast
+"For patients with isolated extramedullary disease of AML, aka myeloid sarcoma, is radiation threapy sufficient to achieve long-term remission?","no, RT can be used for residual disease or debulk, where systemic therapy is needed",NCCN_AML
+"For patients with multiple myeloma who are not a candidate for autologous stem cell transplant, should quadruple therapy be still offered if patients are not frail?","yes, dara-RVD is a acceptable option",NCCN_MM
+"For patietns with large B-cell lymphoma, who relapsed at 15 months after finishing frontline R-CHOP, is CAR T-cell therapy an option?","no, CAR T-cell therapy is indicated as second line if relapse < 12 months",NCCN_lymphoma
+What is the preferred front treatment for stage III diffuse large B-cell lymphoma if IPI=1?,RCHOP,NCCN_lymphoma
+"Should patients with newly diagnosed Ph-negative B-cell ALL considered for allogeneic stem cell transplantation, if they have TCF3::PBX1 translocation?","no, t(1;19) translocation is considered standard risk B-ALL and transplantation is not recommended. ",NCCN_ALL

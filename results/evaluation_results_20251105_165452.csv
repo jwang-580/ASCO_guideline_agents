@@ -1573,3 +1573,183 @@ The choice between these alternatives should be individualized based on:
 - The typically long natural history of these tumors
 
 TERMINATE",neurooncology_cancer_3,neurooncology_cancer_3,TRUE,YES
+"What is the alternative treatment for oligodendroglioma, IDH-mutant, 1p19q codeleted, CNS WHO grade 2, due to toxicity concerns?","Based on the document, for patients with oligodendroglioma, IDH-mutant, 1p19q codeleted, CNS WHO grade 2 who have toxicity concerns, the following alternatives are recommended:
+
+1. The standard treatment is radiation in combination with procarbazine, lomustine, and vincristine (PCV), as stated in Recommendation 1.1.
+
+2. However, for patients with toxicity concerns, temozolomide (TMZ) is specifically mentioned as ""a reasonable alternative to PCV when toxicity is a concern"" (Recommendation 1.1).
+
+3. The document acknowledges that ""PCV is a multiagent chemotherapy regimen and can result in significant nausea, fatigue, peripheral neuropathy, and bone marrow toxicity"" (from the Clinical Interpretation section).
+
+4. The document also mentions that ""because of these concerns and the ever-growing data supporting the use of TMZ across all gliomas, the Expert Panel agreed that TMZ could be considered in circumstances where toxicity or intolerability were concerns.""
+
+5. Another option for certain patients is to potentially defer initial therapy. Recommendation 1.2 states that ""within the group of people with oligodendroglioma, IDH-mutant, 1p19q codeleted, CNS WHO grade 2, initial therapy may be deferred until radiographic or symptomatic progression in some people with positive prognostic factors (eg, complete resection and younger age) or concerns about toxicity.""
+
+6. The CODEL trial (NCT00887146) is mentioned as an ongoing study comparing RT plus PCV versus RT plus TMZ in this population, with completion expected in 2025.",,neurooncology_cancer_3,neurooncology_cancer_3,TRUE,YES
+"What is treatment for a patient with metastatic non-small cell lung cancer and ERBB2 mutation, who has progressed from frontline carboplatium/pembrolizumab/pemetrexate treatment?",trastuzumab deruxtecan,"I've reviewed the information about treatment for metastatic non-small cell lung cancer patients with ERBB2 (HER2) mutations who have progressed after first-line therapy.
+
+Based on the clinical guidelines, for a patient with metastatic non-small cell lung cancer and an ERBB2 mutation who has progressed after frontline carboplatin/pembrolizumab/pemetrexed treatment, the recommended second-line treatment option is:
+
+**Trastuzumab deruxtecan**
+
+This recommendation comes from the ASCO's living guideline for Stage IV Non-Small Cell Lung Cancer With Driver Alterations (version 2024.2). It is rated as having ""Low"" evidence quality but a ""Strong"" strength of recommendation. Treatment decisions based on HER2 overexpression are specifically indicated for second-line therapy and beyond.
+
+TERMINATE",NCCN_NSCLC,,FALSE,YES (human)
+"In a patient with metasatic non-small cell lung cancer and HER2 mutation, should carbo/pem/pem or T-DXd used as the first line?","carboplatium, pemetrexate, pemrbolizumab should still be used as the first line","I need to review this information carefully to properly address the question about first-line therapy in NSCLC with HER2 mutations.
+
+Based on the provided information from the document, there is no specific recommendation for HER2 mutations in the first-line treatment setting. The document mentions trastuzumab deruxtecan (T-DXd) as an option, but specifically notes this is for second-line therapy and beyond, not first-line.
+
+The guideline explicitly states: ""Treatment decisions based on HER2 overexpression are restricted to second line and beyond.""
+
+For first-line therapy in patients with HER2-mutated NSCLC, the document does not provide a specific recommendation. It appears that for patients without applicable targeted therapy options in the first line, the guideline suggests following the non-driver alteration guideline, which would typically include platinum-based chemotherapy combinations (such as carboplatin/pemetrexed/pembrolizumab).
+
+Therefore, based on this guideline, carboplatin/pemetrexed/pembrolizumab would likely be the appropriate first-line option, with T-DXd reserved for second-line treatment in patients with HER2 mutations. TERMINATE",NCCN_NSCLC,lung_cancer_1,FALSE,YES (human)
+"For patients with metasatic non-small cell lung cancer and HER2 mutation, who has progressed on an ADC (T-DXd), should another ADC (T-DM1) still be used as a subsequent therapy?","yes, for patients who progressed on T-DXd, T-DM1 is still an option","I've reviewed the information provided about treatment options for patients with metastatic non-small cell lung cancer and HER2 mutations.
+
+Based on the ASCO Living Guideline for Stage IV Non-Small Cell Lung Cancer With Driver Alterations (Version 2024.2), there is no specific recommendation regarding the use of T-DM1 after progression on T-DXd (trastuzumab deruxtecan). The guideline only mentions that trastuzumab deruxtecan may be offered for HER2 mutations (Recommendation 2.17), but does not address subsequent therapy options after progression on this agent.
+
+The guideline does not provide guidance on sequencing of HER2-targeted therapies or specifically address the use of a second antibody-drug conjugate (T-DM1) after progression on a first antibody-drug conjugate (T-DXd). For patients who have exhausted targeted options, the guideline generally recommends following the non-driver alteration guideline for subsequent therapy.
+
+Therefore, based on this specific guideline, there is insufficient evidence to make a clear recommendation about using T-DM1 after progression on T-DXd in HER2-mutated NSCLC patients. This would likely be a clinical decision that requires consideration of individual patient factors and possibly consultation with specialists in this area. TERMINATE",NCCN_NSCLC,,FALSE,YES (human)
+Sunvozertinib can be used as a 2nd line therapy for NSCLC for patients with what gene mutations?,EGFR exon 20 insertion,I need to check if there is specific information about sunvozertinib in the document that might have been missed. Let me search more thoroughly for any mentions of this medication in relation to specific gene mutations in NSCLC.,NCCN_NSCLC,,FALSE,YES (human)
+Datopotamab derutecan can be used as a 2nd line therapy for NSCLC for patients with what gene mutations?,EGFR mutation,"After reviewing the output, I don't see any specific information about datopotamab derutecan being indicated as a second-line therapy for NSCLC patients with specific gene mutations. The ASCO Living Guideline document that was examined does cover treatment recommendations for various driver mutations in NSCLC (including EGFR, ALK, ROS1, BRAF, MET, RET, NTRK, HER2, and KRAS G12C), but datopotamab derutecan is not mentioned specifically in any of the treatment algorithms or recommendations.
+
+To properly answer your question about datopotamab derutecan as a 2nd line therapy for NSCLC patients with specific gene mutations, we would need to consult additional or more recent clinical guidelines or FDA approval information, as this information does not appear to be present in the document that was examined. TERMINATE",NCCN_NSCLC,lung_cancer_1,FALSE,YES (human)
+"What is treatment for a patient with metastatic non-small cell lung cancer and ERBB2 mutation, who has progressed from frontline carboplatium/pembrolizumab/pemetrexate treatment and trastuzumab deruxtecan?",zongertinib,"I've reviewed the information provided about treatment options for a patient with metastatic NSCLC with ERBB2 (HER2) mutation who has progressed on both frontline carboplatin/pembrolizumab/pemetrexed and trastuzumab deruxtecan.
+
+Based on the ASCO Living Guideline Update (Version 2024.2), since the patient has already received the recommended targeted therapy (trastuzumab deruxtecan) and has progressed, the next steps would be:
+
+1. Follow the non-driver alteration guideline for subsequent therapy
+2. Consider enrollment in clinical trials if available
+3. Consider alternative chemotherapy regimens as per non-driver alteration protocols
+
+The guidelines specifically mention that ""If patients have received all targeted options, or if no targeted options are available, clinicians may offer standard therapy following the nondriver alteration guideline.""
+
+It's also worth noting that the field is evolving, and new targeted therapies for HER2-mutated NSCLC may become available in the near future, so staying informed about emerging treatment options would be beneficial for this patient.
+
+TERMINATE",NCCN_NSCLC,lung_cancer_1,FALSE,YES (human)
+"A patient with extensive stage small cell lung cancer who relapsed in 6 months after finishing carboplatin/etoposide/atezolizumab, what is the recommended secondary line therapy?",tarlatamab,"After reviewing the output, I can see that the document provided does not contain information about second-line therapy for relapsed small cell lung cancer (SCLC). The document is focused exclusively on Non-Small Cell Lung Cancer (NSCLC) with specific driver mutations, not small cell lung cancer.
+
+To properly answer your question about recommended second-line therapy for a patient with extensive stage small cell lung cancer who relapsed within 6 months after finishing carboplatin/etoposide/atezolizumab, we would need to consult a different clinical practice guideline specifically addressing SCLC management.
+
+I would need to reference the appropriate SCLC guidelines (such as those from NCCN, ASCO, or ESMO) to provide you with the current evidence-based recommendations for this specific clinical scenario. The document provided doesn't contain this information.
+
+TERMINATE",NCCN_SCLC,,FALSE,YES (human)
+"A patient with limited stage small cell lung cancer now relapsed in 2 months after finishing chemotherapy and radiation, should the patient receive irinotecan as the preferred second line treatment?","no, tarlatamab should be used","I've carefully reviewed both your question and the analysis of the document, and I need to clarify something important:
+
+The document provided is specifically about non-small cell lung cancer (NSCLC) with driver alterations, but your question is about small cell lung cancer (SCLC), which is a different type of lung cancer with different treatment approaches.
+
+The current document does not contain any information about:
+1) Small cell lung cancer treatment
+2) Irinotecan as a treatment option
+3) Management of relapsed SCLC
+
+To properly answer your question about second-line treatment with irinotecan for relapsed small cell lung cancer, we would need to review SCLC-specific guidelines or literature. The current document focuses exclusively on treatment for NSCLC with genetic alterations.
+
+Would you like me to help you find information specifically about second-line treatment options for relapsed small cell lung cancer? TERMINATE",NCCN_SCLC,,FALSE,YES (human)
+"A patient with metastatic melanoma, who had received ipi/nivo, nivo/rela, and pembrolizumab, and does not have BRAF mutation, what is the preferred treatment?",lifileucel,"Based on the ASCO Guideline on Systemic Therapy for Melanoma, for patients with BRAF wild-type, unresectable and/or metastatic cutaneous melanoma who have progressed after anti-PD-1-based therapy, the guideline notes that clinical trial enrollment should be encouraged where possible, as evidence for treatment in this setting is limited.",NCCN_melanoma,,FALSE,YES (human)
+"A patient with metastatic melanoma, who had received ipi/nivo, nivo/rela, and pembrolizumab, and does not have BRAF mutation, what is the preferred treatment?",lifileucel,"Based on the information provided from the ASCO Guideline on Systemic Therapy for Melanoma, for a patient with metastatic melanoma who has already received ipilimumab/nivolumab, nivolumab/relatlimab, and pembrolizumab, and does not have a BRAF mutation, the preferred treatment options are:
+
+1. Ipilimumab or ipilimumab-containing regimens - this is specifically recommended for patients with BRAF wild-type melanoma who have progressed after anti-PD-1-based therapy.
+
+2. Enrollment in clinical trials should be strongly considered where possible.
+
+It's worth noting that talimogene laherparepvec (T-VEC) is no longer recommended for patients with BRAF wild-type disease who have progressed on anti-PD-1 therapy, although it may be considered for patients with injectable lesions who aren't eligible for or decline recommended systemic therapies.
+
+The guideline acknowledges that these recommendations have ""Low"" evidence quality with a ""Weak"" strength of recommendation, suggesting that treatment decisions should be individualized based on the patient's specific circumstances.
+
+While tumor-infiltrating lymphocyte (TIL) therapy showed promise in the M14TIL trial for previously treated patients, this was not included as a formal recommendation in the guideline.
+
+TERMINATE",NCCN_melanoma,melanoma_cancer_1,FALSE,YES (human)
+"What medication should be added as the frontline therapy in locally advaced esophageal adenocarcinoma, who has overexpression of CLDN18.2?",zolbetuximab,"After reviewing the information, I can see that the document does not contain any specific recommendations regarding CLDN18.2 overexpression in esophageal adenocarcinoma. The ASCO guidelines discussed in the document focus on immunotherapy (PD-1/PD-L1 inhibitors) and HER2-targeted therapies, but do not address CLDN18.2 as a biomarker or therapeutic target.
+
+The guidelines cover recommendations for various scenarios including HER2-negative and HER2-positive gastric and esophageal adenocarcinomas with different PD-L1 expression levels, but CLDN18.2 testing or targeted therapies for CLDN18.2-positive tumors are not mentioned.
+
+To answer your specific question about what medication should be added as frontline therapy for locally advanced esophageal adenocarcinoma with CLDN18.2 overexpression, I would need to reference different clinical guidelines or research papers, as this information is not present in the current document. TERMINATE",NCCN_gi,gi_cancer_2,FALSE,YES (human)
+When should aspirin be incoperated in the treatment of localized dMMR colon cancer?,if presence of PIK3CA mutation,"I've reviewed the information provided from the 2021 ASCO Guideline Update on Adjuvant Therapy for Stage II Colon Cancer, and I can confirm that there is no mention or recommendation regarding aspirin use in the treatment of localized dMMR colon cancer within this particular guideline.
+
+The document specifically focuses on chemotherapy regimens and recommendations for stage II colon cancer, including guidance for patients with dMMR/MSI tumors, but does not address aspirin as part of the treatment protocol.
+
+To get accurate information about when aspirin should be incorporated in the treatment of localized dMMR colon cancer, you would need to consult other clinical practice guidelines, more recent research literature, or specific guidelines that address aspirin use in colorectal cancer prevention or treatment. TERMINATE",NCCN_gi,,FALSE,YES (human)
+"What medication should be added as the frontline therapy in locally advaced esophageal adenocarcinoma, who has overexpression of CLDN18.2?",zolbetuximab,"After reviewing the information provided, I can see that the current ASCO guideline does not contain specific recommendations for treating esophageal adenocarcinoma with CLDN18.2 overexpression. The guideline focuses on immunotherapy (PD-1/PD-L1 inhibitors) and HER2-targeted therapies, but does not mention CLDN18.2 as a biomarker or any targeted therapies for CLDN18.2-positive tumors.
+
+Based on this information, I cannot provide a specific medication recommendation for frontline therapy in locally advanced esophageal adenocarcinoma with CLDN18.2 overexpression from this guideline. This appears to be a gap in the current recommendations, as CLDN18.2-targeted therapies are not addressed in this document.
+
+For the most current recommendations regarding CLDN18.2-positive tumors, you may need to consult more recent clinical practice guidelines, ongoing clinical trials data, or speak with a specialist in gastrointestinal oncology who is familiar with emerging targeted therapies. TERMINATE",NCCN_gi,gi_cancer_2,FALSE,YES (human)
+Should patients with HR+ metastatic breast cancer and HER-2 negative with IHC 0+ still receive HER-2 targeted therapy?,"yes, T-DXd should be considered even if HER2 IHC is faintly positive (0+)","I've reviewed the information about HER2-targeted therapy for breast cancer patients, and I can provide a clear answer to your question.
+
+According to the ASCO rapid recommendation update, patients with HR+ metastatic breast cancer who are HER2-negative with an IHC score of 0+ should NOT receive HER2-targeted therapy. 
+
+The evidence clearly shows that:
+- The DESTINY-Breast04 trial, which forms the basis for current recommendations, specifically excluded patients whose tumors tested as HER2 IHC 0.
+- The updated treatment recommendations explicitly state that HER2-targeted therapy with trastuzumab deruxtecan should be offered only to patients with HER2 IHC 1+ or 2+ (and ISH-negative) metastatic breast cancer.
+
+Therefore, HR+ metastatic breast cancer patients with HER2 IHC 0+ status do not fall within the group recommended to receive HER2-targeted therapy based on current guidelines.
+
+TERMINATE",NCCN_breast,breast_cancer_5,FALSE,YES (human)
+"In the TROPION-BREAST01 trial, for those who have received a prior endocrine-based therapy and chemotherapy for unresectable or metastatic disease, did datopotamab deruxtecan meet prior outcome of improved overall survival?",no,"After reviewing the available information, I cannot find any data regarding the TROPION-BREAST01 trial or datopotamab deruxtecan (Dato-DXd) in the document. The document is an ASCO guideline update focused on other treatments for HER2-negative metastatic breast cancer, but does not include information about this specific trial or drug.
+
+To provide an accurate answer about whether datopotamab deruxtecan met the primary outcome of improved overall survival in the TROPION-BREAST01 trial, we would need to reference different documentation that specifically discusses this trial's results. The current document does not contain this information.
+
+TERMINATE",NCCN_breast,breast_cancer_4,FALSE,YES (human)
+"For patients with isolated extramedullary disease of AML, aka myeloid sarcoma, is radiation threapy sufficient to achieve long-term remission?","no, RT can be used for residual disease or debulk, where systemic therapy is needed","After reviewing the information provided, I can see that there is no specific ASCO guideline in the available database that addresses the management of myeloid sarcoma (isolated extramedullary disease of AML). 
+
+To answer your specific question about whether radiation therapy alone is sufficient to achieve long-term remission in myeloid sarcoma, I cannot provide an evidence-based answer from ASCO guidelines as they don't appear to have specific recommendations on this topic.
+
+For authoritative guidance on this specific clinical question, you would need to consult other resources such as:
+
+1. National Comprehensive Cancer Network (NCCN) guidelines on AML
+2. American Society of Hematology (ASH) resources and guidelines
+3. Specific AML treatment guidelines that address extramedullary disease management
+
+These resources would contain the most current evidence-based recommendations regarding radiation therapy's role and efficacy in achieving long-term remission for isolated myeloid sarcoma. TERMINATE",NCCN_AML,,FALSE,YES (human)
+"For patients with multiple myeloma who are not a candidate for autologous stem cell transplant, should quadruple therapy be still offered if patients are not frail?","yes, dara-RVD is a acceptable option","After reviewing the available information, I don't have sufficient evidence from ASCO guidelines to answer your specific question about quadruple therapy for non-frail multiple myeloma patients who are not candidates for autologous stem cell transplant.
+
+The search conducted did not find any ASCO guidelines specifically addressing multiple myeloma treatment approaches, including quadruple therapy regimens or transplant-ineligible patient management. 
+
+For evidence-based recommendations on this clinical scenario, I would suggest consulting other authoritative sources that provide specific guidance on multiple myeloma treatment, such as:
+
+1. National Comprehensive Cancer Network (NCCN) guidelines for multiple myeloma
+2. International Myeloma Working Group (IMWG) recommendations
+3. European Society for Medical Oncology (ESMO) guidelines
+4. American Society of Hematology (ASH) resources
+
+These organizations regularly publish updated treatment guidelines that include specific recommendations for transplant-ineligible patients and address the role of triplet versus quadruplet regimens based on patient characteristics like frailty status.
+
+TERMINATE",NCCN_MM,,FALSE,YES (human)
+"For patietns with large B-cell lymphoma, who relapsed at 15 months after finishing frontline R-CHOP, is CAR T-cell therapy an option?","no, CAR T-cell therapy is indicated as second line if relapse < 12 months","I need to analyze information about treatment options for large B-cell lymphoma patients who relapsed 15 months after R-CHOP therapy. However, I don't have access to a PDF document with the relevant information.
+
+To properly answer your question about whether CAR T-cell therapy is an option for patients with large B-cell lymphoma who relapsed 15 months after frontline R-CHOP, I would need to review current clinical guidelines and literature.
+
+Based on general medical knowledge, CAR T-cell therapy has emerged as a treatment option for relapsed/refractory large B-cell lymphoma, but specific eligibility criteria, timing after relapse, and placement in the treatment algorithm would depend on current guidelines, the patient's specific characteristics, and availability of the therapy.
+
+For a definitive answer, I would recommend:
+
+1. Consulting the latest NCCN or other lymphoma treatment guidelines
+2. Discussing with a hematologist-oncologist who specializes in lymphoma
+3. Reviewing specific CAR T-cell therapy approval criteria for relapsed LBCL
+
+Without access to specific guidelines in a PDF, I cannot provide a more detailed answer at this time. TERMINATE",NCCN_lymphoma,,FALSE,YES (human)
+What is the preferred front treatment for stage III diffuse large B-cell lymphoma if IPI=1?,RCHOP,"I've reviewed the output from the PDF viewer, and unfortunately, the document doesn't contain specific information about the preferred front-line treatment for stage III diffuse large B-cell lymphoma with an IPI score of 1.
+
+The ASCO guidelines available in the document cover various cancer types including breast, lung, gastrointestinal, melanoma, head and neck, gynecologic, genitourinary, and neuro-oncology cancers, but there are no lymphoma-specific guidelines included.
+
+For accurate information on this specific clinical scenario, you would need to consult other authoritative sources such as:
+- National Comprehensive Cancer Network (NCCN) guidelines for B-cell lymphomas
+- American Society of Hematology (ASH) guidelines
+- Other specialized lymphoma treatment guidelines from relevant professional organizations
+
+These sources would provide the current standard of care for diffuse large B-cell lymphoma with your specific parameters. TERMINATE",NCCN_lymphoma,,FALSE,YES (human)
+"Should patients with newly diagnosed Ph-negative B-cell ALL considered for allogeneic stem cell transplantation, if they have TCF3::PBX1 translocation?","no, t(1;19) translocation is considered standard risk B-ALL and transplantation is not recommended. ","I've reviewed the outputs from the pdf_viewer and it appears that the ASCO guidelines available do not contain specific recommendations regarding allogeneic stem cell transplantation for patients with newly diagnosed Ph-negative B-cell ALL with TCF3::PBX1 translocation.
+
+To properly answer your question, you would need to consult other authoritative sources such as:
+
+1. The National Comprehensive Cancer Network (NCCN) guidelines for ALL
+2. American Society of Hematology (ASH) guidelines
+3. Recent peer-reviewed literature on outcomes for patients with TCF3::PBX1 translocation
+
+The TCF3::PBX1 (also known as E2A-PBX1) translocation is a specific genetic aberration that may have particular prognostic implications that would inform transplantation decisions, but this information is not available in the current ASCO guidelines that were searched.
+
+For an evidence-based recommendation regarding your specific question, please consult these alternative resources or discuss with a hematologist-oncologist who specializes in ALL treatment.
+
+TERMINATE",NCCN_ALL,,FALSE,YES (human)
