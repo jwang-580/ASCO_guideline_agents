@@ -18,9 +18,12 @@ for key, value in asco_guideline_url.items():
 
 
 class ClaudeChat:
-    def __init__(self, cache_seed):
+    def __init__(self, cache_seed, custom_guideline_summaries=None):
 
         os.environ["ANTHROPIC_API_KEY"] = ANTHROPIC_API_KEY
+
+        # Use custom summaries if provided, otherwise use default
+        guidelines_to_use = custom_guideline_summaries if custom_guideline_summaries is not None else asco_guideline_summary
 
         config_list_claude = [
             {
@@ -50,7 +53,7 @@ class ClaudeChat:
             system_message=
             f'''
             You are a coordinator who can help the user find the correct corresponding ASCO guidelines.
-            You have access to a dictionary whose keys are the guideline numbers and values are descriptions of the guidelines: {asco_guideline_summary}
+            You have access to a dictionary whose keys are the guideline numbers and values are descriptions of the guidelines: {guidelines_to_use}
             Based on the user's prompt, you will determine which ASCO guideline to use, 
             and then return the key as a string (e.g. breast_cancer_8) and the user prompt, and ask pdf_viewer to retrieve information from the pdf.
             If none of the ASCO guidelines are relevant, return "none" and ask User_proxy to terminate.
