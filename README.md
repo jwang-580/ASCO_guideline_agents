@@ -8,6 +8,14 @@ This repository provides tools for evaluating and processing ASCO (American Soci
 
 The multi-agent framework is implemented using Autogen. The workflow begins when a user submits a query to the User Proxy agent. This query is then forwarded to the Tumor Board Coordinator, which analyzes the question and determines the most relevant ASCO guideline by accessing its database of guideline summaries. Once the appropriate guideline is identified, the PDF Viewer agent retrieves and processes the specific guideline document from the PDF, utilizing Claude's PDF support function. Finally, the Reviewer agent examines the extracted information, formulates a clear and concise answer to the original query, and ensures the response accurately reflects the ASCO guidelines. 
 
+## ⚠️ Important Disclaimer
+
+**THIS IS A RESEARCH TOOL ONLY**
+
+This tool is developed for research and educational purposes. It is **NOT** intended for clinical use and should **NOT** be used as a substitute for professional clinical judgment, medical advice, diagnosis, or treatment. 
+
+**Always consult with qualified healthcare professionals and refer to the official ASCO guidelines for clinical decision-making.**
+
 ## Features
 
 1. **Automated PDF Retrieval**:
