@@ -1753,3 +1753,257 @@ The TCF3::PBX1 (also known as E2A-PBX1) translocation is a specific genetic aber
 For an evidence-based recommendation regarding your specific question, please consult these alternative resources or discuss with a hematologist-oncologist who specializes in ALL treatment.
 
 TERMINATE",NCCN_ALL,,FALSE,YES (human)
+"A 52-year-old premenopausal woman with ER+/PR+, HER2? breast cancer recurs locoregionally 3 years after lumpectomy, adjuvant AC?T, and 5 years of tamoxifen; her mother had ovarian cancer at 48. Which germline testing panel and strategy are advised now to guide risk and therapy?",BRCA1/2 testing is recommended regardless of family history for patients who are candidates for PARP inhibitor therapy.,"Based on the ASCO-SSO Germline Mutation Testing in Breast Cancer Guideline, this 52-year-old premenopausal woman with ER+/PR+, HER2- breast cancer who has experienced locoregional recurrence and has a significant family history (mother with ovarian cancer at 48) meets multiple criteria for germline genetic testing.
+
+The recommended testing strategy is:
+
+1. **Multi-gene panel testing** that includes:
+   - BRCA1/2 testing (essential given her mother's ovarian cancer at a young age)
+   - Additional high-penetrance genes (PALB2, TP53, PTEN, STK11, CDH1)
+   - Moderate-penetrance genes relevant to breast cancer risk
+
+2. **Pre-test counseling** should be provided to ensure informed consent, discussing:
+   - Purpose of testing
+   - Possible results and implications for treatment decisions
+   - Potential impact on family members
+   - Privacy considerations
+
+This comprehensive genetic assessment is critical because:
+- Her recurrent breast cancer status makes her a potential candidate for PARP inhibitor therapy if a BRCA1/2 or PALB2 mutation is identified
+- Results may guide surgical and systemic therapy decisions for her recurrence
+- Her mother's early-onset ovarian cancer strongly suggests possible hereditary cancer syndrome
+- Results will inform risk assessment for other cancers and guide family testing recommendations
+
+Consultation with a provider experienced in clinical cancer genetics is recommended for selecting the appropriate panel and interpreting results accurately. The testing panel should be tailored to match both her personal breast cancer history and her family's cancer pattern.
+
+TERMINATE",breast_cancer_1,breast_cancer_1,TRUE,NO
+"A 63-year-old postmenopausal woman with HR+, HER2? metastatic breast cancer progressed on first-line AI+CDK4/6 inhibitor and second-line fulvestrant, and has since received two single-agent chemotherapies (capecitabine then eribulin). What is the recommended next treatment approach?","The use of sacituzumab govitecan (SG) is recommended based on evidence from the TROPiCS-02 trial, which demonstrated improved progression-free survival (PFS) and overall survival (OS) compared to treatment of physician's choice.","I'll review this response and provide a final answer.
+
+Based on the ASCO Guideline Rapid Recommendation Update, sacituzumab govitecan (SG) is the recommended next treatment approach for this 63-year-old postmenopausal woman with HR+, HER2- metastatic breast cancer who has progressed on first-line AI+CDK4/6 inhibitor, second-line fulvestrant, and has received two prior chemotherapy regimens (capecitabine and eribulin).
+
+This recommendation is supported by the TROPiCS-02 trial results, which demonstrated:
+- 34% reduction in risk of progression or death (HR 0.66)
+- Improved median progression-free survival (5.5 months vs. 4.0 months)
+- Statistically significant improvement in overall survival (14.4 months vs. 11.2 months)
+
+The ASCO guideline specifically states that ""Patients with hormone receptorâ€“positive HER2-negative metastatic breast cancer who are refractory to endocrine therapy and have received at least two prior lines of chemotherapy for metastatic disease may be offered SG"" with a strong recommendation based on moderate quality evidence.
+
+This patient's clinical situation aligns perfectly with the population studied in the TROPiCS-02 trial, making sacituzumab govitecan the most appropriate next line of therapy according to current evidence-based guidelines.
+
+TERMINATE",breast_cancer_4,breast_cancer_4,TRUE,YES
+"A 58-year-old woman with HR+, HER2? metastatic breast cancer on fulvestrant has ctDNA revealing a PIK3CA H1047R mutation and controlled A1c on metformin. Which targeted therapy options are appropriate to add or switch to?",Endocrine therapy combined with alpelisib,"Based on the information provided, I can provide a clear recommendation for this patient:
+
+For a 58-year-old woman with HR+, HER2- metastatic breast cancer on fulvestrant who has a PIK3CA H1047R mutation and controlled A1c on metformin, the most appropriate targeted therapy option would be to add alpelisib to her current fulvestrant regimen.
+
+Key supporting evidence:
+1. The ASCO guidelines specifically recommend alpelisib in combination with fulvestrant for postmenopausal patients with HR+, HER2-, PIK3CA-mutated advanced breast cancer following prior endocrine therapy.
+
+2. The patient's H1047R mutation is one of the key PIK3CA mutations that was specifically covered in the SOLAR-1 trial, which demonstrated significantly improved progression-free survival (11.0 vs 5.7 months) with alpelisib plus fulvestrant compared to fulvestrant alone.
+
+3. The fact that the patient is already on metformin with controlled A1c is favorable, as hyperglycemia is the most common grade 3 adverse event with alpelisib (36.6% of patients). Metformin was the primary management strategy for hyperglycemia in the SOLAR-1 trial.
+
+Clinical considerations:
+- Weekly laboratory and symptom monitoring is recommended during the first 4 weeks of alpelisib therapy to monitor for hyperglycemia
+- Prophylactic management of rash (nonsedating antihistamines) should be considered before starting alpelisib
+- Dose adjustments may be needed based on tolerability
+
+This recommendation aligns with the optimal sequencing approach suggested by the Expert Panel, which positions alpelisib after progression on CDK4/6 inhibitor-based therapy, though it's not specified whether this patient has previously received a CDK4/6 inhibitor.
+
+TERMINATE",breast_cancer_3,breast_cancer_3,TRUE,YES
+A 49-year-old woman with HER2? metastatic breast cancer progressed on AI+CDK4/6 and fulvestrant; she has chemo-naïve metastatic disease but is endocrine-refractory. Should she receive single-agent chemotherapy or sacituzumab govitecan at this point?,"Single-agent chemotherapy is preferred, starting with agents like capecitabine or eribulin","I'll review this information and provide a final answer to the question about treatment options for this 49-year-old woman with HER2- metastatic breast cancer.
+
+Based on the ASCO rapid recommendation update for metastatic breast cancer, I can provide guidance for this case. The patient is a 49-year-old woman with HER2-negative metastatic breast cancer who:
+- Has progressed on AI+CDK4/6 and fulvestrant
+- Is endocrine-refractory
+- Has chemo-naïve metastatic disease
+
+According to the ASCO guidelines, sacituzumab govitecan (SG) is recommended for patients with hormone receptor-positive HER2-negative metastatic breast cancer who are refractory to endocrine therapy AND have received at least two prior lines of chemotherapy for metastatic disease.
+
+Since this patient is endocrine-refractory but has chemo-naïve metastatic disease (meaning she hasn't received any chemotherapy yet for her metastatic disease), she does not currently meet the criteria for sacituzumab govitecan as recommended in the guidelines. The TROPiCS-02 trial that supports the use of SG enrolled patients who had already received at least two prior chemotherapy regimens for metastatic disease.
+
+Therefore, based on the ASCO guidelines, this patient should receive single-agent chemotherapy at this point rather than sacituzumab govitecan. After receiving at least two lines of chemotherapy, if her disease continues to progress, sacituzumab govitecan would become an appropriate treatment option with demonstrated survival benefits (HR 0.79; 95% CI, 0.65-0.96; P=0.020) compared to treatment of physician's choice.",breast_cancer_4,breast_cancer_4,TRUE,YES
+"A 67-year-old woman with HR+, HER2? metastatic breast cancer is initiating second-line systemic therapy after progression on AI+CDK4/6. When should ctDNA testing be performed to capture actionable resistance mutations for treatment selection?","ctDNA testing is recommended at recurrence or progression on endocrine therapy, as ESR1 mutations often emerge under treatment pressure.","I'll review the information provided about biomarker testing after progression on AI+CDK4/6 inhibitor therapy for the 67-year-old woman with HR+, HER2- metastatic breast cancer.
+
+Based on the ASCO Guideline Update on Biomarkers for Systemic Therapy in Metastatic Breast Cancer, ctDNA testing should be performed at the time of disease progression on AI+CDK4/6 inhibitor therapy. Specifically:
+
+For this patient initiating second-line therapy after progression on AI+CDK4/6:
+- PIK3CA mutation testing via ctDNA should be performed at the time of disease progression to determine eligibility for alpelisib plus fulvestrant
+- If PIK3CA mutation is not found in ctDNA, reflex testing should be performed on tumor tissue if available
+- This approach is recommended because ctDNA testing alone detected only 56% of tumor-confirmed PIK3CA mutations in the SOLAR-1 trial
+
+While ESR1 mutation testing might be relevant in this clinical scenario, the guidelines note there are currently insufficient data to recommend routine testing for ESR1 mutations to guide therapy, though ongoing clinical trials like PADA-1 are investigating this area.
+
+The guidelines emphasize that the timing of testing should coincide with disease progression on the first-line AI+CDK4/6 inhibitor therapy to capture actionable resistance mutations that could guide second-line treatment selection.",breast_cancer_3,breast_cancer_6,FALSE,NO
+A 55-year-old woman with HR+ metastatic breast cancer experienced progression on AI+CDK4/6 and is starting fulvestrant. Should ESR1 mutation testing (tissue or liquid biopsy) be obtained now to inform endocrine therapy choice?,Routine ESR1 mutation testing is not recommended,"I've reviewed the information provided about ESR1 mutation testing in HR+ metastatic breast cancer.
+
+Based on the ASCO guideline rapid recommendation update, for this 55-year-old woman with HR+ metastatic breast cancer who has progressed on AI+CDK4/6 inhibitor and is starting fulvestrant, ESR1 mutation testing is strongly recommended at this time.
+
+Specifically:
+- The guidelines now recommend routine testing for ESR1 mutations at progression on endocrine therapy (including progression after CDK4/6 inhibitor therapy)
+- Testing should be performed using a Clinical Laboratory Improvement Amendments-certified assay on blood or tissue obtained at the time of progression
+- Blood-based circulating tumor DNA (ctDNA) testing is preferred due to greater sensitivity
+- If ESR1 mutation is detected, the patient may benefit from elacestrant rather than fulvestrant, as the EMERALD trial demonstrated improved progression-free survival with elacestrant compared to standard-of-care endocrine therapy in patients with ESR1 mutations (3.8 vs 1.9 months)
+- If ESR1 testing hasn't been performed previously, PIK3CA mutation testing should also be done to guide further therapy options
+
+Therefore, yes, ESR1 mutation testing should be obtained now to inform the optimal choice of endocrine therapy, as the results could directly impact treatment decisions, potentially favoring elacestrant over fulvestrant if an ESR1 mutation is detected.
+
+TERMINATE",breast_cancer_6,breast_cancer_3,FALSE,NO
+"A 60-year-old woman with HER2? metastatic breast cancer and PD-L1–unknown status is being considered for immunotherapy. Which biomarker tests (e.g., PD-L1 CPS, TMB, MSI/MMR) should be ordered to assess checkpoint inhibitor eligibility?",Testing for PD-L1 expression in tumor and immune cells is recommended to determine eligibility for pembrolizumab plus chemotherapy.,"I've reviewed the information provided about biomarker testing for checkpoint inhibitor eligibility in HER2-negative metastatic breast cancer.
+
+For a 60-year-old woman with HER2-negative metastatic breast cancer and unknown PD-L1 status, the primary biomarker test that should be ordered is:
+
+- PD-L1 testing: This is the key biomarker used to determine eligibility for immune checkpoint inhibitors in this setting. 
+
+Specifically, PD-L1 testing should be performed using one of the FDA-approved companion diagnostic assays:
+- SP142 antibody assay (used in the IMpassion130 trial, which defines PD-L1 positivity as tumor-infiltrating immune cells staining â‰¥1% of tumor area)
+- 22C3 PD-L1 IHC assay (used in KEYNOTE-355 trial, which measures Combined Positive Score or CPS, with benefit shown in patients with CPS â‰¥10)
+
+The guidelines do not recommend routine testing for TMB (tumor mutational burden) or MSI/MMR (microsatellite instability/mismatch repair) status specifically for breast cancer checkpoint inhibitor eligibility, as these were not inclusion criteria in the pivotal breast cancer immunotherapy trials.
+
+It's important to note that the specific immunotherapy regimen that might be recommended (atezolizumab plus nab-paclitaxel or pembrolizumab plus chemotherapy) would depend on the results of the PD-L1 testing and whether the patient has triple-negative breast cancer.
+
+TERMINATE",breast_cancer_6,breast_cancer_6,TRUE,YES
+A 70-year-old man underwent curative colectomy for stage II (pT3N0) colon adenocarcinoma with dMMR/MSI-H and no high-risk pathologic features. Should adjuvant chemotherapy be recommended?,Adjuvant fluoropyrimidine-only chemotherapy is not recommended.,"Based on the guidelines for adjuvant therapy in stage II colon cancer, I can provide a clear recommendation for this 70-year-old patient with stage II (pT3N0) colon adenocarcinoma with dMMR/MSI-H and no high-risk pathologic features.
+
+Adjuvant chemotherapy should NOT be recommended for this patient for the following reasons:
+
+1. The ASCO guidelines explicitly state that adjuvant chemotherapy ""should not routinely be offered to patients with stage II colon cancer"" who don't have high-risk features (Recommendation 1.1).
+
+2. For patients with low-risk stage II colon cancer (T3 tumors with at least 12 sampled lymph nodes and without other high-risk features), adjuvant chemotherapy should not be routinely offered (Recommendation 1.2).
+
+3. Most importantly, the guidelines specifically address patients with dMMR/MSI-H tumors, stating that ""adjuvant fluoropyrimidine-only chemotherapy is NOT routinely recommended for patients with dMMR or MSI tumors"" (Recommendation 2.1). This recommendation is based on evidence showing no significant difference in disease-free survival or overall survival with adjuvant chemotherapy in these patients.
+
+4. The patient has no high-risk pathologic features that would warrant consideration of adjuvant therapy.
+
+For this 70-year-old patient with stage II (pT3N0) colon cancer with dMMR/MSI-H status and no high-risk features, observation without adjuvant chemotherapy is the appropriate recommendation according to current guidelines.
+
+TERMINATE",gi_cancer_4,gi_cancer_4,TRUE,YES
+"A 62-year-old woman with stage II (pT3N0) microsatellite-stable colon cancer, clear margins, <12 lymph nodes retrieved but no lymphovascular invasion, asks about chemo after surgery. For this low-risk stage II case, is adjuvant chemotherapy indicated?",ACT is not routinely recommended.,"Based on the ASCO guideline for adjuvant therapy in stage II colon cancer, I can provide a clear answer to this question.
+
+For this 62-year-old woman with stage II (pT3N0) microsatellite-stable colon cancer with clear margins and no lymphovascular invasion, adjuvant chemotherapy is not routinely indicated, despite having fewer than 12 lymph nodes retrieved.
+
+According to the guidelines:
+1. Adjuvant chemotherapy should not routinely be offered to patients with stage II colon cancer, as the evidence shows that harms typically outweigh benefits for the average patient.
+2. While fewer than 12 sampled lymph nodes is considered a high-risk feature, the patient has only this single risk factor. The patient has a T3 tumor (stage IIA) with no lymphovascular invasion and clear margins.
+3. For patients with T3 tumors and high-risk features, the guidelines state that adjuvant chemotherapy ""may be offered"" after discussing potential benefits and risks, but it is not strongly recommended.
+4. The microsatellite-stable status indicates the patient does not have mismatch repair deficiency, which would have been another consideration in treatment planning.
+
+This patient falls into a category where chemotherapy could be discussed but is not strongly indicated based on having only a single high-risk feature. A thorough discussion of the modest potential benefits versus the risks of chemotherapy would be appropriate, but routine administration is not recommended by current guidelines.
+
+TERMINATE",gi_cancer_4,gi_cancer_4,TRUE,YES
+"A 58-year-old man with left-sided, RAS-mutant (KRAS G12D) metastatic colorectal cancer and liver-only metastases is starting first-line therapy. Should anti-EGFR be added to the backbone regimen?","No,  anti-EGFR is added for RAS wild type left-sided mCRC","I've reviewed the information from the ASCO Guideline on Treatment of Metastatic Colorectal Cancer regarding your case of a 58-year-old man with left-sided, KRAS G12D mutant metastatic colorectal cancer with liver-only metastases.
+
+Based on the guideline, anti-EGFR therapy should not be added to the backbone regimen for this patient. The guideline explicitly states: ""Anti-EGFR therapy is not recommended for patients with RAS-mutant mCRC.""
+
+This recommendation is based on established evidence that RAS mutations, including KRAS mutations like the G12D mutation in your patient, are predictive of resistance to anti-EGFR therapy. The clinical benefit of anti-EGFR agents is limited to patients with RAS wild-type tumors.
+
+While this patient does have a left-sided primary tumor (which would typically favor anti-EGFR therapy if the tumor were RAS wild-type), the presence of the KRAS G12D mutation is a contraindication to anti-EGFR therapy regardless of the tumor location.
+
+Therefore, the appropriate first-line therapy should focus on other recommended regimens for RAS-mutant metastatic colorectal cancer without the addition of anti-EGFR agents.",gi_cancer_3,gi_cancer_3,TRUE,YES
+"A 64-year-old woman with platinum-sensitive recurrent high-grade serous ovarian cancer, BRCA wild-type and HRD-negative by Myriad, asks about maintenance. What effect do PARP inhibitors have on progression-free survival in this biomarker-negative population?",PARP inhibitors demonstrated progression-free survival benefits,"I'll review the information provided about PARP inhibitors for biomarker-negative patients with platinum-sensitive recurrent ovarian cancer.
+
+Based on the provided information, PARP inhibitors do show some benefit for progression-free survival (PFS) in biomarker-negative patients (BRCA wild-type and HRD-negative), but this benefit must be weighed against potential concerns:
+
+1. The ATHENA-MONO trial demonstrated that rucaparib maintenance therapy provided a PFS of 12.1 months compared to 9.1 months with placebo in HRD-negative patients (HR, 0.65; 95% CI, 0.45 to 0.95).
+
+2. However, there are important cautions regarding overall survival (OS):
+   - The ENGOT-OV16/NOVA trial showed concerning OS trends in non-gBRCAmut cohorts, with median OS of 31.1 months for niraparib versus 36.5 months for placebo (HR, 1.10; 95% CI, 0.83 to 1.46).
+   - Current recommendations state that maintenance treatment with niraparib for patients without germline or somatic BRCA mutations should carefully weigh the PFS benefit against possible OS decrements.
+
+For this 64-year-old woman with BRCA wild-type and HRD-negative recurrent high-grade serous ovarian cancer, PARP inhibitors may provide a modest PFS benefit (approximately 3 months based on the ATHENA-MONO data), but this should be considered alongside the potential negative impact on overall survival noted in some studies.",gynecologic_cancer_1,gynecologic_cancer_1,TRUE,YES
+"A 45-year-old man with newly diagnosed stage IVA nasopharyngeal carcinoma (N2, skull base involvement) is planned for induction therapy before concurrent chemoradiation. Which induction chemotherapy regimen is recommended?","Platinum-based regimens such as GP (gemcitabine and cisplatin) or TPF (docetaxel, cisplatin, 5-fluorouracil) every 3 weeks for 2-3 cycles.","Based on the information provided, for a 45-year-old man with newly diagnosed stage IVA nasopharyngeal carcinoma with N2 and skull base involvement, the recommended induction chemotherapy regimens before concurrent chemoradiotherapy include:
+
+1. GP regimen: gemcitabine (1,000 mg/m² on days 1 and 8) plus cisplatin (80 mg/m² on day 1)
+
+2. TPF regimen: docetaxel (60-75 mg/m² on day 1), cisplatin (60-75 mg/m² on day 1), and 5-fluorouracil (600-750 mg/m² per day, continuous intravenous infusion on days 1-5)
+
+Alternative options include:
+- PF regimen (cisplatin plus 5-fluorouracil)
+- PX regimen (cisplatin plus capecitabine)
+- TP regimen (docetaxel plus cisplatin)
+
+The recommended schedule is to administer these regimens every 3 weeks for a total of 3 cycles (minimum 2 cycles), followed by concurrent chemoradiotherapy within 21-28 days from the first day of the last induction cycle.
+
+This approach is supported by clinical evidence showing improved overall survival, progression-free survival, and distant failure-free survival with the addition of induction chemotherapy before concurrent chemoradiotherapy for locally advanced nasopharyngeal carcinoma.",headneck_cancer_4,headneck_cancer_4,TRUE,YES
+A 51-year-old man with T3N0 nasopharyngeal carcinoma completed definitive radiotherapy with concurrent cisplatin and has good performance status. Is there a role for adjuvant chemotherapy to improve disease-free or overall survival?,"Adjuvant chemotherapy may be offered, typically using a PF regimen.","I'll review this information to answer the question about adjuvant chemotherapy for a 51-year-old man with T3N0 nasopharyngeal carcinoma who has completed definitive radiotherapy with concurrent cisplatin.
+
+Based on the ASCO guidelines, for patients with T3N0 (AJCC 8th) nasopharyngeal carcinoma:
+
+1. The primary recommendation is for concurrent chemoradiotherapy, which this patient has already received.
+
+2. Regarding adjuvant chemotherapy specifically, the guideline states that it ""may be offered"" to T3N0 patients, with an evidence quality rating of ""intermediate"" and a strength of recommendation rated as ""moderate.""
+
+3. The guidelines acknowledge that patients with T3N0 NPC have a relatively lower risk of treatment failure compared to other locoregionally advanced cases.
+
+4. Importantly, this specific subgroup (T3N0) was excluded from several randomized controlled trials that evaluated the addition of adjuvant chemotherapy to concurrent chemoradiotherapy.
+
+5. There is insufficient evidence specifically for T3N0 patients to definitively state that adjuvant chemotherapy improves disease-free or overall survival.
+
+For this 51-year-old patient with good performance status, the decision regarding adjuvant chemotherapy should involve a detailed discussion of potential benefits versus harms. While adjuvant chemotherapy can be considered as per the guidelines, there is no strong evidence that it definitely improves outcomes specifically for T3N0 patients.",headneck_cancer_4,headneck_cancer_4,TRUE,YES
+A 72-year-old former smoker with metastatic NSCLC has a MET exon 14 skipping mutation detected on NGS and no brain metastases. What targeted therapy options are recommended?,Capmatinib or tepotinib are recommended.,"I'll review the information provided for a 72-year-old former smoker with metastatic NSCLC and MET exon 14 skipping mutation without brain metastases.
+
+Based on the ASCO Living Guideline (Version 2024.2), the recommended targeted therapy options for this patient are:
+
+First-line treatment options:
+- Capmatinib or tepotinib (Strong recommendation despite low evidence quality)
+- If these MET inhibitors are not available, standard first-line therapy following nondriver alteration guidelines may be used
+
+Second-line treatment options (if relevant):
+- For patients who haven't previously received MET-targeted therapy: capmatinib or tepotinib
+- For patients previously treated with MET-targeted therapy: standard therapy following nondriver alteration guidelines
+
+The guidelines don't specifically address the patient's age or smoking history in relation to these recommendations, suggesting these targeted therapies are appropriate regardless of these factors. The absence of brain metastases doesn't alter the recommendation for MET inhibitors as the preferred targeted therapy.",lung_cancer_3,lung_cancer_3,TRUE,YES
+A 66-year-old woman with treatment-naïve metastatic NSCLC harbors an EGFR exon 20 insertion (A763_Y764insFQEA) and PD-L1 TPS 10%. What is the preferred first-line regimen?,Chemotherapy combined with amivantamab,"I'll review this information to provide a final answer to your question about the preferred first-line regimen for this 66-year-old woman with specific characteristics.
+
+Based on the guidelines for NSCLC patients with EGFR exon 20 insertion mutations such as the A763_Y764insFQEA found in your patient:
+
+The preferred first-line regimen would be chemotherapy plus amivantamab. This is supported by Recommendation 1.4 which states that ""Clinicians may offer chemotherapy and amivantamab"" (Evidence quality: Moderate; Strength of recommendation: Strong).
+
+It's important to note that despite the patient having PD-L1 TPS 10%, Recommendation 1.3 explicitly states that ""For any activating EGFR alteration, regardless of PD-L1 expression levels (including exon 20 insertions), single-agent immune checkpoint inhibitors should not be offered as first-line therapy.""
+
+If amivantamab is not available, the guidelines recommend following the standard treatment according to the nondriver alteration guideline (Recommendation 1.5).",lung_cancer_3,lung_cancer_3,TRUE,YES
+"A 59-year-old man with EGFR L858R–mutated NSCLC progressed after osimertinib and lacks MET amplification or other actionable resistance. For second line, is anti–PD-L1 monotherapy appropriate?",Anti-PD-(L)1 agents are not recommended,"After reviewing the information provided, I can definitively answer your question about using anti-PD-L1 monotherapy for a 59-year-old man with EGFR L858R-mutated NSCLC who progressed after osimertinib without MET amplification or other actionable resistance.
+
+Anti-PD-L1 monotherapy is NOT appropriate for this patient. 
+
+The ASCO Living Guideline (Version 2024.2) explicitly recommends against using anti-PD-(L)1 agents (with or without chemotherapy) for patients who have progressive disease on EGFR TKIs. This recommendation has high-quality evidence and a strong recommendation strength.
+
+For this specific patient who has progressed on osimertinib without actionable resistance mechanisms, the recommended options would be:
+
+1. Platinum-based chemotherapy with or without amivantamab (preferred based on the MARIPOSA-2 trial showing improved PFS and ORR)
+2. Chemotherapy plus bevacizumab (if the patient has adenocarcinoma and bevacizumab is deemed safe)
+
+The recommendation against immune checkpoint inhibitors is supported by clinical trial evidence (CheckMate 722 and KEYNOTE-789) showing no significant improvement in outcomes with these agents in EGFR-mutated NSCLC that has progressed on TKI therapy.",lung_cancer_1,lung_cancer_1,TRUE,YES
+A 74-year-old man newly diagnosed with metastatic NSCLC has a confirmed MET exon 14 skipping mutation and ECOG 1. What are the recommended first-line systemic therapy options?,Capmatinib or tepotinib are recommended as first-line therapies.,"I've reviewed the information provided about treatment options for a 74-year-old man with metastatic NSCLC who has a confirmed MET exon 14 skipping mutation and ECOG 1.
+
+Based on the clinical practice guidelines, the recommended first-line systemic therapy options are:
+
+1. Capmatinib or tepotinib as the preferred first-line options (Evidence quality: Low; Strength of recommendation: Strong)
+
+2. If capmatinib or tepotinib are not available, standard first-line therapy following the nondriver alteration guidelines may be offered (Evidence quality: Low; Strength of recommendation: Strong)
+
+These recommendations are specifically for patients with MET exon 14 skipping mutations in metastatic NSCLC, which applies directly to this patient's case. Despite the ""Low"" quality of evidence, these recommendations carry a ""Strong"" strength of recommendation, indicating that the guideline panel had high confidence that the benefits outweigh the risks for these treatment options.",lung_cancer_1,lung_cancer_1,TRUE,YES
+A 62-year-old woman underwent complete resection of stage IIB (pT3N0) NSCLC with an EGFR exon 19 deletion; margins negative. What adjuvant therapy is recommended to reduce recurrence?,Adjuvant osimertinib is recommended,"I'll review the information provided about adjuvant therapy for this patient with stage IIB NSCLC and EGFR exon 19 deletion.
+
+Based on the ASCO Guideline Rapid Recommendation Update, the recommended adjuvant therapy for this 62-year-old woman with completely resected stage IIB (pT3N0) NSCLC with an EGFR exon 19 deletion is:
+
+1. First, adjuvant cisplatin-based chemotherapy
+2. Following chemotherapy, adjuvant osimertinib
+
+This recommendation is classified as ""evidence based and panel consensus"" with ""high"" evidence quality and ""strong"" strength of recommendation. It applies regardless of the patient's PD-L1 status.
+
+The recommendation is supported by the Wu et al. trial, which demonstrated significant improvement in disease-free survival at 24 months (89% for osimertinib vs 52% for placebo) with a hazard ratio of 0.20 (99.12% CI, 0.14 to 0.30; P < .001) in patients with stage IB-IIIA NSCLC.
+
+It's important to note that while adjuvant atezolizumab may be recommended for some NSCLC patients with PD-L1 ? 1%, it is specifically not recommended for patients with sensitizing EGFR mutations like this patient.",lung_cancer_5,lung_cancer_5,TRUE,YES
+A 68-year-old man with stage IIIB NSCLC (N2 disease) is planned for definitive concurrent chemoradiation with weekly carboplatin/paclitaxel. What total radiation dose (Gy) is supported by evidence for this setting?,A dose of 60 Gy in conventional fractionation is recommended for concurrent chemoradiation.,"Based on the ASCO guideline document, the recommended total radiation dose for definitive concurrent chemoradiation in stage III NSCLC is 60 Gy. This is clearly stated in Recommendation 5.4: ""Patients with stage III NSCLC receiving concurrent chemoradiation should be treated to 60 Gy"" (Type: Evidence based; benefit outweighs harm; Evidence quality: high; Strength of recommendation: strong).
+
+The guideline also notes in Recommendation 5.5 that ""Doses higher than 60 Gy and up to 70 Gy may be considered for selected patients, with careful attention to doses to heart, lungs, and esophagus"" (Type: Evidence based; benefit outweighs harm; Evidence quality: low; Strength of recommendation: strong).
+
+This recommendation was informed by evidence from the RTOG 0617 trial, which showed that 74 Gy radiation given in 2 Gy fractions with concurrent chemotherapy was not better than 60 Gy and was associated with inferior outcomes compared to the standard 60 Gy dose.",lung_cancer_6,lung_cancer_6,TRUE,YES
+A 54-year-old patient with unresectable BRAF V600E–mutant melanoma progressed on anti–PD-1 monotherapy and has stable brain MRI. Which systemic therapies should be avoided due to limited benefit in this post–PD-1 setting?,Ipilimumab-containing regimens should be avoided after progression on other therapies.,"According to the guideline, for patients with BRAF V600E-mutant melanoma that has progressed on anti-PD-1 monotherapy, the following should be avoided:
+
+1. Ipilimumab and ipilimumab-containing regimens are no longer recommended for patients with BRAF-mutated disease after progression on other therapies (stated in the Bottom Line section).
+
+2. In the updated recommendations, the guideline specifically removed ipilimumab and ipilimumab-containing regimens as options for these patients.
+
+Instead, the guideline recommends that after progression on first-line anti-PD-1 based therapy, patients with BRAF V600 mutant unresectable/metastatic melanoma may be offered combination BRAF/MEK inhibitor therapy (Recommendation 3.4). The options include dabrafenib plus trametinib, encorafenib plus binimetinib, or vemurafenib plus cobimetinib.",melanoma_cancer_1,melanoma_cancer_1,TRUE,YES

@@ -4,3 +4,4 @@ __pycache__/
 pdfs/
 .cache/
 claude_autogen.ipynb
+.vscode/

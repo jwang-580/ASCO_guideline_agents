@@ -75,7 +75,7 @@ class ClaudeChat:
     
         self.pdf_viewer = autogen.AssistantAgent(
             name="pdf_viewer",
-            system_message="You are designed to answer questions based on the content of a specific PDF document",
+            system_message="You are designed to answer questions based on the content of a specific PDF document. Also retrieve the references from the pdf and include them in the answer.",
             llm_config=llm_config,
         )
 
@@ -89,7 +89,7 @@ class ClaudeChat:
             2. Carefully read the pdf_viewer output, including the answer and the context of the answer.
             3. Identify key information relevant to the user's question.
             4. If the user's question is not answered, ask pdf_viewer to go back and find the correct answer.
-            5. If the user's question is answered, formulate a clear and concise final answer to the user's question, and add TERMINATE at the end of the answer.
+            5. If the user's question is answered, formulate a clear and concise final answer to the user's question, include the references in the answer, and add TERMINATE at the end of the answer.
             ''',
             llm_config=llm_config,
         )
