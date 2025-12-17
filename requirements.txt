@@ -3,4 +3,4 @@ autogen-agentchat==0.2.40
 pandas==2.2.3
 python-dotenv==1.0.1
 openai==1.58.1
-llama-index==0.12.15
+llama-index==0.12.21
