@@ -146,14 +146,19 @@ python RAG_eval.py --pdf_folder pdfs --csv_path data/q_a.csv --start 0 --end 99 
 ### Customizing Configurations
 Modify the `config.py` or use environment variables for different API keys and settings.
 
-## Results
-Evaluation results are saved as CSV files in the `results` directory. Each file is timestamped for easy identification.
 
-## Contributing
-Contributions are welcome! Please submit a pull request or open an issue for any bugs or features you'd like to see.
+## Citation
 
-## License
-This repository is licensed under the [MIT License](LICENSE).
-
+```bibtex
+@article{Wang2026TumorBoardInspiredMultiagentAI,
+  author  = {Wang, Jiasheng and Arora, Kirti and Swoboda, David M. and Nazha, Aziz},
+  title   = {Tumor Board-Inspired Multiagent Artificial Intelligence System for Interpreting Oncology Guidelines},
+  journal = {JCO Clinical Cancer Informatics},
+  year    = {2026},
+  month   = jan,
+  volume  = {10},
+  pages   = {e2500286},
+  doi     = {10.1200/CCI-25-00286},
+  note    = {Epub 2026 Jan 7. PMID: 41499718}
 
 
